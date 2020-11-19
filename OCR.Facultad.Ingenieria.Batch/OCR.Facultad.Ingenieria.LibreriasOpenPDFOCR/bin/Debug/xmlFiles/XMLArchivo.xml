@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<archivo>
+  <cabecera>   
+      <titulo></titulo>
+      <tamanio></tamanio>
+      <asunto></asunto>
+      <npaginas></npaginas>
+      <autor></autor>
+      <guardadopor></guardadopor>
+      <extencion></extencion>
+      <fechacreacion></fechacreacion>
+      <fechamodificacion></fechamodificacion>    
+    </cabecera>
+    <imagen>
+      <dimensiones >
+        <ancho></ancho>
+        <alto></alto>
+      </dimensiones>
+      <resolucion>
+        <vertical></vertical>
+        <horizontal></horizontal>
+      </resolucion>
+      <profundidadbits></profundidadbits>
+    </imagen>
+</archivo> 

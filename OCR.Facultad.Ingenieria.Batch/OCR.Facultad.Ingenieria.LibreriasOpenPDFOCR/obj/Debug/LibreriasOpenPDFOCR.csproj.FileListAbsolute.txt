@@ -1,0 +1,54 @@
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\AplicacionMultiThreadingOCR19-10-2011\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.XML
+C:\Documents and Settings\User\Mis documentos\AplicacionMultiThreadingOCR19-10-2011\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\AplicacionMultiThreadingOCR19-10-2011\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\AplicacionMultiThreadingOCR19-10-2011\LibreriasOpenPDFOCR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Mis documentos\AplicacionMultiThreadingOCR19-10-2011\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\AplicacionMultiThreadingOCR19-10-2011\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.XML
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.XML
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.XML
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.dll
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.pdb
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.dll
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.pdb
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.XML
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.XML
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.dll
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\LibreriasOpenPDFOCR.pdb
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\AForge.dll
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\AForge.Imaging.dll
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\AForge.Math.dll
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\AForge.Math.xml
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\AForge.xml
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Debug\AForge.Imaging.xml
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.dll
+C:\Users\mike\Desktop\Tessrecat\DIS Open Source\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Debug\LibreriasOpenPDFOCR.pdb

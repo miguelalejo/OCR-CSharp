@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRtiemposPFB" targetNamespace="http://tempuri.org/DataSetRtiemposPFB.xsd" xmlns:mstns="http://tempuri.org/DataSetRtiemposPFB.xsd" xmlns="http://tempuri.org/DataSetRtiemposPFB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rtiemposprocesamientofechabatchTableAdapter" GeneratorDataComponentClassName="rtiemposprocesamientofechabatchTableAdapter" Name="rtiemposprocesamientofechabatch" UserDataComponentName="rtiemposprocesamientofechabatchTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `TIEMPO`, `FECHA`, `ba_ocr_descripcion` FROM `ocr`.`rtiemposprocesamientofechabatch`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TIEMPO" DataSetColumn="TIEMPO" />
+              <Mapping SourceColumn="FECHA" DataSetColumn="FECHA" />
+              <Mapping SourceColumn="ba_ocr_descripcion" DataSetColumn="ba_ocr_descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRtiemposPFB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSetRtiemposPFB" msprop:Generator_UserDSName="DataSetRtiemposPFB" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rtiemposprocesamientofechabatch" msprop:Generator_UserTableName="rtiemposprocesamientofechabatch" msprop:Generator_RowDeletedName="rtiemposprocesamientofechabatchRowDeleted" msprop:Generator_TableClassName="rtiemposprocesamientofechabatchDataTable" msprop:Generator_RowChangedName="rtiemposprocesamientofechabatchRowChanged" msprop:Generator_RowClassName="rtiemposprocesamientofechabatchRow" msprop:Generator_RowChangingName="rtiemposprocesamientofechabatchRowChanging" msprop:Generator_RowEvArgName="rtiemposprocesamientofechabatchRowChangeEvent" msprop:Generator_RowEvHandlerName="rtiemposprocesamientofechabatchRowChangeEventHandler" msprop:Generator_TablePropName="rtiemposprocesamientofechabatch" msprop:Generator_TableVarName="tablertiemposprocesamientofechabatch" msprop:Generator_RowDeletingName="rtiemposprocesamientofechabatchRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TIEMPO" msprop:Generator_UserColumnName="TIEMPO" msprop:Generator_ColumnPropNameInRow="TIEMPO" msprop:Generator_ColumnVarNameInTable="columnTIEMPO" msprop:Generator_ColumnPropNameInTable="TIEMPOColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="FECHA" msprop:Generator_UserColumnName="FECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ba_ocr_descripcion" msprop:Generator_UserColumnName="ba_ocr_descripcion" msprop:Generator_ColumnPropNameInRow="ba_ocr_descripcion" msprop:Generator_ColumnVarNameInTable="columnba_ocr_descripcion" msprop:Generator_ColumnPropNameInTable="ba_ocr_descripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

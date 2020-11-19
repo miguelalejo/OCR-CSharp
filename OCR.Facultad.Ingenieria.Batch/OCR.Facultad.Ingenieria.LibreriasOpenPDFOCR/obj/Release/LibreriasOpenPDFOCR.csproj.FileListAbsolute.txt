@@ -1,0 +1,30 @@
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\Desarrollos DIS\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\Administrator\Desktop\DISOPENCSOURCE\AplicacionMultiThreadingOCR\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Mis documentos\DIS FINALES\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.dll
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.pdb
+C:\Documents and Settings\User\Escritorio\AplicacionMultiThreadingOCRFINALSINRELEASE\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.pdb
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Release\ResolveAssemblyReference.cache
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.dll
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.dll
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\bin\Release\LibreriasOpenPDFOCR.pdb
+C:\Users\DesarrolloDT\Documents\Desarrollos DIS\OCR\AplicacionMultiThreadingOCRFINAL\LibreriasOpenPDFOCR\obj\Release\LibreriasOpenPDFOCR.pdb

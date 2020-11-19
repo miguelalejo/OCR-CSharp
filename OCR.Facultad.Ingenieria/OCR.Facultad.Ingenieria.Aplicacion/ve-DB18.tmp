@@ -1,0 +1,75 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using OCR.Facultad.Ingenieria.Clases;
+using OCR.Facultad.Ingenieria.ManagerBases.DataSetRutaTableAdapters;
+namespace OCR.Facultad.Ingenieria.Aplicacion
+{
+    public partial class FormRutasPrincipales : Form
+    {
+        public FormRutasPrincipales()
+        {
+            InitializeComponent();
+        }
+        List<Ruta> listarutas = new List<Ruta>();
+        private void buttonExaminarPrincipal_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = this.folderBrowserDialog.ShowDialog();
+            this.textBoxRutaPrincipal.Text = this.folderBrowserDialog.SelectedPath;                        
+        }
+        private void buttonExaminarPdfOcr_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = this.folderBrowserDialog.ShowDialog();
+            this.textBoxRutaPdfOcr.Text = this.folderBrowserDialog.SelectedPath;
+        }
+        private void buttonExaminarTxt_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = this.folderBrowserDialog.ShowDialog();
+            this.textBoxRutaTxt.Text = this.folderBrowserDialog.SelectedPath;
+        }
+        private void buttonExaminarXml_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = this.folderBrowserDialog.ShowDialog();
+            this.textBoxRutaXml.Text = this.folderBrowserDialog.SelectedPath;
+        }
+        private void buttonExaminarXls_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = this.folderBrowserDialog.ShowDialog();
+            this.textBoxRutaXls.Text = this.folderBrowserDialog.SelectedPath;
+        }
+        private void buttonExaminarDoc_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = this.folderBrowserDialog.ShowDialog();
+            this.textBoxRutaDoc.Text = this.folderBrowserDialog.SelectedPath;
+        }
+        private void buttonGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
+        rutaTableAdapter adaptadorruta = new rutaTableAdapter();
+        public void LeerVentana()
+        {
+            Ruta rutaprincipal=new Ruta(0,this.textBoxRutaPrincipal.Text,true,'S',"");
+            if (adaptadorruta.ExisteRuta(0) == 0)
+            {
+                this.adaptadorruta.Insert(0, this.textBoxRutaPrincipal.Text, true, "S", "");
+            }
+            else {
+                this.adaptadorruta.UpdateQueryByID(0, this.textBoxRutaPrincipal.Text, true, "S", "", 0);
+            }
+            
+            
+
+            
+        }
+
+
+       
+       
+    }
+}

@@ -1,0 +1,669 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibreriasOpenPDFOCR</name>
+    </assembly>
+    <members>
+        <member name="T:LibreriasOpenPDFOCR.BloqueTexto">
+            <summary>
+            Clase utilizada para el reconocimiento de bloques de texto en documentos. 
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.BloqueTexto.x">
+            <summary>
+            Posición en pixeles de la coordenada horizontal en un bloque de texto.
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.BloqueTexto.y">
+            <summary>
+            Posición en pixeles de la coordenada vertical en un bloque de texto.
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.BloqueTexto.w">
+            <summary>
+            Ancho del bloque de texto.
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.BloqueTexto.h">
+            <summary>
+            Alto del bloque de texto.
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.BloqueTexto.pointsize">
+            <summary>
+            Tamaño de la letra por bloque de texto.
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.BloqueTexto.texto">
+            <summary>
+            Texto contenido en el bloque.
+            </summary>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.BloqueTexto.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            Constructor BloqueTexto.
+            </summary>
+            <param name="left">Pixeles left.</param>
+            <param name="right">Pixeles right.</param>
+            <param name="top">Pixeles top.</param>
+            <param name="bottom">Pixeles bottom.</param>
+            <param name="unpointSize">Tamaño de la letra contenida en el bloque de texto.</param>
+            <param name="untexto">Cadena de texto.</param>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.BloqueTexto.#ctor(System.Double,System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            Constructor BloqueTexto.
+            </summary>
+            <param name="left">Pixeles left.</param>
+            <param name="right">Pixeles right.</param>
+            <param name="top">Pixeles top.</param>
+            <param name="bottom">Pixeles bottom.</param>
+            <param name="untexto">Cadena de texto.</param>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.BloqueTexto.EsBloqueLinea(LibreriasOpenPDFOCR.BloqueTexto,LibreriasOpenPDFOCR.BloqueTexto,System.Int32)">
+            <summary>
+            Determina si un bloque de texto pertenece una línea texto.
+            </summary>
+            <param name="bloqueA">Bloque para comparar.</param>
+            <param name="bloqueB">Bloque para comparar.</param>
+            <param name="pixeles">Máxima distancia de separación entre bloques.</param>
+            <returns><para>TRUE si el bloque de texto pertenece a una línea de texto.</para><para>FALSE si el bloque de texto no pertenece a una línea de texto, luego este valor indica un salto de línea.</para></returns>
+            <example>Como reconcer si un bloque de texto pertenece a una línea de texto
+            <code>
+            public int NumeroLineas()
+            {
+            //Código utilizado para realizar el Reconocimiento OCR con la libreria "tessnet2_32.dll"
+            int total = ocr.Init(@"tessdata", "spa", false); // To use correct tessdata
+            ocr.SetVariable("tessedit_char_whitelist", ""); // If digit only
+            List&#60;tessnet2.Word&#62; result = null;
+            Thread FirstThread = new Thread((ThreadStart)delegate
+            {
+                  result = ocr.DoOCR(imagetest, System.Drawing.Rectangle.Empty);
+            });
+            FirstThread.Start();
+            FirstThread.Join();
+            //Código utilizado para el ejemplo 
+            int numerolineas=0;
+            for(int i=0; i &#60; result.Count-1;i++)
+            {
+               tessnet2.Word word1=result[i];
+               BloqueTexto bloquea = new BloqueTexto(word1.Left, word1.Right, word1.Top, word1.Bottom, word1.PointSize, word1.Text);
+                tessnet2.Word word2=result[i+1];
+               BloqueTexto bloqueb = new BloqueTexto(word2.Left, word2.Right, word2.Top, word2.Bottom, word2.PointSize, word2.Text);
+               //Llamada al método es bloque línea
+               if(!bloqueb.EsBloqueLinea(bloquea))
+               {
+                numerolineas++;
+               }
+             }
+             return numerolineas;
+            }     
+            </code>
+            <list type="bullet">
+            <listheader>Observaciones:</listheader>
+            <item>Nótese que la llamada se realiza a un método estático.</item>
+            </list>
+            </example>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.BloqueTexto.MaximaAlturaPromedio(System.Collections.Generic.List{LibreriasOpenPDFOCR.BloqueTexto})">
+            <summary>
+            Cálculo de la Altura promedio de un conjunto de bloques que pertenecen a una misma línea de texto.
+            </summary>
+            <param name="lista">Lista de bloques que pertenecen a una misma línea de texto.</param>
+            <returns>AlturaPromedio de la línea de texto.</returns>
+            <example>Como calcular la altura promedio de un conjunto de bloques
+            <code>
+            public int MaximaAlturaPromedio()
+            {
+            List&#60; BloqueTexto &#62; listacad = new List &#60; BloqueTexto &#62;();
+            for (int k = 0; k &#60; 3; k++)
+            {
+               tessnet2.Character caracter = cadena[k];
+               listacad.Add(new BloqueTexto(10, 20+k, 30, 40+k, "HOLA"));
+                                                   
+            }
+            //Ulización del Método para el ejemplo
+            return BloqueTexto.MaximaAlturaPromedio(listacad);
+            } 
+            </code>
+            <list type="bullet">
+            <listheader>Observaciones:</listheader>
+            <item>Nótese que la llamada se realiza a un método estático.</item>
+            </list>
+            </example>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.BloqueTexto.X">
+            <summary>
+            Posición en pixeles de la coordenada horizontal en un bloque de texto.
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.BloqueTexto.Y">
+            <summary>
+            Posición en pixeles de la coordenada vertical en un bloque de texto.
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.BloqueTexto.W">
+            <summary>
+            Ancho del bloque de texto.
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.BloqueTexto.H">
+            <summary>
+            Alto del bloque de texto.
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.BloqueTexto.Pointsize">
+            <summary>
+            Tamaño de la letra por bloque de texto.
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.BloqueTexto.Texto">
+            <summary>
+            Texto contenido en el bloque.
+            </summary>
+        </member>
+        <member name="T:LibreriasOpenPDFOCR.UtilImage">
+            <summary>
+            Clase con métodos utiles para el manejo de archivos de Imagen.
+            </summary>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.UtilImage.NonLockingOpen(System.String)">
+            <summary>
+            Método utilizado para abrir un objeto de Imagen en modo seguro y asignarlo en Memoria.
+            </summary>
+            <param name="filename">Ruta del origen del archivo de Imagen.</param>
+            <returns>Devuelve un objeto tipo Imagen.</returns>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.UtilImage.NonLockingSave(System.Drawing.Image,System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            Método utilizado para guardar un objeto de Imagen en modo seguro.
+            </summary>
+            <param name="img">Objeto tipo Imagen que sera almacenado en el disco.</param>
+            <param name="fn">Ruta destino del archivo de Imagen.</param>
+            <param name="format">Formato de compresión del archivo de Imagen(TIFF,JPG,ext).</param>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.UtilImage.GetEncoderInfo(System.String)">
+            <summary>
+            Información del tipo de Codec de imagen según su tipo MIME.
+            </summary>
+            <param name="mimeType">Nombre del tipo MIME por ejemplo ("image/tif").</param>
+            <returns>Retorna un tipo MIME como un objeto ImageCodecInfo</returns>
+        </member>
+        <member name="T:LibreriasOpenPDFOCR.PDFOCROptimized">
+            <summary>
+            Clase con métodos utilizados para el Reconocimiento Optico de Caracteres
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.PDFOCROptimized._abortedLockObject">
+            <summary>
+            Variable tipo Object utilizada para bloquear dos o más hilos cuando intentan acceder de forma simultanea a un bloque de código.
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.PDFOCROptimized._blockThread">
+            <summary>
+            Variable tipo AutoResetEvent utilizada para bloquear dos o más hilos cuando intentan acceder de forma simultanea a un bloque de código.
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.PDFOCROptimized.correcionlinea">
+            <summary>
+            Variable utilizada para definir la máxima separación dentro de las coincidencias de caracteres digitales reconocidos.
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.PDFOCROptimized.saltolinea">
+            <summary>
+            Salto de línea en texto UNICODE.
+            </summary>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.PDFOCROptimized.ProcesarOCRPDFTXT(System.String,System.String,System.String,System.Boolean)">
+             <summary>
+             <para>Realiza el Reconocimiento Óptico de Carateres(OCR), para un documento TIF.</para>
+             <para>El resultado es un par de documentos(PDF Y TXT), con contenido UNICODE del texto extraido luego del proceso OCR.</para>
+             </summary>
+             <param name="unTIFsource">Ruta del documento recurso TIF.</param>
+             <param name="unPDFOutput">Ruta del documento resultado PDF.</param>
+             <param name="unTXTOutput">Ruta del documento resultado TXT.</param>
+             <param name="isdeskew">Si es TRUE, realiza el enderezamiento automático de las páginas del documento TIF.</param>
+             <returns>Número de páginas procesadas luego del proceso OCR.</returns>
+             <example>Como realizar el Reconocimiento Óptico de Caracteres de un documento TIF
+             <code>
+             int paginas = PDFOCROptimized.ProcesarOCRPDFTXT(@"C:\prueba.tif",@"C:\prueba.pdf",@"C:\prueba.txt",true);
+             </code>
+             <list type="bullet">
+             <listheader>Observaciones:</listheader>
+             <item>Nótese que la llamada se realiza a un método estático.</item>
+             </list>
+             </example>
+             <example>Llamadas a métodos mediante la ejecución de hilos
+             <code>
+            public static int ProcesarOCRPDFTXT(string unTIFsource, string unPDFOutput, string unTXTOutput, bool isdeskew)
+            {
+             ......
+             ThreadStart _ts = delegate
+                {
+                try
+                {
+                    OCRPDFTXTTHREAD(unTIFsource, unPDFOutput, unTXTOutput, isdeskew, out npaginas);
+                }
+                catch (Exception error)
+                {
+                    _blockThread.Set();
+                    excepcion = new ExceptionThreadOCR(true, error.Message);
+                }
+             };
+             Thread mainTableGetter = new Thread(_ts);
+             mainTableGetter.Name = "OCRPDFTXTTHREADAsync";
+             mainTableGetter.Start();
+             mainTableGetter.Join();
+            .......
+            }
+             </code>
+             <list type="bullet">
+             <item>El método anterior es un fragmento de código contenido en el método ProcesarOCRPDFTXT,  realiza la llamada a otro método a traves de la ejecución de un hilo de programación.</item>
+             </list>
+             </example> 
+             <exception cref="T:LibreriasOpenPDFOCR.ExceptionThreadOCR">Captura las excepciones disparadas por los hilos de programación.</exception>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.PDFOCROptimized.OCRPDFTXTTHREAD(System.String,System.String,System.String,System.Boolean,System.Int32@)">
+            <summary>
+            Realiza el Reconocimiento Óptico de Carateres(OCR), para un documento TIF.
+            Este método se ejecuta como un hilo dentro del método PRINCIPAL.
+            </summary>
+            <param name="unTIFsource">Ruta del documento recurso TIF.</param>
+            <param name="unPDFOutput">Ruta del documento resultado PDF.</param>
+            <param name="unTXTOutput">Ruta del documento resultado TXT.</param>
+            <param name="isdeskew">Si es TRUE, realiza el enderezamiento automático de las páginas del documento TIF.</param>
+            <param name="npaginas">Salida: Retorna el número de paginas del documento recurso TIF.</param>
+            <example>Ejemplo ProcesarOCRPDFTXT
+            <code>
+            PDFOCROptimized.ProcesarOCRPDFTXT(@"C:\prueba.tif",@"C:\prueba.pdf",@"C:\prueba.txt",true);
+            </code>
+            <list type="bullet">
+            <listheader>Observaciones:</listheader>
+            <item>Nótese que la llamada se realiza a un método estático.</item>
+            <item>Este método realiza llamadas a otros métodos a traves de la ejecución de hilos de programación</item>
+            </list>
+            </example>        
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.PDFOCROptimized.ResizePDFOCR(System.String)">
+            <summary>
+            Permite el redimencionamiento a formato A4 de un documento PDF.
+            </summary>
+            <param name="unPDFOutput">Ruta del documento PDF.</param>
+            <example>Ejemplo ResizePDFOCR
+            <code>
+            PDFOCROptimized.ResizePDFOCR(@"C:\prueba.pdf");
+            </code>
+            <list type="bullet">
+            <listheader>Observaciones:</listheader>
+            <item>Nótese que la llamada se realiza a un método estático.</item>
+            <item>La salida es el mismo documento "C:\prueba.pdf", pero con formato A4.</item>
+            </list>
+            </example>       
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.PDFOCROptimized.Cancelado">
+            <summary>
+            Propiedad utilizada como método de cancielación de docuemntos en proceso OCR
+            </summary>
+        </member>
+        <member name="T:LibreriasOpenPDFOCR.PixelImageManager">
+            <summary>
+            Sirve para la conversión de una imagen RGB a BPP
+            </summary>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.PixelImageManager.GetColorPalette(System.UInt32)">
+            <summary>
+            Color de la paleta para los tipos BPP      
+            </summary>
+            <param name="nColors">  
+            <list type="bullet">
+            <listheader>Observaciones:</listheader>
+            <item>1   PixelFormat.Format1bppIndexed</item>
+            <item>2   PixelFormat.Format4bppIndexed</item>
+            <item>16  PixelFormat.Format8bppIndexed</item>
+            </list></param>
+            <returns>El color de la paleta BPP</returns>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.PixelImageManager.SaveGIFWithNewColorTable(System.Drawing.Image,System.UInt32,System.Boolean)">
+            <summary>
+            Guarda una imagen con una nueva tabla de COLORES BPP
+            </summary>
+            <param name="image">Objeto tipo imagen a convertir</param>
+            <param name="nColors">
+            <list type="bullet">
+            <listheader>GIF soporta :</listheader>
+            <item>256 colors Máximo</item>
+            <item>2 monochrome Mínimo</item>
+            </list></param> 
+            <param name="fTransparent">TRUE si es una transparencia.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LibreriasOpenPDFOCR.ExceptionThreadOCR">
+            <summary>
+            Clase utilizada para el manejo de excepciones en hilos
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.ExceptionThreadOCR.isException">
+            <summary>
+            Indica si existe una excepción
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.ExceptionThreadOCR.mensaje">
+            <summary>
+            Mensaje descriptivo del tipo de excepción
+            </summary>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.ExceptionThreadOCR.#ctor(System.Boolean,System.String)">
+            <summary>
+            Constructor para una excepcion  
+            </summary>
+            <param name="unisException">TRUE si existe una excepción</param>
+            <param name="unmensaje">Mensaje descriptivo de la excepción</param>
+            <example>Como disparar una Excepción de tipo ExceptionThreadOCR 
+            <code>
+            throw new ExceptionThreadOCR(true,"Memoria Insuficiente");
+            </code>
+            </example>
+            <example>Como capturar una Excepción de tipo ExceptionThreadOCR 
+            <code>
+            try
+            {
+                throw new ExceptionThreadOCR(true,"Memoria Insuficiente");
+            }
+            catch(ExceptionThreadOCR error)
+            {
+                MessageBox.Show(error.Message);
+            }    
+            </code>
+            </example>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.ExceptionThreadOCR.#ctor">
+            <summary>
+            Constructor por defecto
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.ExceptionThreadOCR.IsException">
+            <summary>
+             Indica si existe una excepción
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.ExceptionThreadOCR.Message">
+            <summary>
+            Mensaje descriptivo del tipo de excepción
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.ExceptionThreadOCR.HResultado">
+            <summary>
+            HResult del tipo de error producido por una excepción
+            </summary>
+        </member>
+        <member name="T:LibreriasOpenPDFOCR.AForgeDeskew">
+             <summary>
+            <para>Clase con métodos utilizados para la alineación de imagenes.</para>
+            <para>API que permite la integración con la librería OPEN SOURCE AForge.</para>
+             </summary>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.AForgeDeskew.DeskewImagen(System.Drawing.Bitmap)">
+            <summary>
+            Método utilizado para alinear una Imagen.
+            </summary>
+            <param name="unbitmap">Bitmap de la imagen que se desea alinear.</param>
+            <returns>Bitmap imagen alineada.</returns>
+            <example>Como realizar el enderezamiento de una Imagen.
+            <code>
+            Bitmap enderezada=AForgeDeskew.DeskewImagen(new Bitmap(@"C:\DeskewImage.tif"));
+            </code>
+            <list type="bullet">
+            <listheader>Observaciones:</listheader>
+            <item>Nótese que la llamada se realiza a un método estático.</item>
+            </list>
+            </example>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.isException">
+            <summary>
+            Indica si existe una excepción
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.mensaje">
+            <summary>
+            Mensaje descriptivo del tipo de excepción
+            </summary>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.#ctor(System.Boolean,System.String)">
+            <summary>
+            Constructor para una excepcion  
+            </summary>
+            <param name="unisException">TRUE si existe una excepción</param>
+            <param name="unmensaje">Mensaje descriptivo de la excepción</param>
+            <example>Como disparar una Excepción de tipo ExceptionThreadOCR 
+            <code>
+            throw new ExceptionThreadOCR(true,"Memoria Insuficiente");
+            </code>
+            </example>
+            <example>Como capturar una Excepción de tipo ExceptionThreadOCR 
+            <code>
+            try
+            {
+                throw new ExceptionThreadOCR(true,"Memoria Insuficiente");
+            }
+            catch(ExceptionThreadOCR error)
+            {
+                MessageBox.Show(error.Message);
+            }    
+            </code>
+            </example>
+        </member>
+        <member name="M:LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.#ctor">
+            <summary>
+            Constructor por defecto
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.IsException">
+            <summary>
+             Indica si existe una excepción
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.Message">
+            <summary>
+            Mensaje descriptivo del tipo de excepción
+            </summary>
+        </member>
+        <member name="P:LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.HResultado">
+            <summary>
+            HResult del tipo de error producido por una excepción
+            </summary>
+        </member>
+        <member name="T:ONX.Cmn.MemoryCleaner">
+            <summary>
+            Clase utilizada para realizar la limpieza de Objetos en Memoria
+            </summary>
+        </member>
+        <member name="F:ONX.Cmn.MemoryCleaner.PERIOD_IN_MS">
+            <summary>
+            Constante Intervalo de tiempo para la revisión de la carga en memoria
+            </summary>
+        </member>
+        <member name="F:ONX.Cmn.MemoryCleaner.Counter_">
+            <summary>
+            Contador de eventos de bloqueo
+            </summary>
+        </member>
+        <member name="F:ONX.Cmn.MemoryCleaner.thread_">
+            <summary>
+            Hilo de programación
+            </summary>
+        </member>
+        <member name="F:ONX.Cmn.MemoryCleaner.event_">
+            <summary>
+            Manejador de interbloqueo de eventos.
+            </summary>
+        </member>
+        <member name="M:ONX.Cmn.MemoryCleaner.#ctor">
+            <summary>
+            Constructor por defecto
+            </summary>
+        </member>
+        <member name="M:ONX.Cmn.MemoryCleaner.Start">
+            <summary>
+            Método utilizado para iniciar el proceso de recolección de objetos en Memoria
+            </summary>
+        </member>
+        <member name="M:ONX.Cmn.MemoryCleaner.Stop">
+            <summary>
+            Método utilizado para detener el proceso de recolección de objetos en Memoria
+            </summary>
+        </member>
+        <member name="M:ONX.Cmn.MemoryCleaner.run">
+            <summary>
+            Método utilzado como un subproceso de un hilo de ejecución dedicado a liberar la memoria.
+            </summary>
+        </member>
+        <member name="T:LibreriasOpenPDFOCR.HResultErrores">
+            <summary>
+            Enumeración con los tipos de errores producidos por la aplicación.
+            </summary>
+        </member>
+        <member name="F:LibreriasOpenPDFOCR.HResultErrores.MemoriaInsuficiente">
+            <summary>
+            Valor HResult, para el error Memoria Insuficiente
+            </summary>
+        </member>
+        <member name="T:AMA.Util.TiffManager">
+            <summary>
+            Presenta una serie de métodos para el manejo de archivos TIFF.
+            </summary>
+        </member>
+        <member name="F:AMA.Util.TiffManager._ImageFileName">
+            <summary>
+            Nombre del archivo TIFF.
+            </summary>
+        </member>
+        <member name="F:AMA.Util.TiffManager._PageNumber">
+            <summary>
+            Número de páginas del archivo TIFF.
+            </summary>
+        </member>
+        <member name="F:AMA.Util.TiffManager.image">
+            <summary>
+            Objeto tipo Imagen del archivo TIFF.
+            </summary>
+        </member>
+        <member name="F:AMA.Util.TiffManager._TempWorkingDir">
+            <summary>
+            Ruta temporal cuando se realiza una operación de particionamiento del documento.
+            </summary>
+        </member>
+        <member name="M:AMA.Util.TiffManager.#ctor(System.String)">
+            <summary>
+            Constructor para el manejador de documentos TIFF.
+            </summary>
+            <param name="imageFileName">Ruta del archivo TIFF</param>
+        </member>
+        <member name="M:AMA.Util.TiffManager.#ctor">
+            <summary>
+            Constructor por defecto.
+            </summary>
+        </member>
+        <member name="M:AMA.Util.TiffManager.GetPageNumber">
+            <summary>
+            Lee la imagen para obtener el número de páginas.
+            </summary>
+        </member>
+        <member name="M:AMA.Util.TiffManager.GetFileNameStartString(System.String)">
+            <summary>
+            Lee el string base de la Imagen,
+            Assert(GetFileNameStartString(@"c:\test\abc.tif"),"abc")
+            </summary>
+            <param name="strFullName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AMA.Util.TiffManager.SplitTiffImage(System.String,System.Drawing.Imaging.EncoderValue)">
+            <summary>
+            Esta función permite la salida de una imagen TIFF, en multiples arhcivos de imagen, con un formato de compresión específico.
+            </summary>
+            <param name="outPutDirectory">Directorio de salida del archivo TIFF segementados </param>
+            <param name="format">El codec de compresión</param>
+            <returns>Array list con los nombres de los arhivos seccionados</returns>
+        </member>
+        <member name="M:AMA.Util.TiffManager.JoinTiffImages(System.String[],System.String,System.Drawing.Imaging.EncoderValue)">
+            <summary>
+            Esta funcion reune archivos de imagen en un único archivo TIFF, con un formato de compresión específico.
+            </summary>
+            <param name="imageFiles">String array con la ruta de los archivos de imagen.</param>
+            <param name="outFile">Destino de documento TIFF producido</param>
+            <param name="compressEncoder">Codec de Compresión</param>
+        </member>
+        <member name="M:AMA.Util.TiffManager.JoinTiffImages(System.Collections.ArrayList,System.String,System.Drawing.Imaging.EncoderValue)">
+            <summary>
+            This function will join the TIFF file with a specific compression format
+            </summary>
+            <param name="imageFiles">array list with source image files</param>
+            <param name="outFile">target TIFF file to be produced</param>
+            <param name="compressEncoder">compression codec enum</param>
+        </member>
+        <member name="M:AMA.Util.TiffManager.RemoveAPage(System.Int32,System.Drawing.Imaging.EncoderValue,System.String)">
+            <summary>
+            Remueve una pagina especifica y el resultado es almacenado en un arhivo de imagen.
+            </summary>
+            <param name="pageNumber">Número de pagina a remover.</param>
+            <param name="compressEncoder">Compresión despues de la operación.</param>
+            <param name="strFileName">Ruta de salida para el archivo de imagen.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AMA.Util.TiffManager.GetEncoderInfo(System.String)">
+            <summary>
+            Obtener la informacion de codec especificado.
+            </summary>
+            <param name="mimeType">Descricpición del tipo mime.</param>
+            <returns>Informacion de codificador de Imagen.</returns>
+        </member>
+        <member name="M:AMA.Util.TiffManager.GetSpecificPage(System.Int32)">
+            <summary>
+            Retorna la Imagen de una página específica.
+            </summary>
+            <param name="pageNumber">Número de la página a ser extraida.</param>
+            <returns>Objeto tipo IMAGE</returns>
+        </member>
+        <member name="M:AMA.Util.TiffManager.GetSpecificPageTIF(System.Int32)">
+            <summary>
+            Retorna la Imagen de una página específica.
+            </summary>
+            <param name="pageNumber">Número de la página a ser extraida.</param>
+            <returns>Objeto tipo IMAGE</returns>
+        </member>
+        <member name="M:AMA.Util.TiffManager.GetEncoder(System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            Obtiene la Información del Encoder según el formato de la imagen.
+            </summary>
+            <param name="format">Formato del archivo de imagen(TIF,JPG,BMP,etc).</param>
+            <returns></returns>
+        </member>
+        <member name="M:AMA.Util.TiffManager.ConvertTiffFormat(System.String,System.Drawing.Imaging.EncoderValue)">
+            <summary>
+            Convertir el TIFF existente a un formato diferente.
+            </summary>
+            <param name="strNewImageFileName">Ruta del nuevo archivo de Imagen.</param>
+            <param name="compressEncoder">Compresión de la Imagen.</param>
+            <returns></returns>
+        </member>
+        <member name="M:AMA.Util.TiffManager.Dispose">
+            <summary>
+            Método utilizado para eliminar el objeto actual, heredado de la clase Object.
+            </summary>
+        </member>
+        <member name="P:AMA.Util.TiffManager.ImageFileName">
+            <summary>
+            Nombre del archivo de Imagen.
+            </summary>
+        </member>
+        <member name="P:AMA.Util.TiffManager.TempWorkingDir">
+            <summary>
+            Directorio Buffering 
+            </summary>
+        </member>
+        <member name="P:AMA.Util.TiffManager.PageNumber">
+            <summary>
+            Número de páginas de la Imagen.
+            </summary>
+        </member>
+    </members>
+</doc>

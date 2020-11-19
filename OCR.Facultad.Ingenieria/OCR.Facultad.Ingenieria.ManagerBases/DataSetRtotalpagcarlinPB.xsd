@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRtotalpagcarlinPB" targetNamespace="http://tempuri.org/DataSetRtotalpagcarlinPB.xsd" xmlns:mstns="http://tempuri.org/DataSetRtotalpagcarlinPB.xsd" xmlns="http://tempuri.org/DataSetRtotalpagcarlinPB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rtotalpagcarlinprocbatchTableAdapter" GeneratorDataComponentClassName="rtotalpagcarlinprocbatchTableAdapter" Name="rtotalpagcarlinprocbatch" UserDataComponentName="rtotalpagcarlinprocbatchTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `PAGINAS`, `PALABRAS`, `CARACTERES`, `LINEAS`, `ba_ocr_descripcion` FROM `ocr`.`rtotalpagcarlinprocbatch`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PAGINAS" DataSetColumn="PAGINAS" />
+              <Mapping SourceColumn="PALABRAS" DataSetColumn="PALABRAS" />
+              <Mapping SourceColumn="CARACTERES" DataSetColumn="CARACTERES" />
+              <Mapping SourceColumn="LINEAS" DataSetColumn="LINEAS" />
+              <Mapping SourceColumn="ba_ocr_descripcion" DataSetColumn="ba_ocr_descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRtotalpagcarlinPB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSetRtotalpagcarlinPB" msprop:Generator_UserDSName="DataSetRtotalpagcarlinPB" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rtotalpagcarlinprocbatch" msprop:Generator_UserTableName="rtotalpagcarlinprocbatch" msprop:Generator_RowDeletedName="rtotalpagcarlinprocbatchRowDeleted" msprop:Generator_TableClassName="rtotalpagcarlinprocbatchDataTable" msprop:Generator_RowChangedName="rtotalpagcarlinprocbatchRowChanged" msprop:Generator_RowClassName="rtotalpagcarlinprocbatchRow" msprop:Generator_RowChangingName="rtotalpagcarlinprocbatchRowChanging" msprop:Generator_RowEvArgName="rtotalpagcarlinprocbatchRowChangeEvent" msprop:Generator_RowEvHandlerName="rtotalpagcarlinprocbatchRowChangeEventHandler" msprop:Generator_TablePropName="rtotalpagcarlinprocbatch" msprop:Generator_TableVarName="tablertotalpagcarlinprocbatch" msprop:Generator_RowDeletingName="rtotalpagcarlinprocbatchRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PAGINAS" msprop:Generator_UserColumnName="PAGINAS" msprop:Generator_ColumnPropNameInRow="PAGINAS" msprop:Generator_ColumnVarNameInTable="columnPAGINAS" msprop:Generator_ColumnPropNameInTable="PAGINASColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PALABRAS" msprop:Generator_UserColumnName="PALABRAS" msprop:Generator_ColumnPropNameInRow="PALABRAS" msprop:Generator_ColumnVarNameInTable="columnPALABRAS" msprop:Generator_ColumnPropNameInTable="PALABRASColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CARACTERES" msprop:Generator_UserColumnName="CARACTERES" msprop:Generator_ColumnPropNameInRow="CARACTERES" msprop:Generator_ColumnVarNameInTable="columnCARACTERES" msprop:Generator_ColumnPropNameInTable="CARACTERESColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LINEAS" msprop:Generator_UserColumnName="LINEAS" msprop:Generator_ColumnPropNameInRow="LINEAS" msprop:Generator_ColumnVarNameInTable="columnLINEAS" msprop:Generator_ColumnPropNameInTable="LINEASColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ba_ocr_descripcion" msprop:Generator_UserColumnName="ba_ocr_descripcion" msprop:Generator_ColumnPropNameInRow="ba_ocr_descripcion" msprop:Generator_ColumnVarNameInTable="columnba_ocr_descripcion" msprop:Generator_ColumnPropNameInTable="ba_ocr_descripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

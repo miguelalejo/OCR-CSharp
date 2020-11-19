@@ -1,0 +1,101 @@
+﻿<html dir="LTR" xmlns:ndoc="urn:ndoc-schema">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="history" name="save" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>PDFOCROptimized.ProcesarOCR Method</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead">An NDoc3 Documented Class Library</td>
+            <td class="product">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">PDFOCROptimized.ProcesarOCR Method</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p>Realiza el Reconocimiento Óptico de Carateres(OCR), para un documento TIF.</p>
+      <p>El resultado es un par de documentos(PDF Y TXT), con contenido UNICODE del texto extraido luego del proceso OCR.</p>
+      <div class="syntax">public static <a href="">int</a> ProcesarOCR(<br />   <a href="">string</a> <i>unimagesource</i>,<br />   <a href="">string</a> <i>unfolderoutput</i>,<br />   <a href="">bool</a> <i>isdeskew</i><br />);</div>
+      <h4 class="dtH4">Parameters</h4>
+      <dl>
+        <dt>
+          <i>unimagesource</i>
+        </dt>
+        <dd>
+        </dd>
+        <dt>
+          <i>unfolderoutput</i>
+        </dt>
+        <dd>
+        </dd>
+        <dt>
+          <i>isdeskew</i>
+        </dt>
+        <dd>Si es TRUE, realiza el enderezamiento automático de las páginas del documento TIF.</dd>
+      </dl>
+      <h4 class="dtH4">Return Value</h4>
+      <p>Número de páginas procesadas luego del proceso OCR.</p>
+      <h4 class="dtH4">Exceptions</h4>
+      <div class="tablediv">
+        <table class="dtTABLE" cellspacing="0">
+          <tr valign="top">
+            <th width="50%">Exception Type</th>
+            <th width="50%">Condition</th>
+          </tr>
+          <tr valign="top">
+            <td width="50%">
+              <a href="OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.html">ExceptionThreadOCR</a>
+            </td>
+            <td width="50%">Captura las excepciones disparadas por los hilos de programación.</td>
+          </tr>
+        </table>
+      </div>
+      <h4 class="dtH4">Example</h4>
+      <p>Como realizar el Reconocimiento Óptico de Caracteres de un documento TIF <pre class="code">int paginas = PDFOCROptimized.ProcesarOCRPDFTXT(@"C:\prueba.tif",@"C:\prueba.pdf",@"C:\prueba.txt",true);
+</pre><ul type="disc"><li>Nótese que la llamada se realiza a un método estático.</li></ul>Llamadas a métodos mediante la ejecución de hilos <pre class="code">public static int ProcesarOCRPDFTXT(string unTIFsource, string unPDFOutput, string unTXTOutput, bool isdeskew)
+{
+ ......
+ ThreadStart _ts = delegate
+    {
+    try
+    {
+        OCRPDFTXTTHREAD(unTIFsource, unPDFOutput, unTXTOutput, isdeskew, out npaginas);
+    }
+    catch (Exception error)
+    {
+        _blockThread.Set();
+        excepcion = new ExceptionThreadOCR(true, error.Message);
+    }
+ };
+ Thread mainTableGetter = new Thread(_ts);
+ mainTableGetter.Name = "OCRPDFTXTTHREADAsync";
+ mainTableGetter.Start();
+ mainTableGetter.Join();
+.......
+}
+ </pre><ul type="disc"><li>El método anterior es un fragmento de código contenido en el método ProcesarOCRPDFTXT, realiza la llamada a otro método a traves de la ejecución de un hilo de programación.</li></ul></p>
+      <h4 class="dtH4">See Also</h4>
+      <p>
+        <a href="OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.html">PDFOCROptimized Class</a> | <a href="~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.html">OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR Namespace</a></p>
+      <object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;">
+        <param name="Keyword" value="ProcesarOCR method&#xD;&#xA;									">
+        </param>
+        <param name="Keyword" value="ProcesarOCR method, PDFOCROptimized class">
+        </param>
+        <param name="Keyword" value="PDFOCROptimized.ProcesarOCR method&#xD;&#xA;									">
+        </param>
+      </object>
+    </div>
+  </body>
+</html>

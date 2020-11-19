@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRespdiscoproc" targetNamespace="http://tempuri.org/DataSetRespdiscoproc.xsd" xmlns:mstns="http://tempuri.org/DataSetRespdiscoproc.xsd" xmlns="http://tempuri.org/DataSetRespdiscoproc.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="respdiscoprocTableAdapter" GeneratorDataComponentClassName="respdiscoprocTableAdapter" Name="respdiscoproc" UserDataComponentName="respdiscoprocTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ocr_est_espacioendisco`, `ocr_est_tamaniodisco`, `ocr_est_fechaprosesamiento`, `ba_ocr_descripcion` FROM `ocr`.`respdiscoproc`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ocr_est_espacioendisco" DataSetColumn="ocr_est_espacioendisco" />
+              <Mapping SourceColumn="ocr_est_tamaniodisco" DataSetColumn="ocr_est_tamaniodisco" />
+              <Mapping SourceColumn="ocr_est_fechaprosesamiento" DataSetColumn="ocr_est_fechaprosesamiento" />
+              <Mapping SourceColumn="ba_ocr_descripcion" DataSetColumn="ba_ocr_descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRespdiscoproc" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSetRespdiscoproc" msprop:Generator_UserDSName="DataSetRespdiscoproc" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="respdiscoproc" msprop:Generator_UserTableName="respdiscoproc" msprop:Generator_RowDeletedName="respdiscoprocRowDeleted" msprop:Generator_TableClassName="respdiscoprocDataTable" msprop:Generator_RowChangedName="respdiscoprocRowChanged" msprop:Generator_RowClassName="respdiscoprocRow" msprop:Generator_RowChangingName="respdiscoprocRowChanging" msprop:Generator_RowEvArgName="respdiscoprocRowChangeEvent" msprop:Generator_RowEvHandlerName="respdiscoprocRowChangeEventHandler" msprop:Generator_TablePropName="respdiscoproc" msprop:Generator_TableVarName="tablerespdiscoproc" msprop:Generator_RowDeletingName="respdiscoprocRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ocr_est_espacioendisco" msprop:Generator_UserColumnName="ocr_est_espacioendisco" msprop:Generator_ColumnPropNameInRow="ocr_est_espacioendisco" msprop:Generator_ColumnVarNameInTable="columnocr_est_espacioendisco" msprop:Generator_ColumnPropNameInTable="ocr_est_espacioendiscoColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="ocr_est_tamaniodisco" msprop:Generator_UserColumnName="ocr_est_tamaniodisco" msprop:Generator_ColumnPropNameInRow="ocr_est_tamaniodisco" msprop:Generator_ColumnVarNameInTable="columnocr_est_tamaniodisco" msprop:Generator_ColumnPropNameInTable="ocr_est_tamaniodiscoColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="ocr_est_fechaprosesamiento" msprop:Generator_UserColumnName="ocr_est_fechaprosesamiento" msprop:Generator_ColumnPropNameInRow="ocr_est_fechaprosesamiento" msprop:Generator_ColumnVarNameInTable="columnocr_est_fechaprosesamiento" msprop:Generator_ColumnPropNameInTable="ocr_est_fechaprosesamientoColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ba_ocr_descripcion" msprop:Generator_UserColumnName="ba_ocr_descripcion" msprop:Generator_ColumnPropNameInRow="ba_ocr_descripcion" msprop:Generator_ColumnVarNameInTable="columnba_ocr_descripcion" msprop:Generator_ColumnPropNameInTable="ba_ocr_descripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

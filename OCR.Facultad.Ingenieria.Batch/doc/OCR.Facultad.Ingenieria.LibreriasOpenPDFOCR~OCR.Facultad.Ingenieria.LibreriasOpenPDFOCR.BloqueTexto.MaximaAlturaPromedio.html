@@ -1,0 +1,65 @@
+﻿<html dir="LTR" xmlns:ndoc="urn:ndoc-schema">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="history" name="save" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>BloqueTexto.MaximaAlturaPromedio Method</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead">An NDoc3 Documented Class Library</td>
+            <td class="product">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">BloqueTexto.MaximaAlturaPromedio Method</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p> Cálculo de la Altura promedio de un conjunto de bloques que pertenecen a una misma línea de texto. </p>
+      <div class="syntax">public static <a href="">double</a> MaximaAlturaPromedio(<br />   <a href="">List</a>&lt;<a href="OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.html">BloqueTexto</a>&gt; <i>lista</i><br />);</div>
+      <h4 class="dtH4">Parameters</h4>
+      <dl>
+        <dt>
+          <i>lista</i>
+        </dt>
+        <dd>Lista de bloques que pertenecen a una misma línea de texto.</dd>
+      </dl>
+      <h4 class="dtH4">Return Value</h4>
+      <p>AlturaPromedio de la línea de texto.</p>
+      <h4 class="dtH4">Example</h4>
+      <p>Como calcular la altura promedio de un conjunto de bloques <pre class="code">public int MaximaAlturaPromedio()
+{
+List&lt; BloqueTexto &gt; listacad = new List &lt; BloqueTexto &gt;();
+for (int k = 0; k &lt; 3; k++)
+{
+   tessnet2.Character caracter = cadena[k];
+   listacad.Add(new BloqueTexto(10, 20+k, 30, 40+k, "HOLA"));
+                                       
+}
+//Ulización del Método para el ejemplo
+return BloqueTexto.MaximaAlturaPromedio(listacad);
+} 
+</pre><ul type="disc"><li>Nótese que la llamada se realiza a un método estático.</li></ul></p>
+      <h4 class="dtH4">See Also</h4>
+      <p>
+        <a href="OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.html">BloqueTexto Class</a> | <a href="~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.html">OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR Namespace</a></p>
+      <object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;">
+        <param name="Keyword" value="MaximaAlturaPromedio method&#xD;&#xA;									">
+        </param>
+        <param name="Keyword" value="MaximaAlturaPromedio method, BloqueTexto class">
+        </param>
+        <param name="Keyword" value="BloqueTexto.MaximaAlturaPromedio method&#xD;&#xA;									">
+        </param>
+      </object>
+    </div>
+  </body>
+</html>

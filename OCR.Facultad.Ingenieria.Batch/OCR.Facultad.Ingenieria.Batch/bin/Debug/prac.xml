@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pagina>
+  <cabecerapagina secpagina="1" ncaracteres="12" npalabras="123" nlineas="20" fechainiproces="25/04/2012 23:22:34" fechafinproces="25/04/2012 23:22:34">
+  </cabecerapagina>
+  <cuerpo>
+    <palabra secpalabra="0" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="0" indicelinea="0" blanks="3" confidence="11,4" texto="Hola0">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="0" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="1" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="2" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="3" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="4" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="5" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="6" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="7" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="8" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="2" indicelinea="1" blanks="3" confidence="11,4" texto="Hola1">
+      <posicion x="10" y="9" />
+      <dimensiones largo="10" ancho="15" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="2" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="4" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="6" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="8" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="10" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="12" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="14" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="16" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="4" indicelinea="2" blanks="3" confidence="11,4" texto="Hola2">
+      <posicion x="10" y="18" />
+      <dimensiones largo="10" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="3" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="6" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="9" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="12" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="15" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="18" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="21" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="24" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="6" indicelinea="3" blanks="3" confidence="11,4" texto="Hola3">
+      <posicion x="10" y="27" />
+      <dimensiones largo="10" ancho="45" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="4" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="8" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="12" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="16" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="20" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="24" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="28" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="32" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="8" indicelinea="4" blanks="3" confidence="11,4" texto="Hola4">
+      <posicion x="10" y="36" />
+      <dimensiones largo="10" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="5" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="10" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="15" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="20" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="25" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="30" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="35" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="40" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="10" indicelinea="5" blanks="3" confidence="11,4" texto="Hola5">
+      <posicion x="10" y="45" />
+      <dimensiones largo="10" ancho="75" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="6" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="12" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="18" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="24" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="30" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="36" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="42" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="48" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="12" indicelinea="6" blanks="3" confidence="11,4" texto="Hola6">
+      <posicion x="10" y="54" />
+      <dimensiones largo="10" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="7" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="14" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="21" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="28" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="35" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="42" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="49" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="56" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="14" indicelinea="7" blanks="3" confidence="11,4" texto="Hola7">
+      <posicion x="10" y="63" />
+      <dimensiones largo="10" ancho="105" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="8" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="16" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="24" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="32" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="40" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="48" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="56" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="64" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="16" indicelinea="8" blanks="3" confidence="11,4" texto="Hola8">
+      <posicion x="10" y="72" />
+      <dimensiones largo="10" ancho="120" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="0" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+    <palabra secpalabra="1" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="9" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+    <palabra secpalabra="2" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="18" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+    <palabra secpalabra="3" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="27" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+    <palabra secpalabra="4" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="36" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+    <palabra secpalabra="5" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="45" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+    <palabra secpalabra="6" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="54" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+    <palabra secpalabra="7" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="63" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+    <palabra secpalabra="8" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="72" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+    <palabra secpalabra="9" tipodato="String" fontsize="18" indicelinea="9" blanks="3" confidence="11,4" texto="Hola9">
+      <posicion x="10" y="81" />
+      <dimensiones largo="10" ancho="135" />
+    </palabra>
+  </cuerpo>
+</pagina>

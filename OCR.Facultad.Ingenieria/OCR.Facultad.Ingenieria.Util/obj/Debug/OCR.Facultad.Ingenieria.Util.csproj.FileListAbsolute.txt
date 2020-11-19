@@ -1,0 +1,25 @@
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.dll
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.pdb
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.dll
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.pdb
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.dll
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.pdb
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.dll
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\ResolveAssemblyReference.cache
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\bin\Debug\OCR.Facultad.Ingenieria.Util.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\ResolveAssemblyReference.cache
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Util\obj\Debug\OCR.Facultad.Ingenieria.Util.pdb

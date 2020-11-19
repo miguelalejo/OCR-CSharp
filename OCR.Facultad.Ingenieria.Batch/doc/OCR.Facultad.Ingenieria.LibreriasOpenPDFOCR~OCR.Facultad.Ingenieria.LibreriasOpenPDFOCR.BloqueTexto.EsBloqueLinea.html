@@ -1,0 +1,92 @@
+﻿<html dir="LTR" xmlns:ndoc="urn:ndoc-schema">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="history" name="save" />
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <title>BloqueTexto.EsBloqueLinea Method</title>
+    <xml>
+    </xml>
+    <link rel="stylesheet" type="text/css" href="MSDN.css" />
+  </head>
+  <body id="bodyID" class="dtBODY">
+    <div id="nsbanner">
+      <div id="bannerrow1">
+        <table class="bannerparthead" cellspacing="0">
+          <tr id="hdr">
+            <td class="runninghead">An NDoc3 Documented Class Library</td>
+            <td class="product">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="TitleRow">
+        <h1 class="dtH1">BloqueTexto.EsBloqueLinea Method</h1>
+      </div>
+    </div>
+    <div id="nstext">
+      <p> Determina si un bloque de texto pertenece una línea texto. </p>
+      <div class="syntax">public <a href="">bool</a> EsBloqueLinea(<br />   <a href="OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.html">BloqueTexto</a> <i>bloqueA</i>,<br />   <a href="OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.html">BloqueTexto</a> <i>bloqueB</i>,<br />   <a href="">int</a> <i>pixeles</i><br />);</div>
+      <h4 class="dtH4">Parameters</h4>
+      <dl>
+        <dt>
+          <i>bloqueA</i>
+        </dt>
+        <dd>Bloque para comparar.</dd>
+        <dt>
+          <i>bloqueB</i>
+        </dt>
+        <dd>Bloque para comparar.</dd>
+        <dt>
+          <i>pixeles</i>
+        </dt>
+        <dd>Máxima distancia de separación entre bloques.</dd>
+      </dl>
+      <h4 class="dtH4">Return Value</h4>
+      <p>
+        <p>TRUE si el bloque de texto pertenece a una línea de texto.</p>
+        <p>FALSE si el bloque de texto no pertenece a una línea de texto, luego este valor indica un salto de línea.</p>
+      </p>
+      <h4 class="dtH4">Example</h4>
+      <p>Como reconcer si un bloque de texto pertenece a una línea de texto <pre class="code">public int NumeroLineas()
+{
+//Código utilizado para realizar el Reconocimiento OCR con la libreria "tessnet2_32.dll"
+int total = ocr.Init(@"tessdata", "spa", false); // To use correct tessdata
+ocr.SetVariable("tessedit_char_whitelist", ""); // If digit only
+List&lt;tessnet2.Word&gt; result = null;
+Thread FirstThread = new Thread((ThreadStart)delegate
+{
+      result = ocr.DoOCR(imagetest, System.Drawing.Rectangle.Empty);
+});
+FirstThread.Start();
+FirstThread.Join();
+//Código utilizado para el ejemplo 
+int numerolineas=0;
+for(int i=0; i &lt; result.Count-1;i++)
+{
+   tessnet2.Word word1=result[i];
+   BloqueTexto bloquea = new BloqueTexto(word1.Left, word1.Right, word1.Top, word1.Bottom, word1.PointSize, word1.Text);
+    tessnet2.Word word2=result[i+1];
+   BloqueTexto bloqueb = new BloqueTexto(word2.Left, word2.Right, word2.Top, word2.Bottom, word2.PointSize, word2.Text);
+   //Llamada al método es bloque línea
+   if(!bloqueb.EsBloqueLinea(bloquea))
+   {
+    numerolineas++;
+   }
+ }
+ return numerolineas;
+}     
+</pre><ul type="disc"><li>Nótese que la llamada se realiza a un método estático.</li></ul></p>
+      <h4 class="dtH4">See Also</h4>
+      <p>
+        <a href="OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.html">BloqueTexto Class</a> | <a href="~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.html">OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR Namespace</a></p>
+      <object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e" viewastext="true" style="display: none;">
+        <param name="Keyword" value="EsBloqueLinea method&#xD;&#xA;									">
+        </param>
+        <param name="Keyword" value="EsBloqueLinea method, BloqueTexto class">
+        </param>
+        <param name="Keyword" value="BloqueTexto.EsBloqueLinea method&#xD;&#xA;									">
+        </param>
+      </object>
+    </div>
+  </body>
+</html>

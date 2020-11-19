@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRpromemB" targetNamespace="http://tempuri.org/DataSetRpromemB.xsd" xmlns:mstns="http://tempuri.org/DataSetRpromemB.xsd" xmlns="http://tempuri.org/DataSetRpromemB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rpromembatchTableAdapter" GeneratorDataComponentClassName="rpromembatchTableAdapter" Name="rpromembatch" UserDataComponentName="rpromembatchTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `MEMTOTAL`, `MEMCACHE`, `MEMDISPONIBLE`, `MEMLIBRE`, `MEMPAGKERNEL`, `MEMNOPAGKERNEL`, `ba_ocr_descripcion` FROM `ocr`.`rpromembatch`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MEMTOTAL" DataSetColumn="MEMTOTAL" />
+              <Mapping SourceColumn="MEMCACHE" DataSetColumn="MEMCACHE" />
+              <Mapping SourceColumn="MEMDISPONIBLE" DataSetColumn="MEMDISPONIBLE" />
+              <Mapping SourceColumn="MEMLIBRE" DataSetColumn="MEMLIBRE" />
+              <Mapping SourceColumn="MEMPAGKERNEL" DataSetColumn="MEMPAGKERNEL" />
+              <Mapping SourceColumn="MEMNOPAGKERNEL" DataSetColumn="MEMNOPAGKERNEL" />
+              <Mapping SourceColumn="ba_ocr_descripcion" DataSetColumn="ba_ocr_descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRpromemB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSetRpromemB" msprop:Generator_UserDSName="DataSetRpromemB" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rpromembatch" msprop:Generator_UserTableName="rpromembatch" msprop:Generator_RowDeletedName="rpromembatchRowDeleted" msprop:Generator_TableClassName="rpromembatchDataTable" msprop:Generator_RowChangedName="rpromembatchRowChanged" msprop:Generator_RowClassName="rpromembatchRow" msprop:Generator_RowChangingName="rpromembatchRowChanging" msprop:Generator_RowEvArgName="rpromembatchRowChangeEvent" msprop:Generator_RowEvHandlerName="rpromembatchRowChangeEventHandler" msprop:Generator_TablePropName="rpromembatch" msprop:Generator_TableVarName="tablerpromembatch" msprop:Generator_RowDeletingName="rpromembatchRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MEMTOTAL" msprop:Generator_UserColumnName="MEMTOTAL" msprop:Generator_ColumnPropNameInRow="MEMTOTAL" msprop:Generator_ColumnVarNameInTable="columnMEMTOTAL" msprop:Generator_ColumnPropNameInTable="MEMTOTALColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MEMCACHE" msprop:Generator_UserColumnName="MEMCACHE" msprop:Generator_ColumnPropNameInRow="MEMCACHE" msprop:Generator_ColumnVarNameInTable="columnMEMCACHE" msprop:Generator_ColumnPropNameInTable="MEMCACHEColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MEMDISPONIBLE" msprop:Generator_UserColumnName="MEMDISPONIBLE" msprop:Generator_ColumnPropNameInRow="MEMDISPONIBLE" msprop:Generator_ColumnVarNameInTable="columnMEMDISPONIBLE" msprop:Generator_ColumnPropNameInTable="MEMDISPONIBLEColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MEMLIBRE" msprop:Generator_UserColumnName="MEMLIBRE" msprop:Generator_ColumnPropNameInRow="MEMLIBRE" msprop:Generator_ColumnVarNameInTable="columnMEMLIBRE" msprop:Generator_ColumnPropNameInTable="MEMLIBREColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MEMPAGKERNEL" msprop:Generator_UserColumnName="MEMPAGKERNEL" msprop:Generator_ColumnPropNameInRow="MEMPAGKERNEL" msprop:Generator_ColumnVarNameInTable="columnMEMPAGKERNEL" msprop:Generator_ColumnPropNameInTable="MEMPAGKERNELColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="MEMNOPAGKERNEL" msprop:Generator_UserColumnName="MEMNOPAGKERNEL" msprop:Generator_ColumnPropNameInRow="MEMNOPAGKERNEL" msprop:Generator_ColumnVarNameInTable="columnMEMNOPAGKERNEL" msprop:Generator_ColumnPropNameInTable="MEMNOPAGKERNELColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ba_ocr_descripcion" msprop:Generator_UserColumnName="ba_ocr_descripcion" msprop:Generator_ColumnPropNameInRow="ba_ocr_descripcion" msprop:Generator_ColumnVarNameInTable="columnba_ocr_descripcion" msprop:Generator_ColumnPropNameInTable="ba_ocr_descripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

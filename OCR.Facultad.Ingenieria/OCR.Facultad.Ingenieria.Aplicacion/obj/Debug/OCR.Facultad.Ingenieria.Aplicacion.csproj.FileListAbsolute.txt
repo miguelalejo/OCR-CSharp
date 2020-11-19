@@ -1,0 +1,150 @@
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria.CienciasFisicasMatematicas.Aplicacion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria.CienciasFisicasMatematicas.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.Properties.Resources.resources
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria.CienciasFisicasMatematicas.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.csproj.GenerateResource.Cache
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria.CienciasFisicasMatematicas.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria.CienciasFisicasMatematicas.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria.CienciasFisicasMatematicas.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria.CienciasFisicasMatematicas.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe.config
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.dll
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\Npgsql.dll
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\Mono.Security.dll
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.pdb
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormConexionBaseMysql.resources
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormConexionBasePostgres.resources
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.Properties.Resources.resources
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.csproj.GenerateResource.Cache
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+C:\Users\Silvana\Documents\Visual Studio 2008\Projects\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe.config
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Clases.dll
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.dll
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\Mono.Security.dll
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\Npgsql.dll
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.pdb
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Clases.pdb
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormConexionBaseMysql.resources
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormConexionBasePostgres.resources
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormPrincipal.resources
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormRadicado.resources
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormTipo_Documental.resources
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.Properties.Resources.resources
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.csproj.GenerateResource.Cache
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+C:\Users\mike\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormRuta.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe.config
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Clases.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ControlesWPF.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.MangerBasesXml.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Reportes.exe
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Util.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\Mono.Security.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\Npgsql.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ControlesWPF.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Util.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.MangerBasesXml.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Reportes.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Clases.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBatchOcr_Ruta.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBatchOcr_RutaModificacion.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBatch_Ocr.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBusquedaBacth_Ocr.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormCanfiguracion.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormConexionBaseMysql.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormConexionBasePostgres.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormMenuPrincipal.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormPrincipal.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormProgresBar.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormRuta.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormTipo_Documental.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.MaskedTextBox.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.Properties.Resources.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.UserControlBatch_Ocr.resources
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.csproj.GenerateResource.Cache
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe.config
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Clases.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ControlesWPF.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.MangerBasesXml.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Reportes.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Util.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ControlesWPF.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Util.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.MangerBasesXml.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Reportes.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Clases.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\ResolveAssemblyReference.cache
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBatchOcr_Ruta.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBatchOcr_RutaModificacion.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBatch_Ocr.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBusquedaBacth_Ocr.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormConexionBaseMysql.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormMenuPrincipal.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormPrincipal.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormProgresBar.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormRuta.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormTipo_Documental.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.MaskedTextBox.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.Properties.Resources.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.UserControlBatch_Ocr.resources
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.csproj.GenerateResource.Cache
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe.config
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.exe
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Aplicacion.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Clases.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ControlesWPF.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.MangerBasesXml.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Reportes.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Util.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ManagerBases.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.ControlesWPF.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Util.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.MangerBasesXml.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Reportes.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Clases.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\ResolveAssemblyReference.cache
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBatchOcr_Ruta.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBatchOcr_RutaModificacion.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBatch_Ocr.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormBusquedaBacth_Ocr.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormConexionBaseMysql.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormMenuPrincipal.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormPrincipal.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormProgresBar.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormRuta.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormTipo_Documental.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.MaskedTextBox.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.Properties.Resources.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.UserControlBatch_Ocr.resources
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.csproj.GenerateResource.Cache
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria\OCR.Facultad.Ingenieria.Aplicacion\obj\Debug\OCR.Facultad.Ingenieria.Aplicacion.FormTipo_Imagen.resources

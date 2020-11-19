@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{70C91AFE-0ED2-4369-9D04-0D5E66E8C87E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OCR.Facultad.Ingenieria.Reportes</RootNamespace>
+    <AssemblyName>OCR.Facultad.Ingenieria.Reportes</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MySql.Data, Version=6.3.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfiguracionReportes.cs" />
+    <Compile Include="FormRepoestadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRepoestadisticas.Designer.cs">
+      <DependentUpon>FormRepoestadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepoestprocesamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRepoestprocesamiento.Designer.cs">
+      <DependentUpon>FormRepoestprocesamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepoprocesados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRepoprocesados.Designer.cs">
+      <DependentUpon>FormRepoprocesados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepotiempo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRepotiempo.Designer.cs">
+      <DependentUpon>FormRepotiempo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRepotiempoprocesamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRepotiempoprocesamiento.Designer.cs">
+      <DependentUpon>FormRepotiempoprocesamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTablaexportadosbatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTablaexportadosbatch.Designer.cs">
+      <DependentUpon>FormTablaexportadosbatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTablanumeroexportados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTablanumeroexportados.Designer.cs">
+      <DependentUpon>FormTablanumeroexportados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTablarutasactivas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTablarutasactivas.Designer.cs">
+      <DependentUpon>FormTablarutasactivas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTablarutasinactivas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTablarutasinactivas.Designer.cs">
+      <DependentUpon>FormTablarutasinactivas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTablarutasprincipales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTablarutasprincipales.Designer.cs">
+      <DependentUpon>FormTablarutasprincipales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTablarutassecundarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTablarutassecundarias.Designer.cs">
+      <DependentUpon>FormTablarutassecundarias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTablarutastipodocumental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTablarutastipodocumental.Designer.cs">
+      <DependentUpon>FormTablarutastipodocumental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormRepoestadisticas.resx">
+      <DependentUpon>FormRepoestadisticas.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRepoestprocesamiento.resx">
+      <DependentUpon>FormRepoestprocesamiento.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRepoprocesados.resx">
+      <DependentUpon>FormRepoprocesados.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRepotiempo.resx">
+      <DependentUpon>FormRepotiempo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRepotiempoprocesamiento.resx">
+      <DependentUpon>FormRepotiempoprocesamiento.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTablaexportadosbatch.resx">
+      <DependentUpon>FormTablaexportadosbatch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTablanumeroexportados.resx">
+      <DependentUpon>FormTablanumeroexportados.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTablarutasactivas.resx">
+      <DependentUpon>FormTablarutasactivas.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTablarutasinactivas.resx">
+      <DependentUpon>FormTablarutasinactivas.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTablarutasprincipales.resx">
+      <DependentUpon>FormTablarutasprincipales.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTablarutassecundarias.resx">
+      <DependentUpon>FormTablarutassecundarias.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTablarutastipodocumental.resx">
+      <DependentUpon>FormTablarutastipodocumental.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repoestadisticas.rdlc" />
+    <EmbeddedResource Include="Repoestprocesamiento.rdlc" />
+    <EmbeddedResource Include="Repoprocesados.rdlc" />
+    <EmbeddedResource Include="Repotiempo.rdlc" />
+    <EmbeddedResource Include="Repotiempoprocesamiento.rdlc" />
+    <EmbeddedResource Include="Tablaexportadosbatch.rdlc" />
+    <EmbeddedResource Include="Tablanumeroexportados.rdlc" />
+    <EmbeddedResource Include="Tablarutasactivas.rdlc" />
+    <EmbeddedResource Include="Tablarutasinactivas.rdlc" />
+    <EmbeddedResource Include="Tablarutasprincipales.rdlc" />
+    <EmbeddedResource Include="Tablarutassecundarias.rdlc" />
+    <EmbeddedResource Include="Tablarutastipodocumental.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OCR.Facultad.Ingenieria.ManagerBases\OCR.Facultad.Ingenieria.ManagerBases.csproj">
+      <Project>{C5E84A12-5573-4DD3-A2CC-2A723AEEFE32}</Project>
+      <Name>OCR.Facultad.Ingenieria.ManagerBases</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetOcr+ocrDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRepoestadisticas+repoestadisticasDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRepoestprocesamiento+repoestprocesamientoDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRepoprocesados+repoprocesadosDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRepotiempo+repotiempoDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRepotiempoprocesamiento+repotiempoprocesamientoDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRespdiscoproc+respdiscoprocDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRprombatch+rprombatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRpromemB+rpromembatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRprometamdirTPB+rprometamdirtipbatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRpromlecescFB+rpromlecescfechabatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRpromleceshoraB+rpromleceshorabatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRpromlectdisB+rpromlectdisbatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRpromsubbatch+rpromsubbatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRpromtambatch+rpromtambatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRsubbatch+rsubbatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRtiemposPFB+rtiemposprocesamientofechabatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRtotalpagcarlin+rtotalpagcarlinDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRtotalpagcarlinFPB+rtotalpagcarlinfechprobatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRtotalpagcarlinPB+rtotalpagcarlinprocbatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRtotalpagcarlinTPB+rtotalpagcarlintipdocprobatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRtotaltiemposPFB+rtotaltiemposprocfechabatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRtotaltiemposPFD+rtotaltiemposprocfechadirDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetTablaexportadosbatch+tablaexportadosbatchDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetTablanumeroexportados+tablanumeroexportadosDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetTablarutasactivas+tablarutasactivasDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetTablarutasinactivas+tablarutasinactivasDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetTablarutasprincipales+tablarutasprincipalesDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetTablarutassecundarias+tablarutassecundariasDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetTablarutastipodocumental+tablarutastipodocumentalDataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

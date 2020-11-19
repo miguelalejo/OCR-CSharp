@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pagina>
+  <cabecerapagina>
+    <secpagina>
+    </secpagina>
+    <ncaracteres>
+    </ncaracteres>
+    <npalabras>
+    </npalabras>
+    <nlineas>
+    </nlineas>
+  </cabecerapagina>
+  <cuerpo>
+    <lineaocr>
+      <seclinea>
+      </seclinea>
+      <palabra>
+        <secpalabra>
+        </secpalabra>
+        <tipodato>
+        </tipodato>
+        <tamanioletra>
+        </tamanioletra>
+        <posicion>
+          <x>
+          </x>
+          <y>
+          </y>
+        </posicion>
+        <dimensiones>
+          <largo>
+          </largo>
+          <ancho>
+          </ancho>
+        </dimensiones>
+        <texto>
+        </texto>
+      </palabra>
+    </lineaocr>
+    <lineaocr seclinea="1">
+      <palabra secpalabra="1" tipodato="Integer" texto="123123124">
+        <posicion x="10" y="50" />
+        <dimensiones largo="20" ancho="150" />
+      </palabra>
+      <palabra secpalabra="2" tipodato="Integer" texto="123123124">
+        <posicion x="10" y="50" />
+        <dimensiones largo="20" ancho="150" />
+      </palabra>
+      <palabra secpalabra="3" tipodato="Integer" texto="123123124">
+        <posicion x="10" y="50" />
+        <dimensiones largo="20" ancho="150" />
+      </palabra>
+      <palabra secpalabra="4" tipodato="Integer" texto="123123124">
+        <posicion x="10" y="50" />
+        <dimensiones largo="20" ancho="150" />
+      </palabra>
+      <palabra secpalabra="5" tipodato="Integer" texto="123123124">
+        <posicion x="10" y="50" />
+        <dimensiones largo="20" ancho="150" />
+      </palabra>
+      <palabra secpalabra="1" tipodato="Integer" texto="123123124">
+        <posicion x="10" y="50" />
+        <dimensiones largo="20" ancho="150" />
+      </palabra>
+    </lineaocr>
+    <lineaocr seclinea="2">
+      <palabra secpalabra="1" tipodato="String" texto="Holas como estas " />
+      <palabra secpalabra="1" tipodato="String" texto="Holas como estas " />
+      <palabra secpalabra="1" tipodato="String" texto="Holas como estas " />
+      <palabra secpalabra="1" tipodato="String" texto="Holas como estas " />
+      <palabra secpalabra="1" tipodato="String" texto="Holas como estas " />
+      <palabra secpalabra="1" tipodato="String" texto="Holas como estas " />
+    </lineaocr>
+    <lineaocr seclinea="3" />
+  </cuerpo>
+  <cabecerapagina secpagina="1" ncaracteres="122230" npalabras="122" nlineas="12" />
+</pagina>

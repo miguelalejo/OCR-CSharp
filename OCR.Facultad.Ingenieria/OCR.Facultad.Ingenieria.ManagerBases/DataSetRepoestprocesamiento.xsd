@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRepoestprocesamiento" targetNamespace="http://tempuri.org/DataSetRepoestprocesamiento.xsd" xmlns:mstns="http://tempuri.org/DataSetRepoestprocesamiento.xsd" xmlns="http://tempuri.org/DataSetRepoestprocesamiento.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="repoestprocesamientoTableAdapter" GeneratorDataComponentClassName="repoestprocesamientoTableAdapter" Name="repoestprocesamiento" UserDataComponentName="repoestprocesamientoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectName="ocr_uce.repoestprocesamiento" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT `LECTURADISCO`, `ESCRITURADISCO`, `PORCENTAJECPU` FROM `repoestprocesamiento`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="LECTURADISCO" DataSetColumn="LECTURADISCO" />
+              <Mapping SourceColumn="ESCRITURADISCO" DataSetColumn="ESCRITURADISCO" />
+              <Mapping SourceColumn="PORCENTAJECPU" DataSetColumn="PORCENTAJECPU" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRepoestprocesamiento" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetRepoestprocesamiento" msprop:Generator_DataSetName="DataSetRepoestprocesamiento" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="repoestprocesamiento" msprop:Generator_UserTableName="repoestprocesamiento" msprop:Generator_RowDeletedName="repoestprocesamientoRowDeleted" msprop:Generator_RowChangedName="repoestprocesamientoRowChanged" msprop:Generator_RowClassName="repoestprocesamientoRow" msprop:Generator_RowChangingName="repoestprocesamientoRowChanging" msprop:Generator_RowEvArgName="repoestprocesamientoRowChangeEvent" msprop:Generator_RowEvHandlerName="repoestprocesamientoRowChangeEventHandler" msprop:Generator_TableClassName="repoestprocesamientoDataTable" msprop:Generator_TableVarName="tablerepoestprocesamiento" msprop:Generator_RowDeletingName="repoestprocesamientoRowDeleting" msprop:Generator_TablePropName="repoestprocesamiento">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LECTURADISCO" msprop:Generator_UserColumnName="LECTURADISCO" msprop:Generator_ColumnVarNameInTable="columnLECTURADISCO" msprop:Generator_ColumnPropNameInRow="LECTURADISCO" msprop:Generator_ColumnPropNameInTable="LECTURADISCOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ESCRITURADISCO" msprop:Generator_UserColumnName="ESCRITURADISCO" msprop:Generator_ColumnVarNameInTable="columnESCRITURADISCO" msprop:Generator_ColumnPropNameInRow="ESCRITURADISCO" msprop:Generator_ColumnPropNameInTable="ESCRITURADISCOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="PORCENTAJECPU" msprop:Generator_UserColumnName="PORCENTAJECPU" msprop:Generator_ColumnVarNameInTable="columnPORCENTAJECPU" msprop:Generator_ColumnPropNameInRow="PORCENTAJECPU" msprop:Generator_ColumnPropNameInTable="PORCENTAJECPUColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

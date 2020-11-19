@@ -1,0 +1,6 @@
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR\bin\Release\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR\bin\Release\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR\obj\Release\ResolveAssemblyReference.cache
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR\obj\Release\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.csproj.ResolveComReference.cache
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR\obj\Release\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR\obj\Release\OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.pdb

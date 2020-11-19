@@ -1,0 +1,2623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pagina>
+  <cabecerapagina secpagina="0" ncaracteres="3541" npalabras="662" nlineas="43" fechainiproces="26/04/2012 0:13:48" fechafinproces="26/04/2012 0:16:05">
+  </cabecerapagina>
+  <cuerpo>
+    <palabra secpalabra="0" tipodato="String" fontsize="17,6" indicelinea="1" blanks="0" confidence="82" texto=".">
+      <posicion x="232" y="204" />
+      <dimensiones largo="17,6" ancho="8" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="17,6" indicelinea="1" blanks="0" confidence="82" texto="VERIZON">
+      <posicion x="702" y="212" />
+      <dimensiones largo="17,6" ancho="108" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="17,6" indicelinea="1" blanks="0" confidence="82" texto="WIRELESS">
+      <posicion x="815" y="212" />
+      <dimensiones largo="17,6" ancho="122" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="17,6" indicelinea="1" blanks="0" confidence="82" texto="MESSAGING">
+      <posicion x="942" y="212" />
+      <dimensiones largo="17,6" ancho="142" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="17,6" indicelinea="1" blanks="0" confidence="82" texto="SERVICES">
+      <posicion x="1091" y="212" />
+      <dimensiones largo="17,6" ancho="120" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20" indicelinea="2" blanks="0" confidence="89" texto="ACCOUNT">
+      <posicion x="816" y="238" />
+      <dimensiones largo="20" ancho="118" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20" indicelinea="2" blanks="0" confidence="89" texto="AGREI-IMENT">
+      <posicion x="938" y="238" />
+      <dimensiones largo="20" ancho="156" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="(&quot;AAA&quot;)">
+      <posicion x="267" y="313" />
+      <dimensiones largo="20,3333333333333" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="OR">
+      <posicion x="363" y="313" />
+      <dimensiones largo="20,3333333333333" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="BETIER">
+      <posicion x="405" y="312" />
+      <dimensiones largo="20,3333333333333" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="BUSINESS">
+      <posicion x="503" y="312" />
+      <dimensiones largo="20,3333333333333" ancho="106" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="BUREAU">
+      <posicion x="620" y="313" />
+      <dimensiones largo="20,3333333333333" ancho="92" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="(&quot;BBB&quot;)">
+      <posicion x="723" y="313" />
+      <dimensiones largo="20,3333333333333" ancho="84" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="AS">
+      <posicion x="817" y="313" />
+      <dimensiones largo="20,3333333333333" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="DESCRIBED">
+      <posicion x="857" y="312" />
+      <dimensiones largo="20,3333333333333" ancho="130" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="BELOW.">
+      <posicion x="997" y="312" />
+      <dimensiones largo="20,3333333333333" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="(IF">
+      <posicion x="1122" y="313" />
+      <dimensiones largo="20,3333333333333" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="CUSTOMER’S">
+      <posicion x="1162" y="312" />
+      <dimensiones largo="20,3333333333333" ancho="152" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="LOCAL">
+      <posicion x="1326" y="311" />
+      <dimensiones largo="20,3333333333333" ancho="78" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="SMALL">
+      <posicion x="1417" y="312" />
+      <dimensiones largo="20,3333333333333" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="CLAIMS">
+      <posicion x="1507" y="311" />
+      <dimensiones largo="20,3333333333333" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3333333333333" indicelinea="3" blanks="0" confidence="47" texto="COURT">
+      <posicion x="1608" y="311" />
+      <dimensiones largo="20,3333333333333" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="OFFERS">
+      <posicion x="268" y="338" />
+      <dimensiones largo="20,3125" ancho="84" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="ARBITRATION,">
+      <posicion x="363" y="338" />
+      <dimensiones largo="20,3125" ancho="158" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="CUSTOMER">
+      <posicion x="531" y="338" />
+      <dimensiones largo="20,3125" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="MAY">
+      <posicion x="665" y="339" />
+      <dimensiones largo="20,3125" ancho="54" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="ALSO">
+      <posicion x="728" y="338" />
+      <dimensiones largo="20,3125" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="USE">
+      <posicion x="800" y="338" />
+      <dimensiones largo="20,3125" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="THAT">
+      <posicion x="855" y="338" />
+      <dimensiones largo="20,3125" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="PROCESS">
+      <posicion x="926" y="338" />
+      <dimensiones largo="20,3125" ancho="102" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="FOR">
+      <posicion x="1038" y="338" />
+      <dimensiones largo="20,3125" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="ANY">
+      <posicion x="1097" y="338" />
+      <dimensiones largo="20,3125" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="DISPUTE">
+      <posicion x="1160" y="338" />
+      <dimensiones largo="20,3125" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="THAT">
+      <posicion x="1268" y="338" />
+      <dimensiones largo="20,3125" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="QUALIFIES.)">
+      <posicion x="1343" y="338" />
+      <dimensiones largo="20,3125" ancho="138" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="THIS">
+      <posicion x="1503" y="336" />
+      <dimensiones largo="20,3125" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="DOES">
+      <posicion x="1566" y="338" />
+      <dimensiones largo="20,3125" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3125" indicelinea="4" blanks="0" confidence="117" texto="NOT">
+      <posicion x="1638" y="337" />
+      <dimensiones largo="20,3125" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="CHANGE">
+      <posicion x="267" y="363" />
+      <dimensiones largo="20,3076923076923" ancho="96" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="CUSTOM'ER’S">
+      <posicion x="375" y="363" />
+      <dimensiones largo="20,3076923076923" ancho="144" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="SUBSTANTIVE">
+      <posicion x="532" y="363" />
+      <dimensiones largo="20,3076923076923" ancho="154" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="RIGHTS,">
+      <posicion x="697" y="363" />
+      <dimensiones largo="20,3076923076923" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="JUST">
+      <posicion x="800" y="364" />
+      <dimensiones largo="20,3076923076923" ancho="54" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="Tl-IE">
+      <posicion x="865" y="364" />
+      <dimensiones largo="20,3076923076923" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="POTENTIAL">
+      <posicion x="924" y="363" />
+      <dimensiones largo="20,3076923076923" ancho="128" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="FORUMS">
+      <posicion x="1066" y="364" />
+      <dimensiones largo="20,3076923076923" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="FOR">
+      <posicion x="1177" y="363" />
+      <dimensiones largo="20,3076923076923" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="RESOLVING">
+      <posicion x="1237" y="363" />
+      <dimensiones largo="20,3076923076923" ancho="134" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="DISPUTES.">
+      <posicion x="1384" y="362" />
+      <dimensiones largo="20,3076923076923" ancho="116" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="IN">
+      <posicion x="1527" y="361" />
+      <dimensiones largo="20,3076923076923" ancho="26" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,3076923076923" indicelinea="5" blanks="0" confidence="60" texto="ADDITION,">
+      <posicion x="1565" y="361" />
+      <dimensiones largo="20,3076923076923" ancho="122" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="CUSTOMER">
+      <posicion x="268" y="389" />
+      <dimensiones largo="19,7647058823529" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="CAN">
+      <posicion x="399" y="389" />
+      <dimensiones largo="19,7647058823529" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="STILL">
+      <posicion x="454" y="389" />
+      <dimensiones largo="19,7647058823529" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="BRING">
+      <posicion x="523" y="389" />
+      <dimensiones largo="19,7647058823529" ancho="70" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="ANY">
+      <posicion x="599" y="390" />
+      <dimensiones largo="19,7647058823529" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="ISSUES">
+      <posicion x="657" y="390" />
+      <dimensiones largo="19,7647058823529" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="CUSTOMER">
+      <posicion x="739" y="389" />
+      <dimensiones largo="19,7647058823529" ancho="128" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="MAY">
+      <posicion x="874" y="390" />
+      <dimensiones largo="19,7647058823529" ancho="54" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="HAVE">
+      <posicion x="935" y="390" />
+      <dimensiones largo="19,7647058823529" ancho="64" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="TO">
+      <posicion x="1005" y="390" />
+      <dimensiones largo="19,7647058823529" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="THE">
+      <posicion x="1046" y="389" />
+      <dimensiones largo="19,7647058823529" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="ATTENTION">
+      <posicion x="1099" y="389" />
+      <dimensiones largo="19,7647058823529" ancho="136" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="OF">
+      <posicion x="1243" y="389" />
+      <dimensiones largo="19,7647058823529" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="APPROPRIATE">
+      <posicion x="1280" y="390" />
+      <dimensiones largo="19,7647058823529" ancho="160" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="FEDERAL.">
+      <posicion x="1448" y="388" />
+      <dimensiones largo="19,7647058823529" ancho="112" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="STATE,">
+      <posicion x="1567" y="388" />
+      <dimensiones largo="19,7647058823529" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7647058823529" indicelinea="6" blanks="0" confidence="67" texto="OR">
+      <posicion x="1655" y="387" />
+      <dimensiones largo="19,7647058823529" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="LOCAL">
+      <posicion x="268" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="GOVERNMENT">
+      <posicion x="349" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="160" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="AGENCIES">
+      <posicion x="513" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="112" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="AND">
+      <posicion x="629" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="THEY">
+      <posicion x="684" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="CAN">
+      <posicion x="751" y="416" />
+      <dimensiones largo="20,0588235294118" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="STILL,">
+      <posicion x="807" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="IF">
+      <posicion x="882" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="THE">
+      <posicion x="907" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="LAW">
+      <posicion x="958" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="ALLOWS,">
+      <posicion x="1016" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="106" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="SEEK">
+      <posicion x="1129" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="58" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="RELIEF">
+      <posicion x="1193" y="415" />
+      <dimensiones largo="20,0588235294118" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="AGAINST">
+      <posicion x="1280" y="416" />
+      <dimensiones largo="20,0588235294118" ancho="104" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="CARRIER">
+      <posicion x="1389" y="414" />
+      <dimensiones largo="20,0588235294118" ancho="104" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="ON">
+      <posicion x="1498" y="414" />
+      <dimensiones largo="20,0588235294118" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="7" blanks="0" confidence="111,833333333333" texto="CUSTOMER`S">
+      <posicion x="1538" y="412" />
+      <dimensiones largo="20,0588235294118" ancho="150" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="BEHALF.22.2.">
+      <posicion x="268" y="441" />
+      <dimensiones largo="23,3125" ancho="94" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="FOR">
+      <posicion x="350" y="493" />
+      <dimensiones largo="23,3125" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="CIAIMS">
+      <posicion x="401" y="493" />
+      <dimensiones largo="23,3125" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="OVER">
+      <posicion x="496" y="492" />
+      <dimensiones largo="23,3125" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="$10,000,">
+      <posicion x="565" y="491" />
+      <dimensiones largo="23,3125" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="THE">
+      <posicion x="652" y="492" />
+      <dimensiones largo="23,3125" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="AAA’S">
+      <posicion x="706" y="493" />
+      <dimensiones largo="23,3125" ancho="70" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="WIRELESS">
+      <posicion x="785" y="493" />
+      <dimensiones largo="23,3125" ancho="112" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="INDUSTRY">
+      <posicion x="906" y="491" />
+      <dimensiones largo="23,3125" ancho="116" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="ARBITRATION">
+      <posicion x="1030" y="492" />
+      <dimensiones largo="23,3125" ancho="162" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="(&quot;WlA’‛)">
+      <posicion x="1201" y="492" />
+      <dimensiones largo="23,3125" ancho="84" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="RULES">
+      <posicion x="1293" y="493" />
+      <dimensiones largo="23,3125" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="WILL">
+      <posicion x="1378" y="492" />
+      <dimensiones largo="23,3125" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="APPLY.">
+      <posicion x="1446" y="491" />
+      <dimensiones largo="23,3125" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="FOR">
+      <posicion x="1543" y="492" />
+      <dimensiones largo="23,3125" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="23,3125" indicelinea="8" blanks="0" confidence="76" texto="CLAIMS">
+      <posicion x="1598" y="492" />
+      <dimensiones largo="23,3125" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="BETWEEN">
+      <posicion x="269" y="518" />
+      <dimensiones largo="20,2666666666667" ancho="108" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="$2,500">
+      <posicion x="382" y="517" />
+      <dimensiones largo="20,2666666666667" ancho="64" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="AND">
+      <posicion x="452" y="518" />
+      <dimensiones largo="20,2666666666667" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="$10,000,">
+      <posicion x="508" y="518" />
+      <dimensiones largo="20,2666666666667" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="THE">
+      <posicion x="594" y="518" />
+      <dimensiones largo="20,2666666666667" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="AAA’S">
+      <posicion x="644" y="517" />
+      <dimensiones largo="20,2666666666667" ancho="70" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="ARBITRATION">
+      <posicion x="720" y="517" />
+      <dimensiones largo="20,2666666666667" ancho="158" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="RULES">
+      <posicion x="883" y="518" />
+      <dimensiones largo="20,2666666666667" ancho="74" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="FOR">
+      <posicion x="964" y="518" />
+      <dimensiones largo="20,2666666666667" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="THE">
+      <posicion x="1014" y="518" />
+      <dimensiones largo="20,2666666666667" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="RESOLUTION">
+      <posicion x="1068" y="518" />
+      <dimensiones largo="20,2666666666667" ancho="150" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="OF">
+      <posicion x="1225" y="518" />
+      <dimensiones largo="20,2666666666667" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="CONSUMER­RELATED">
+      <posicion x="1262" y="517" />
+      <dimensiones largo="20,2666666666667" ancho="250" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="DISPUTES">
+      <posicion x="1518" y="516" />
+      <dimensiones largo="20,2666666666667" ancho="110" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,2666666666667" indicelinea="9" blanks="0" confidence="92" texto="(THE">
+      <posicion x="1633" y="516" />
+      <dimensiones largo="20,2666666666667" ancho="56" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="“CONSUMER">
+      <posicion x="269" y="544" />
+      <dimensiones largo="19,8125" ancho="136" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="RULES&quot;),">
+      <posicion x="416" y="543" />
+      <dimensiones largo="19,8125" ancho="94" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="WHICH">
+      <posicion x="521" y="543" />
+      <dimensiones largo="19,8125" ancho="78" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="INCLUDE">
+      <posicion x="609" y="544" />
+      <dimensiones largo="19,8125" ancho="100" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="A">
+      <posicion x="719" y="544" />
+      <dimensiones largo="19,8125" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="SMALL">
+      <posicion x="747" y="544" />
+      <dimensiones largo="19,8125" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="CLAIMS">
+      <posicion x="837" y="544" />
+      <dimensiones largo="19,8125" ancho="88" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="COURT">
+      <posicion x="937" y="544" />
+      <dimensiones largo="19,8125" ancho="78" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="OPTION,">
+      <posicion x="1026" y="543" />
+      <dimensiones largo="19,8125" ancho="94" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="WILL">
+      <posicion x="1132" y="544" />
+      <dimensiones largo="19,8125" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="APPLY.">
+      <posicion x="1203" y="544" />
+      <dimensiones largo="19,8125" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="FOR">
+      <posicion x="1309" y="544" />
+      <dimensiones largo="19,8125" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="CLAIMS">
+      <posicion x="1366" y="544" />
+      <dimensiones largo="19,8125" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="UNDER">
+      <posicion x="1467" y="543" />
+      <dimensiones largo="19,8125" ancho="82" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="$2,500,">
+      <posicion x="1559" y="542" />
+      <dimensiones largo="19,8125" ancho="72" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8125" indicelinea="10" blanks="0" confidence="84" texto="THE">
+      <posicion x="1643" y="542" />
+      <dimensiones largo="19,8125" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="COMPLAINING">
+      <posicion x="269" y="570" />
+      <dimensiones largo="19,5" ancho="158" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="PARTY">
+      <posicion x="435" y="569" />
+      <dimensiones largo="19,5" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="CAN">
+      <posicion x="519" y="570" />
+      <dimensiones largo="19,5" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="CHOOSE">
+      <posicion x="575" y="569" />
+      <dimensiones largo="19,5" ancho="92" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="EITI-IER">
+      <posicion x="676" y="570" />
+      <dimensiones largo="19,5" ancho="82" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="THE">
+      <posicion x="766" y="570" />
+      <dimensiones largo="19,5" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="CONSUMER">
+      <posicion x="821" y="569" />
+      <dimensiones largo="19,5" ancho="130" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="RULES">
+      <posicion x="958" y="569" />
+      <dimensiones largo="19,5" ancho="74" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="OR">
+      <posicion x="1042" y="569" />
+      <dimensiones largo="19,5" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="'I'HE">
+      <posicion x="1083" y="569" />
+      <dimensiones largo="19,5" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="BBB’S">
+      <posicion x="1140" y="569" />
+      <dimensiones largo="19,5" ancho="70" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="RULES">
+      <posicion x="1218" y="569" />
+      <dimensiones largo="19,5" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="FOR">
+      <posicion x="1303" y="570" />
+      <dimensiones largo="19,5" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="BINDING">
+      <posicion x="1359" y="569" />
+      <dimensiones largo="19,5" ancho="100" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="ARBITRATION.">
+      <posicion x="1468" y="568" />
+      <dimensiones largo="19,5" ancho="166" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="11" blanks="0" confidence="70" texto="AN">
+      <posicion x="1654" y="568" />
+      <dimensiones largo="19,5" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="ARBl'l'RATOR">
+      <posicion x="269" y="595" />
+      <dimensiones largo="20,0625" ancho="144" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="MAY,">
+      <posicion x="421" y="594" />
+      <dimensiones largo="20,0625" ancho="58" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="UNDER">
+      <posicion x="485" y="594" />
+      <dimensiones largo="20,0625" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="ANY">
+      <posicion x="572" y="595" />
+      <dimensiones largo="20,0625" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="OF">
+      <posicion x="628" y="595" />
+      <dimensiones largo="20,0625" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="THESE">
+      <posicion x="665" y="595" />
+      <dimensiones largo="20,0625" ancho="72" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="RULES,">
+      <posicion x="745" y="595" />
+      <dimensiones largo="20,0625" ancho="78" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="REQUIRE">
+      <posicion x="832" y="595" />
+      <dimensiones largo="20,0625" ancho="100" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="EACH">
+      <posicion x="940" y="595" />
+      <dimensiones largo="20,0625" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="PARTY">
+      <posicion x="1008" y="595" />
+      <dimensiones largo="20,0625" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="TO">
+      <posicion x="1095" y="595" />
+      <dimensiones largo="20,0625" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="EXCHANGE">
+      <posicion x="1136" y="595" />
+      <dimensiones largo="20,0625" ancho="130" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="RELEVANT">
+      <posicion x="1274" y="595" />
+      <dimensiones largo="20,0625" ancho="126" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="EVIDENCE">
+      <posicion x="1408" y="594" />
+      <dimensiones largo="20,0625" ancho="118" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="IN">
+      <posicion x="1534" y="593" />
+      <dimensiones largo="20,0625" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0625" indicelinea="12" blanks="0" confidence="64" texto="ADVANCE.">
+      <posicion x="1566" y="593" />
+      <dimensiones largo="20,0625" ancho="122" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="1'N">
+      <posicion x="269" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="LARGE/COMPLEX">
+      <posicion x="299" y="620" />
+      <dimensiones largo="19,2941176470588" ancho="190" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="CASES">
+      <posicion x="495" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="72" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="UNDER">
+      <posicion x="573" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="78" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="THE">
+      <posicion x="657" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="W'IA">
+      <posicion x="709" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="RULES,">
+      <posicion x="761" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="THE">
+      <posicion x="847" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="ARBITRATORS">
+      <posicion x="900" y="620" />
+      <dimensiones largo="19,2941176470588" ancho="162" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="M'UST">
+      <posicion x="1070" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="APPLY">
+      <posicion x="1143" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="74" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="THE">
+      <posicion x="1225" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="FEDERAL">
+      <posicion x="1279" y="621" />
+      <dimensiones largo="19,2941176470588" ancho="106" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="RULES">
+      <posicion x="1393" y="620" />
+      <dimensiones largo="19,2941176470588" ancho="74" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="OF">
+      <posicion x="1473" y="619" />
+      <dimensiones largo="19,2941176470588" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="EVIDENCE">
+      <posicion x="1512" y="619" />
+      <dimensiones largo="19,2941176470588" ancho="118" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2941176470588" indicelinea="13" blanks="0" confidence="61" texto="AND">
+      <posicion x="1637" y="620" />
+      <dimensiones largo="19,2941176470588" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="THE">
+      <posicion x="269" y="646" />
+      <dimensiones largo="19,2666666666667" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="LOSER">
+      <posicion x="320" y="647" />
+      <dimensiones largo="19,2666666666667" ancho="70" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="MAY">
+      <posicion x="396" y="647" />
+      <dimensiones largo="19,2666666666667" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="HAVE">
+      <posicion x="453" y="646" />
+      <dimensiones largo="19,2666666666667" ancho="64" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="TI­IE">
+      <posicion x="522" y="647" />
+      <dimensiones largo="19,2666666666667" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="AWARD">
+      <posicion x="572" y="647" />
+      <dimensiones largo="19,2666666666667" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="REVIEWEI)">
+      <posicion x="662" y="645" />
+      <dimensiones largo="19,2666666666667" ancho="122" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="BY">
+      <posicion x="787" y="647" />
+      <dimensiones largo="19,2666666666667" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="A">
+      <posicion x="825" y="648" />
+      <dimensiones largo="19,2666666666667" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="PANEL">
+      <posicion x="847" y="647" />
+      <dimensiones largo="19,2666666666667" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="OF">
+      <posicion x="928" y="646" />
+      <dimensiones largo="19,2666666666667" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="THREE">
+      <posicion x="963" y="646" />
+      <dimensiones largo="19,2666666666667" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="(3)">
+      <posicion x="1046" y="646" />
+      <dimensiones largo="19,2666666666667" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="NEW">
+      <posicion x="1079" y="645" />
+      <dimensiones largo="19,2666666666667" ancho="54" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,2666666666667" indicelinea="14" blanks="0" confidence="77" texto="ARBITRATORS.">
+      <posicion x="1139" y="646" />
+      <dimensiones largo="19,2666666666667" ancho="170" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="Double" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="22.3.">
+      <posicion x="298" y="698" />
+      <dimensiones largo="20,0588235294118" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="CUSTOMER">
+      <posicion x="349" y="698" />
+      <dimensiones largo="20,0588235294118" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="CAN">
+      <posicion x="480" y="698" />
+      <dimensiones largo="20,0588235294118" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="OBTAIN">
+      <posicion x="534" y="697" />
+      <dimensiones largo="20,0588235294118" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="RULES">
+      <posicion x="626" y="698" />
+      <dimensiones largo="20,0588235294118" ancho="74" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="AND">
+      <posicion x="705" y="698" />
+      <dimensiones largo="20,0588235294118" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="FEE">
+      <posicion x="765" y="698" />
+      <dimensiones largo="20,0588235294118" ancho="40" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="INFORMATION">
+      <posicion x="812" y="697" />
+      <dimensiones largo="20,0588235294118" ancho="160" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="FROM">
+      <posicion x="979" y="696" />
+      <dimensiones largo="20,0588235294118" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="THE">
+      <posicion x="1055" y="697" />
+      <dimensiones largo="20,0588235294118" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="AAA">
+      <posicion x="1108" y="698" />
+      <dimensiones largo="20,0588235294118" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="(www.adr.0t‘g),">
+      <posicion x="1166" y="697" />
+      <dimensiones largo="20,0588235294118" ancho="148" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="THE">
+      <posicion x="1321" y="696" />
+      <dimensiones largo="20,0588235294118" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="BBB">
+      <posicion x="1374" y="697" />
+      <dimensiones largo="20,0588235294118" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="(www.bbb.org)">
+      <posicion x="1429" y="696" />
+      <dimensiones largo="20,0588235294118" ancho="146" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="OR">
+      <posicion x="1581" y="697" />
+      <dimensiones largo="20,0588235294118" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,0588235294118" indicelinea="15" blanks="0" confidence="59" texto="FROM">
+      <posicion x="1622" y="696" />
+      <dimensiones largo="20,0588235294118" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="CARRIER.">
+      <posicion x="269" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="104" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="IF">
+      <posicion x="386" y="724" />
+      <dimensiones largo="20,1764705882353" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="CUSTONHER">
+      <posicion x="413" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="CANNOT">
+      <posicion x="543" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="94" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="PAY">
+      <posicion x="641" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="THE">
+      <posicion x="694" y="722" />
+      <dimensiones largo="20,1764705882353" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="REQUIRED">
+      <posicion x="746" y="722" />
+      <dimensiones largo="20,1764705882353" ancho="118" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="ARBITRATION">
+      <posicion x="870" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="156" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="FEES,">
+      <posicion x="1033" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="IF">
+      <posicion x="1101" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="ANY,">
+      <posicion x="1130" y="724" />
+      <dimensiones largo="20,1764705882353" ancho="58" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="'l'l·IERE">
+      <posicion x="1195" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="ARE">
+      <posicion x="1278" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="FEE">
+      <posicion x="1333" y="722" />
+      <dimensiones largo="20,1764705882353" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="WAIVER">
+      <posicion x="1382" y="723" />
+      <dimensiones largo="20,1764705882353" ancho="94" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="PROGRAMS.">
+      <posicion x="1482" y="722" />
+      <dimensiones largo="20,1764705882353" ancho="136" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1764705882353" indicelinea="16" blanks="0" confidence="55" texto="EVEN">
+      <posicion x="1625" y="722" />
+      <dimensiones largo="20,1764705882353" ancho="64" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="IF">
+      <posicion x="269" y="748" />
+      <dimensiones largo="19,5" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="CUSTOMER">
+      <posicion x="294" y="748" />
+      <dimensiones largo="19,5" ancho="126" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="DOES">
+      <posicion x="425" y="749" />
+      <dimensiones largo="19,5" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="NOT">
+      <posicion x="491" y="749" />
+      <dimensiones largo="19,5" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="QUALIFY">
+      <posicion x="544" y="749" />
+      <dimensiones largo="19,5" ancho="100" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="FOR">
+      <posicion x="650" y="749" />
+      <dimensiones largo="19,5" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="A">
+      <posicion x="701" y="750" />
+      <dimensiones largo="19,5" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="FEE">
+      <posicion x="725" y="749" />
+      <dimensiones largo="19,5" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="WAIVER">
+      <posicion x="774" y="749" />
+      <dimensiones largo="19,5" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="CARRIER">
+      <posicion x="879" y="748" />
+      <dimensiones largo="19,5" ancho="100" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="WILL">
+      <posicion x="984" y="748" />
+      <dimensiones largo="19,5" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="PAY">
+      <posicion x="1052" y="748" />
+      <dimensiones largo="19,5" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="ALL">
+      <posicion x="1106" y="749" />
+      <dimensiones largo="19,5" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="BUT">
+      <posicion x="1160" y="749" />
+      <dimensiones largo="19,5" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="$100">
+      <posicion x="1213" y="748" />
+      <dimensiones largo="19,5" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="OF">
+      <posicion x="1268" y="749" />
+      <dimensiones largo="19,5" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="ANY">
+      <posicion x="1306" y="748" />
+      <dimensiones largo="19,5" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="COMBNED">
+      <posicion x="1364" y="747" />
+      <dimensiones largo="19,5" ancho="128" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="FEES">
+      <posicion x="1497" y="747" />
+      <dimensiones largo="19,5" ancho="56" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="17" blanks="0" confidence="65" texto="CUSTOMER">
+      <posicion x="1560" y="748" />
+      <dimensiones largo="19,5" ancho="130" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="WOULD">
+      <posicion x="269" y="775" />
+      <dimensiones largo="19,4117647058824" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="BE">
+      <posicion x="366" y="775" />
+      <dimensiones largo="19,4117647058824" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="REQUIRED">
+      <posicion x="408" y="775" />
+      <dimensiones largo="19,4117647058824" ancho="116" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="TO">
+      <posicion x="535" y="775" />
+      <dimensiones largo="19,4117647058824" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="PAY">
+      <posicion x="578" y="775" />
+      <dimensiones largo="19,4117647058824" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="FOR">
+      <posicion x="637" y="774" />
+      <dimensiones largo="19,4117647058824" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="FILING">
+      <posicion x="695" y="774" />
+      <dimensiones largo="19,4117647058824" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="AND">
+      <posicion x="784" y="775" />
+      <dimensiones largo="19,4117647058824" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="A">
+      <posicion x="847" y="774" />
+      <dimensiones largo="19,4117647058824" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="FIRST">
+      <posicion x="878" y="774" />
+      <dimensiones largo="19,4117647058824" ancho="64" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="DAY">
+      <posicion x="955" y="774" />
+      <dimensiones largo="19,4117647058824" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="OF">
+      <posicion x="1016" y="773" />
+      <dimensiones largo="19,4117647058824" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="ARBITRATION">
+      <posicion x="1063" y="774" />
+      <dimensiones largo="19,4117647058824" ancho="160" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="IF">
+      <posicion x="1237" y="775" />
+      <dimensiones largo="19,4117647058824" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="CUSTOMER">
+      <posicion x="1271" y="773" />
+      <dimensiones largo="19,4117647058824" ancho="130" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="COMPLETES">
+      <posicion x="1414" y="773" />
+      <dimensiones largo="19,4117647058824" ancho="138" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4117647058824" indicelinea="18" blanks="0" confidence="54" texto="CARRlER`S">
+      <posicion x="1565" y="774" />
+      <dimensiones largo="19,4117647058824" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="MEDIATION">
+      <posicion x="269" y="799" />
+      <dimensiones largo="19,4" ancho="128" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="PROGRAM.">
+      <posicion x="405" y="800" />
+      <dimensiones largo="19,4" ancho="118" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="MEDIATION">
+      <posicion x="541" y="800" />
+      <dimensiones largo="19,4" ancho="128" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="IS">
+      <posicion x="679" y="800" />
+      <dimensiones largo="19,4" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="A">
+      <posicion x="707" y="800" />
+      <dimensiones largo="19,4" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="PROCESS">
+      <posicion x="733" y="799" />
+      <dimensiones largo="19,4" ancho="100" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="FOR">
+      <posicion x="842" y="799" />
+      <dimensiones largo="19,4" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="MUTUALLY">
+      <posicion x="895" y="799" />
+      <dimensiones largo="19,4" ancho="130" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="RESOLVING">
+      <posicion x="1034" y="800" />
+      <dimensiones largo="19,4" ancho="136" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="DISPUTES.">
+      <posicion x="1179" y="800" />
+      <dimensiones largo="19,4" ancho="116" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="A">
+      <posicion x="1305" y="801" />
+      <dimensiones largo="19,4" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="MEDIATOR">
+      <posicion x="1332" y="799" />
+      <dimensiones largo="19,4" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="CAN">
+      <posicion x="1465" y="799" />
+      <dimensiones largo="19,4" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="HELP">
+      <posicion x="1524" y="802" />
+      <dimensiones largo="19,4" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4" indicelinea="19" blanks="0" confidence="81" texto="PARTIES">
+      <posicion x="1593" y="801" />
+      <dimensiones largo="19,4" ancho="96" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="REACH">
+      <posicion x="270" y="826" />
+      <dimensiones largo="19,6666666666667" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="AGREEMENT,">
+      <posicion x="355" y="826" />
+      <dimensiones largo="19,6666666666667" ancho="146" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="BUT">
+      <posicion x="510" y="826" />
+      <dimensiones largo="19,6666666666667" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="DOES">
+      <posicion x="564" y="826" />
+      <dimensiones largo="19,6666666666667" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="NOT">
+      <posicion x="633" y="825" />
+      <dimensiones largo="19,6666666666667" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="DECIDE">
+      <posicion x="690" y="825" />
+      <dimensiones largo="19,6666666666667" ancho="84" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="THEIR">
+      <posicion x="783" y="825" />
+      <dimensiones largo="19,6666666666667" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="ISSUES.">
+      <posicion x="861" y="825" />
+      <dimensiones largo="19,6666666666667" ancho="82" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="IN">
+      <posicion x="963" y="825" />
+      <dimensiones largo="19,6666666666667" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="CARRlER'S">
+      <posicion x="995" y="825" />
+      <dimensiones largo="19,6666666666667" ancho="126" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="MEDIATION">
+      <posicion x="1131" y="825" />
+      <dimensiones largo="19,6666666666667" ancho="134" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="PROGRAM,">
+      <posicion x="1276" y="825" />
+      <dimensiones largo="19,6666666666667" ancho="122" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="CARRIER">
+      <posicion x="1407" y="824" />
+      <dimensiones largo="19,6666666666667" ancho="104" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="WILLL">
+      <posicion x="1520" y="825" />
+      <dimensiones largo="19,6666666666667" ancho="74" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="20" blanks="0" confidence="61" texto="ASSIGN">
+      <posicion x="1603" y="824" />
+      <dimensiones largo="19,6666666666667" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="SOMEONE">
+      <posicion x="270" y="851" />
+      <dimensiones largo="19,3888888888889" ancho="110" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="(WHO">
+      <posicion x="385" y="852" />
+      <dimensiones largo="19,3888888888889" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="MAY">
+      <posicion x="453" y="852" />
+      <dimensiones largo="19,3888888888889" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="BE">
+      <posicion x="511" y="852" />
+      <dimensiones largo="19,3888888888889" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="FROM">
+      <posicion x="546" y="851" />
+      <dimensiones largo="19,3888888888889" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="CARRIER'S">
+      <posicion x="617" y="851" />
+      <dimensiones largo="19,3888888888889" ancho="120" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="COMPANY)">
+      <posicion x="743" y="850" />
+      <dimensiones largo="19,3888888888889" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="NOT">
+      <posicion x="872" y="850" />
+      <dimensiones largo="19,3888888888889" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="DIRECTLY">
+      <posicion x="927" y="850" />
+      <dimensiones largo="19,3888888888889" ancho="114" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="INVOLVED">
+      <posicion x="1047" y="851" />
+      <dimensiones largo="19,3888888888889" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="IN">
+      <posicion x="1178" y="851" />
+      <dimensiones largo="19,3888888888889" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="THE">
+      <posicion x="1209" y="851" />
+      <dimensiones largo="19,3888888888889" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="DISPUTE">
+      <posicion x="1261" y="851" />
+      <dimensiones largo="19,3888888888889" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="TO">
+      <posicion x="1365" y="850" />
+      <dimensiones largo="19,3888888888889" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="MEDIATE.">
+      <posicion x="1403" y="850" />
+      <dimensiones largo="19,3888888888889" ancho="112" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="TI­IAT">
+      <posicion x="1528" y="852" />
+      <dimensiones largo="19,3888888888889" ancho="64" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="PERSON">
+      <posicion x="1598" y="851" />
+      <dimensiones largo="19,3888888888889" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,3888888888889" indicelinea="21" blanks="0" confidence="55" texto="~">
+      <posicion x="1758" y="857" />
+      <dimensiones largo="19,3888888888889" ancho="8" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="WILL">
+      <posicion x="269" y="877" />
+      <dimensiones largo="19" ancho="58" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="HAVE">
+      <posicion x="331" y="877" />
+      <dimensiones largo="19" ancho="64" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="ALL">
+      <posicion x="400" y="876" />
+      <dimensiones largo="19" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="TI­IE">
+      <posicion x="450" y="876" />
+      <dimensiones largo="19" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="RIGHTS">
+      <posicion x="499" y="876" />
+      <dimensiones largo="19" ancho="82" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="AND">
+      <posicion x="587" y="877" />
+      <dimensiones largo="19" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="PROTECTIONS">
+      <posicion x="641" y="877" />
+      <dimensiones largo="19" ancho="156" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="OF">
+      <posicion x="802" y="877" />
+      <dimensiones largo="19" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="A">
+      <posicion x="838" y="877" />
+      <dimensiones largo="19" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="MEDIATOR.">
+      <posicion x="861" y="877" />
+      <dimensiones largo="19" ancho="126" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="NOTHING">
+      <posicion x="998" y="877" />
+      <dimensiones largo="19" ancho="110" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="SAID">
+      <posicion x="1114" y="877" />
+      <dimensiones largo="19" ancho="56" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="IN">
+      <posicion x="1176" y="877" />
+      <dimensiones largo="19" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="T1-IE">
+      <posicion x="1207" y="877" />
+      <dimensiones largo="19" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="MEDIATION">
+      <posicion x="1257" y="877" />
+      <dimensiones largo="19" ancho="136" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="CAN">
+      <posicion x="1398" y="877" />
+      <dimensiones largo="19" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="BE">
+      <posicion x="1453" y="876" />
+      <dimensiones largo="19" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="USED">
+      <posicion x="1491" y="877" />
+      <dimensiones largo="19" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="IN">
+      <posicion x="1558" y="877" />
+      <dimensiones largo="19" ancho="26" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="A">
+      <posicion x="1589" y="878" />
+      <dimensiones largo="19" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="22" blanks="0" confidence="66" texto="LATER">
+      <posicion x="1613" y="877" />
+      <dimensiones largo="19" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="ARBITRATION">
+      <posicion x="268" y="902" />
+      <dimensiones largo="19,5333333333333" ancho="154" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="OR">
+      <posicion x="430" y="903" />
+      <dimensiones largo="19,5333333333333" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="LAWSUl'l`.">
+      <posicion x="470" y="903" />
+      <dimensiones largo="19,5333333333333" ancho="108" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="COMPLETING">
+      <posicion x="596" y="902" />
+      <dimensiones largo="19,5333333333333" ancho="146" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="THE">
+      <posicion x="752" y="902" />
+      <dimensiones largo="19,5333333333333" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="MEDIATION">
+      <posicion x="805" y="902" />
+      <dimensiones largo="19,5333333333333" ancho="132" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="PROGRAM">
+      <posicion x="945" y="902" />
+      <dimensiones largo="19,5333333333333" ancho="116" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="MEANS">
+      <posicion x="1069" y="902" />
+      <dimensiones largo="19,5333333333333" ancho="84" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="PARTICIPATING">
+      <posicion x="1162" y="902" />
+      <dimensiones largo="19,5333333333333" ancho="180" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="IN">
+      <posicion x="1351" y="903" />
+      <dimensiones largo="19,5333333333333" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="GOOD">
+      <posicion x="1385" y="901" />
+      <dimensiones largo="19,5333333333333" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="FAITH">
+      <posicion x="1461" y="901" />
+      <dimensiones largo="19,5333333333333" ancho="70" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="IN">
+      <posicion x="1540" y="903" />
+      <dimensiones largo="19,5333333333333" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="AT">
+      <posicion x="1574" y="904" />
+      <dimensiones largo="19,5333333333333" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5333333333333" indicelinea="23" blanks="0" confidence="64" texto="LEAST">
+      <posicion x="1615" y="903" />
+      <dimensiones largo="19,5333333333333" ancho="74" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="ONE">
+      <posicion x="269" y="928" />
+      <dimensiones largo="19,6666666666667" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="TELEPHONIC">
+      <posicion x="330" y="928" />
+      <dimensiones largo="19,6666666666667" ancho="140" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="MEDIATION">
+      <posicion x="484" y="928" />
+      <dimensiones largo="19,6666666666667" ancho="130" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="SESSION.">
+      <posicion x="629" y="928" />
+      <dimensiones largo="19,6666666666667" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="CUSTOMER">
+      <posicion x="759" y="927" />
+      <dimensiones largo="19,6666666666667" ancho="126" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="CAN">
+      <posicion x="899" y="927" />
+      <dimensiones largo="19,6666666666667" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="CONTACT">
+      <posicion x="963" y="927" />
+      <dimensiones largo="19,6666666666667" ancho="112" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="CARRIER">
+      <posicion x="1089" y="927" />
+      <dimensiones largo="19,6666666666667" ancho="106" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="AT">
+      <posicion x="1210" y="928" />
+      <dimensiones largo="19,6666666666667" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="www.verizonwireless.•:om">
+      <posicion x="1257" y="928" />
+      <dimensiones largo="19,6666666666667" ancho="252" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="OR">
+      <posicion x="1524" y="928" />
+      <dimensiones largo="19,6666666666667" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6666666666667" indicelinea="24" blanks="0" confidence="52" texto="THROUGH">
+      <posicion x="1573" y="928" />
+      <dimensiones largo="19,6666666666667" ancho="116" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="25" blanks="0" confidence="76" texto="CUSTOMER">
+      <posicion x="270" y="953" />
+      <dimensiones largo="19,5" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="25" blanks="0" confidence="76" texto="SERVICE">
+      <posicion x="399" y="954" />
+      <dimensiones largo="19,5" ancho="94" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="25" blanks="0" confidence="76" texto="TO">
+      <posicion x="497" y="954" />
+      <dimensiones largo="19,5" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="25" blanks="0" confidence="76" texto="FIND">
+      <posicion x="533" y="954" />
+      <dimensiones largo="19,5" ancho="54" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="25" blanks="0" confidence="76" texto="OUT">
+      <posicion x="592" y="954" />
+      <dimensiones largo="19,5" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="25" blanks="0" confidence="76" texto="MORE.">
+      <posicion x="643" y="954" />
+      <dimensiones largo="19,5" ancho="72" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="Double" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="22.4.">
+      <posicion x="300" y="1005" />
+      <dimensiones largo="19,4705882352941" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="ONLY">
+      <posicion x="352" y="1005" />
+      <dimensiones largo="19,4705882352941" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="AN">
+      <posicion x="421" y="1006" />
+      <dimensiones largo="19,4705882352941" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="ARBITRATOR">
+      <posicion x="460" y="1004" />
+      <dimensiones largo="19,4705882352941" ancho="146" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="CAN">
+      <posicion x="612" y="1004" />
+      <dimensiones largo="19,4705882352941" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="DECIDE">
+      <posicion x="667" y="1004" />
+      <dimensiones largo="19,4705882352941" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="WHETHER">
+      <posicion x="760" y="1004" />
+      <dimensiones largo="19,4705882352941" ancho="114" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="AN">
+      <posicion x="879" y="1004" />
+      <dimensiones largo="19,4705882352941" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="ISSUE">
+      <posicion x="920" y="1004" />
+      <dimensiones largo="19,4705882352941" ancho="64" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="IS">
+      <posicion x="992" y="1004" />
+      <dimensiones largo="19,4705882352941" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="ARBITRABLE.">
+      <posicion x="1020" y="1005" />
+      <dimensiones largo="19,4705882352941" ancho="154" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="AN">
+      <posicion x="1189" y="1005" />
+      <dimensiones largo="19,4705882352941" ancho="36" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="ARBITRATOR">
+      <posicion x="1232" y="1005" />
+      <dimensiones largo="19,4705882352941" ancho="152" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="CAN">
+      <posicion x="1390" y="1005" />
+      <dimensiones largo="19,4705882352941" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="ALLOCATE">
+      <posicion x="1448" y="1005" />
+      <dimensiones largo="19,4705882352941" ancho="124" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="THE">
+      <posicion x="1580" y="1006" />
+      <dimensiones largo="19,4705882352941" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4705882352941" indicelinea="26" blanks="0" confidence="46" texto="FEES">
+      <posicion x="1633" y="1006" />
+      <dimensiones largo="19,4705882352941" ancho="56" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="AND">
+      <posicion x="269" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="COSTS">
+      <posicion x="327" y="1030" />
+      <dimensiones largo="19,1764705882353" ancho="72" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="OF">
+      <posicion x="408" y="1030" />
+      <dimensiones largo="19,1764705882353" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="ARBITRATION">
+      <posicion x="447" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="152" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="IN">
+      <posicion x="608" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="AN">
+      <posicion x="641" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="AWARD.">
+      <posicion x="685" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="92" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="IF">
+      <posicion x="796" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="AN">
+      <posicion x="829" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="APPLICABLE">
+      <posicion x="872" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="150" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="STATUTE">
+      <posicion x="1032" y="1030" />
+      <dimensiones largo="19,1764705882353" ancho="112" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="PROVIDES">
+      <posicion x="1154" y="1032" />
+      <dimensiones largo="19,1764705882353" ancho="122" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="FOR">
+      <posicion x="1286" y="1030" />
+      <dimensiones largo="19,1764705882353" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="AN">
+      <posicion x="1344" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="36" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="AWARD">
+      <posicion x="1389" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="92" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="OF">
+      <posicion x="1491" y="1032" />
+      <dimensiones largo="19,1764705882353" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,1764705882353" indicelinea="27" blanks="0" confidence="118" texto="A'I`I`0RNEY’S">
+      <posicion x="1533" y="1031" />
+      <dimensiones largo="19,1764705882353" ancho="156" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="FEES,">
+      <posicion x="271" y="1055" />
+      <dimensiones largo="19,8" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="AN">
+      <posicion x="347" y="1056" />
+      <dimensiones largo="19,8" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="ARBITRATOR">
+      <posicion x="396" y="1056" />
+      <dimensiones largo="19,8" ancho="154" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="CAN">
+      <posicion x="565" y="1056" />
+      <dimensiones largo="19,8" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="AWARD">
+      <posicion x="628" y="1056" />
+      <dimensiones largo="19,8" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="TIIEM,">
+      <posicion x="733" y="1056" />
+      <dimensiones largo="19,8" ancho="78" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="T00.">
+      <posicion x="826" y="1055" />
+      <dimensiones largo="19,8" ancho="58" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="ANY">
+      <posicion x="915" y="1055" />
+      <dimensiones largo="19,8" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="ARBITRATION">
+      <posicion x="979" y="1056" />
+      <dimensiones largo="19,8" ancho="162" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="AWARD">
+      <posicion x="1158" y="1056" />
+      <dimensiones largo="19,8" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="MADE">
+      <posicion x="1262" y="1057" />
+      <dimensiones largo="19,8" ancho="72" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="AFTER">
+      <posicion x="1348" y="1057" />
+      <dimensiones largo="19,8" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="COMPLETION">
+      <posicion x="1440" y="1058" />
+      <dimensiones largo="19,8" ancho="152" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="OF">
+      <posicion x="1608" y="1057" />
+      <dimensiones largo="19,8" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,8" indicelinea="28" blanks="0" confidence="64" texto="AN">
+      <posicion x="1655" y="1058" />
+      <dimensiones largo="19,8" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="ARBITRATION">
+      <posicion x="269" y="1082" />
+      <dimensiones largo="19,7058823529412" ancho="154" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="IS">
+      <posicion x="430" y="1082" />
+      <dimensiones largo="19,7058823529412" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="FINAL">
+      <posicion x="459" y="1082" />
+      <dimensiones largo="19,7058823529412" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="AND">
+      <posicion x="535" y="1081" />
+      <dimensiones largo="19,7058823529412" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="BINDING">
+      <posicion x="592" y="1081" />
+      <dimensiones largo="19,7058823529412" ancho="96" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="AND">
+      <posicion x="697" y="1081" />
+      <dimensiones largo="19,7058823529412" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="MAY">
+      <posicion x="755" y="1081" />
+      <dimensiones largo="19,7058823529412" ancho="54" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="BE">
+      <posicion x="816" y="1081" />
+      <dimensiones largo="19,7058823529412" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="CONFIRMED">
+      <posicion x="856" y="1081" />
+      <dimensiones largo="19,7058823529412" ancho="136" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="IN">
+      <posicion x="1001" y="1082" />
+      <dimensiones largo="19,7058823529412" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="ANY">
+      <posicion x="1033" y="1083" />
+      <dimensiones largo="19,7058823529412" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="COURT">
+      <posicion x="1093" y="1081" />
+      <dimensiones largo="19,7058823529412" ancho="82" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="OF">
+      <posicion x="1184" y="1082" />
+      <dimensiones largo="19,7058823529412" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="COMPETENT">
+      <posicion x="1223" y="1082" />
+      <dimensiones largo="19,7058823529412" ancho="142" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="JURISDICTION.">
+      <posicion x="1373" y="1082" />
+      <dimensiones largo="19,7058823529412" ancho="166" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="AN">
+      <posicion x="1557" y="1084" />
+      <dimensiones largo="19,7058823529412" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7058823529412" indicelinea="29" blanks="0" confidence="50" texto="AWARD">
+      <posicion x="1600" y="1083" />
+      <dimensiones largo="19,7058823529412" ancho="90" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="AND">
+      <posicion x="269" y="1107" />
+      <dimensiones largo="19,0555555555556" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="ANY">
+      <posicion x="327" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="IUDGMENT">
+      <posicion x="386" y="1107" />
+      <dimensiones largo="19,0555555555556" ancho="122" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="CONFIRMING">
+      <posicion x="517" y="1107" />
+      <dimensiones largo="19,0555555555556" ancho="144" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="IT">
+      <posicion x="670" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="ONLY">
+      <posicion x="700" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="APFLIES">
+      <posicion x="774" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="92" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="TO">
+      <posicion x="875" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="TI­IE">
+      <posicion x="915" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="ARBITRATION">
+      <posicion x="970" y="1107" />
+      <dimensiones largo="19,0555555555556" ancho="160" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="IN">
+      <posicion x="1140" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="WHICH">
+      <posicion x="1174" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="IT">
+      <posicion x="1264" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="WAS">
+      <posicion x="1297" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="AWARDED">
+      <posicion x="1359" y="1109" />
+      <dimensiones largo="19,0555555555556" ancho="122" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="AND">
+      <posicion x="1489" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="CANNOT">
+      <posicion x="1549" y="1108" />
+      <dimensiones largo="19,0555555555556" ancho="100" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,0555555555556" indicelinea="30" blanks="0" confidence="61" texto="BE">
+      <posicion x="1659" y="1109" />
+      <dimensiones largo="19,0555555555556" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="USED">
+      <posicion x="270" y="1132" />
+      <dimensiones largo="19,5454545454545" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="IN">
+      <posicion x="335" y="1133" />
+      <dimensiones largo="19,5454545454545" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="ANY">
+      <posicion x="363" y="1133" />
+      <dimensiones largo="19,5454545454545" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="OTHER">
+      <posicion x="417" y="1133" />
+      <dimensiones largo="19,5454545454545" ancho="78" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="CASE">
+      <posicion x="499" y="1133" />
+      <dimensiones largo="19,5454545454545" ancho="58" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="EXCEPT">
+      <posicion x="563" y="1132" />
+      <dimensiones largo="19,5454545454545" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="TO">
+      <posicion x="653" y="1134" />
+      <dimensiones largo="19,5454545454545" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="ENFORCE">
+      <posicion x="691" y="1133" />
+      <dimensiones largo="19,5454545454545" ancho="104" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="THE">
+      <posicion x="801" y="1132" />
+      <dimensiones largo="19,5454545454545" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="AWARD">
+      <posicion x="852" y="1133" />
+      <dimensiones largo="19,5454545454545" ancho="88" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5454545454545" indicelinea="31" blanks="0" confidence="137" texto="ITSELF.">
+      <posicion x="945" y="1133" />
+      <dimensiones largo="19,5454545454545" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="Double" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="22.5.">
+      <posicion x="300" y="1184" />
+      <dimensiones largo="19,375" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="IF">
+      <posicion x="352" y="1185" />
+      <dimensiones largo="19,375" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="FOR">
+      <posicion x="382" y="1185" />
+      <dimensiones largo="19,375" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="SOME">
+      <posicion x="436" y="1184" />
+      <dimensiones largo="19,375" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="REASON">
+      <posicion x="511" y="1185" />
+      <dimensiones largo="19,375" ancho="94" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="THESE">
+      <posicion x="613" y="1185" />
+      <dimensiones largo="19,375" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="ARBITRATION">
+      <posicion x="696" y="1185" />
+      <dimensiones largo="19,375" ancho="166" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="REQUIREMENTS">
+      <posicion x="869" y="1185" />
+      <dimensiones largo="19,375" ancho="192" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="DON‛T">
+      <posicion x="1067" y="1185" />
+      <dimensiones largo="19,375" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="APPLY,">
+      <posicion x="1153" y="1185" />
+      <dimensiones largo="19,375" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="EACH">
+      <posicion x="1247" y="1185" />
+      <dimensiones largo="19,375" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="PARTY">
+      <posicion x="1322" y="1185" />
+      <dimensiones largo="19,375" ancho="82" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="WAIVES">
+      <posicion x="1411" y="1185" />
+      <dimensiones largo="19,375" ancho="96" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="ANY">
+      <posicion x="1513" y="1187" />
+      <dimensiones largo="19,375" ancho="54" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="TRIAL">
+      <posicion x="1573" y="1187" />
+      <dimensiones largo="19,375" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,375" indicelinea="32" blanks="0" confidence="78" texto="BY">
+      <posicion x="1656" y="1186" />
+      <dimensiones largo="19,375" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="17" indicelinea="33" blanks="0" confidence="116" texto="JURY.">
+      <posicion x="268" y="1210" />
+      <dimensiones largo="17" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="Double" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="23.">
+      <posicion x="249" y="1260" />
+      <dimensiones largo="21,05" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="Entire">
+      <posicion x="284" y="1260" />
+      <dimensiones largo="21,05" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="Agreement:">
+      <posicion x="351" y="1261" />
+      <dimensiones largo="21,05" ancho="114" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="This">
+      <posicion x="471" y="1260" />
+      <dimensiones largo="21,05" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="Agreement,">
+      <posicion x="519" y="1261" />
+      <dimensiones largo="21,05" ancho="106" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="together">
+      <posicion x="631" y="1261" />
+      <dimensiones largo="21,05" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="with">
+      <posicion x="711" y="1260" />
+      <dimensiones largo="21,05" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="the">
+      <posicion x="761" y="1260" />
+      <dimensiones largo="21,05" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="Attachment">
+      <posicion x="794" y="1260" />
+      <dimensiones largo="21,05" ancho="110" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="I,">
+      <posicion x="912" y="1261" />
+      <dimensiones largo="21,05" ancho="16" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="ifapplieable,">
+      <posicion x="936" y="1260" />
+      <dimensiones largo="21,05" ancho="120" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="contains">
+      <posicion x="1063" y="1260" />
+      <dimensiones largo="21,05" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="the">
+      <posicion x="1148" y="1260" />
+      <dimensiones largo="21,05" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="full">
+      <posicion x="1186" y="1260" />
+      <dimensiones largo="21,05" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="and">
+      <posicion x="1225" y="1262" />
+      <dimensiones largo="21,05" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="complete">
+      <posicion x="1265" y="1262" />
+      <dimensiones largo="21,05" ancho="88" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="understanding">
+      <posicion x="1358" y="1261" />
+      <dimensiones largo="21,05" ancho="136" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="between">
+      <posicion x="1498" y="1263" />
+      <dimensiones largo="21,05" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="the">
+      <posicion x="1583" y="1262" />
+      <dimensiones largo="21,05" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,05" indicelinea="34" blanks="0" confidence="77" texto="panies,">
+      <posicion x="1619" y="1262" />
+      <dimensiones largo="21,05" ancho="70" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="supersedes">
+      <posicion x="270" y="1287" />
+      <dimensiones largo="19,6818181818182" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="all">
+      <posicion x="376" y="1286" />
+      <dimensiones largo="19,6818181818182" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="prior">
+      <posicion x="408" y="1285" />
+      <dimensiones largo="19,6818181818182" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="agreements">
+      <posicion x="461" y="1289" />
+      <dimensiones largo="19,6818181818182" ancho="104" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="and">
+      <posicion x="574" y="1286" />
+      <dimensiones largo="19,6818181818182" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="understzndings,">
+      <posicion x="615" y="1285" />
+      <dimensiones largo="19,6818181818182" ancho="144" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="whether">
+      <posicion x="768" y="1286" />
+      <dimensiones largo="19,6818181818182" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="written">
+      <posicion x="852" y="1286" />
+      <dimensiones largo="19,6818181818182" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="or">
+      <posicion x="926" y="1291" />
+      <dimensiones largo="19,6818181818182" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="oral">
+      <posicion x="954" y="1286" />
+      <dimensiones largo="19,6818181818182" ancho="36" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="pertaining">
+      <posicion x="999" y="1286" />
+      <dimensiones largo="19,6818181818182" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="to">
+      <posicion x="1105" y="1289" />
+      <dimensiones largo="19,6818181818182" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="the">
+      <posicion x="1133" y="1286" />
+      <dimensiones largo="19,6818181818182" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="services">
+      <posicion x="1172" y="1286" />
+      <dimensiones largo="19,6818181818182" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="and">
+      <posicion x="1257" y="1288" />
+      <dimensiones largo="19,6818181818182" ancho="36" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="cannot">
+      <posicion x="1302" y="1290" />
+      <dimensiones largo="19,6818181818182" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="be">
+      <posicion x="1372" y="1288" />
+      <dimensiones largo="19,6818181818182" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="modiñed">
+      <posicion x="1404" y="1287" />
+      <dimensiones largo="19,6818181818182" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="except">
+      <posicion x="1499" y="1292" />
+      <dimensiones largo="19,6818181818182" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="by">
+      <posicion x="1570" y="1289" />
+      <dimensiones largo="19,6818181818182" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="a">
+      <posicion x="1602" y="1294" />
+      <dimensiones largo="19,6818181818182" ancho="12" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,6818181818182" indicelinea="35" blanks="0" confidence="117" texto="written">
+      <posicion x="1622" y="1288" />
+      <dimensiones largo="19,6818181818182" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,6" indicelinea="36" blanks="0" confidence="103" texto="instrument">
+      <posicion x="270" y="1312" />
+      <dimensiones largo="21,6" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,6" indicelinea="36" blanks="0" confidence="103" texto="signed">
+      <posicion x="372" y="1312" />
+      <dimensiones largo="21,6" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,6" indicelinea="36" blanks="0" confidence="103" texto="by">
+      <posicion x="438" y="1312" />
+      <dimensiones largo="21,6" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,6" indicelinea="36" blanks="0" confidence="103" texto="both">
+      <posicion x="464" y="1312" />
+      <dimensiones largo="21,6" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="21,6" indicelinea="36" blanks="0" confidence="103" texto="parties.">
+      <posicion x="511" y="1312" />
+      <dimensiones largo="21,6" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="Double" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="24.">
+      <posicion x="249" y="1363" />
+      <dimensiones largo="19,7777777777778" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="Governing">
+      <posicion x="282" y="1363" />
+      <dimensiones largo="19,7777777777778" ancho="106" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="Law:">
+      <posicion x="395" y="1363" />
+      <dimensiones largo="19,7777777777778" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="This">
+      <posicion x="452" y="1364" />
+      <dimensiones largo="19,7777777777778" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="Agreement">
+      <posicion x="501" y="1365" />
+      <dimensiones largo="19,7777777777778" ancho="102" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="shall">
+      <posicion x="608" y="1363" />
+      <dimensiones largo="19,7777777777778" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="be">
+      <posicion x="661" y="1363" />
+      <dimensiones largo="19,7777777777778" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="govemed">
+      <posicion x="690" y="1363" />
+      <dimensiones largo="19,7777777777778" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="by">
+      <posicion x="784" y="1362" />
+      <dimensiones largo="19,7777777777778" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="the">
+      <posicion x="815" y="1362" />
+      <dimensiones largo="19,7777777777778" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="laws">
+      <posicion x="853" y="1363" />
+      <dimensiones largo="19,7777777777778" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="of">
+      <posicion x="902" y="1362" />
+      <dimensiones largo="19,7777777777778" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="the">
+      <posicion x="931" y="1363" />
+      <dimensiones largo="19,7777777777778" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="State">
+      <posicion x="966" y="1364" />
+      <dimensiones largo="19,7777777777778" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="of">
+      <posicion x="1021" y="1362" />
+      <dimensiones largo="19,7777777777778" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="New">
+      <posicion x="1049" y="1364" />
+      <dimensiones largo="19,7777777777778" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="York">
+      <posicion x="1102" y="1364" />
+      <dimensiones largo="19,7777777777778" ancho="50" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="regardless">
+      <posicion x="1160" y="1363" />
+      <dimensiones largo="19,7777777777778" ancho="96" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="of">
+      <posicion x="1264" y="1364" />
+      <dimensiones largo="19,7777777777778" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="any">
+      <posicion x="1293" y="1369" />
+      <dimensiones largo="19,7777777777778" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="conflicts">
+      <posicion x="1335" y="1365" />
+      <dimensiones largo="19,7777777777778" ancho="82" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="of">
+      <posicion x="1423" y="1365" />
+      <dimensiones largo="19,7777777777778" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="laws">
+      <posicion x="1452" y="1366" />
+      <dimensiones largo="19,7777777777778" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="or">
+      <posicion x="1503" y="1370" />
+      <dimensiones largo="19,7777777777778" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="rules">
+      <posicion x="1532" y="1365" />
+      <dimensiones largo="19,7777777777778" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="that">
+      <posicion x="1586" y="1366" />
+      <dimensiones largo="19,7777777777778" ancho="36" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,7777777777778" indicelinea="37" blanks="0" confidence="92" texto="would">
+      <posicion x="1629" y="1365" />
+      <dimensiones largo="19,7777777777778" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="require">
+      <posicion x="269" y="1389" />
+      <dimensiones largo="20,1739130434783" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="the">
+      <posicion x="339" y="1390" />
+      <dimensiones largo="20,1739130434783" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="application">
+      <posicion x="373" y="1388" />
+      <dimensiones largo="20,1739130434783" ancho="102" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="ofthc">
+      <posicion x="479" y="1388" />
+      <dimensiones largo="20,1739130434783" ancho="54" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="laws">
+      <posicion x="538" y="1389" />
+      <dimensiones largo="20,1739130434783" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="of">
+      <posicion x="585" y="1388" />
+      <dimensiones largo="20,1739130434783" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="another">
+      <posicion x="611" y="1388" />
+      <dimensiones largo="20,1739130434783" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="jurisdiction.">
+      <posicion x="681" y="1388" />
+      <dimensiones largo="20,1739130434783" ancho="114" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="Disputes">
+      <posicion x="800" y="1389" />
+      <dimensiones largo="20,1739130434783" ancho="82" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="requiring">
+      <posicion x="887" y="1389" />
+      <dimensiones largo="20,1739130434783" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="arbitration">
+      <posicion x="977" y="1388" />
+      <dimensiones largo="20,1739130434783" ancho="100" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="shall">
+      <posicion x="1083" y="1390" />
+      <dimensiones largo="20,1739130434783" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="be">
+      <posicion x="1134" y="1390" />
+      <dimensiones largo="20,1739130434783" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="resolved">
+      <posicion x="1162" y="1389" />
+      <dimensiones largo="20,1739130434783" ancho="80" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="in">
+      <posicion x="1247" y="1389" />
+      <dimensiones largo="20,1739130434783" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="New">
+      <posicion x="1272" y="1389" />
+      <dimensiones largo="20,1739130434783" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="York">
+      <posicion x="1324" y="1391" />
+      <dimensiones largo="20,1739130434783" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="City">
+      <posicion x="1377" y="1390" />
+      <dimensiones largo="20,1739130434783" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="or">
+      <posicion x="1423" y="1396" />
+      <dimensiones largo="20,1739130434783" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="Dallas,">
+      <posicion x="1450" y="1391" />
+      <dimensiones largo="20,1739130434783" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="TX">
+      <posicion x="1522" y="1392" />
+      <dimensiones largo="20,1739130434783" ancho="32" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="for">
+      <posicion x="1560" y="1392" />
+      <dimensiones largo="20,1739130434783" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="20,1739130434783" indicelinea="38" blanks="0" confidence="63" texto="customers">
+      <posicion x="1592" y="1395" />
+      <dimensiones largo="20,1739130434783" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="with">
+      <posicion x="269" y="1414" />
+      <dimensiones largo="19,4814814814815" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="ten">
+      <posicion x="315" y="1417" />
+      <dimensiones largo="19,4814814814815" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="(10)">
+      <posicion x="350" y="1414" />
+      <dimensiones largo="19,4814814814815" ancho="38" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="or">
+      <posicion x="392" y="1419" />
+      <dimensiones largo="19,4814814814815" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="more">
+      <posicion x="416" y="1419" />
+      <dimensiones largo="19,4814814814815" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="wireless">
+      <posicion x="468" y="1414" />
+      <dimensiones largo="19,4814814814815" ancho="76" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="devices">
+      <posicion x="550" y="1414" />
+      <dimensiones largo="19,4814814814815" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="in">
+      <posicion x="624" y="1414" />
+      <dimensiones largo="19,4814814814815" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="service">
+      <posicion x="646" y="1413" />
+      <dimensiones largo="19,4814814814815" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="and">
+      <posicion x="716" y="1414" />
+      <dimensiones largo="19,4814814814815" ancho="36" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="in">
+      <posicion x="758" y="1415" />
+      <dimensiones largo="19,4814814814815" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="the">
+      <posicion x="779" y="1415" />
+      <dimensiones largo="19,4814814814815" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="largest">
+      <posicion x="815" y="1415" />
+      <dimensiones largo="19,4814814814815" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="U.S.">
+      <posicion x="881" y="1414" />
+      <dimensiones largo="19,4814814814815" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="city">
+      <posicion x="930" y="1413" />
+      <dimensiones largo="19,4814814814815" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="within">
+      <posicion x="968" y="1413" />
+      <dimensiones largo="19,4814814814815" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="Int32" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="200">
+      <posicion x="1034" y="1413" />
+      <dimensiones largo="19,4814814814815" ancho="38" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="miles">
+      <posicion x="1077" y="1415" />
+      <dimensiones largo="19,4814814814815" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="of">
+      <posicion x="1134" y="1415" />
+      <dimensiones largo="19,4814814814815" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="custnmefs">
+      <posicion x="1160" y="1415" />
+      <dimensiones largo="19,4814814814815" ancho="104" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="billing">
+      <posicion x="1271" y="1415" />
+      <dimensiones largo="19,4814814814815" ancho="62" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="address">
+      <posicion x="1337" y="1416" />
+      <dimensiones largo="19,4814814814815" ancho="72" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="for">
+      <posicion x="1415" y="1416" />
+      <dimensiones largo="19,4814814814815" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="those">
+      <posicion x="1446" y="1417" />
+      <dimensiones largo="19,4814814814815" ancho="52" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="customers">
+      <posicion x="1503" y="1418" />
+      <dimensiones largo="19,4814814814815" ancho="96" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="with">
+      <posicion x="1604" y="1416" />
+      <dimensiones largo="19,4814814814815" ancho="44" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,4814814814815" indicelinea="39" blanks="0" confidence="134" texto="less">
+      <posicion x="1654" y="1417" />
+      <dimensiones largo="19,4814814814815" ancho="36" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="40" blanks="0" confidence="61" texto="than">
+      <posicion x="270" y="1440" />
+      <dimensiones largo="19,5" ancho="40" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="40" blanks="0" confidence="61" texto="ten">
+      <posicion x="315" y="1442" />
+      <dimensiones largo="19,5" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="40" blanks="0" confidence="61" texto="(10)">
+      <posicion x="349" y="1440" />
+      <dimensiones largo="19,5" ancho="38" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="40" blanks="0" confidence="61" texto="devicœ">
+      <posicion x="391" y="1440" />
+      <dimensiones largo="19,5" ancho="68" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="40" blanks="0" confidence="61" texto="in">
+      <posicion x="465" y="1440" />
+      <dimensiones largo="19,5" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="40" blanks="0" confidence="61" texto="Service.">
+      <posicion x="487" y="1439" />
+      <dimensiones largo="19,5" ancho="70" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="Double" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="25.">
+      <posicion x="249" y="1491" />
+      <dimensiones largo="19,5416666666667" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="Execution">
+      <posicion x="283" y="1491" />
+      <dimensiones largo="19,5416666666667" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="of">
+      <posicion x="387" y="1491" />
+      <dimensiones largo="19,5416666666667" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="Agreement:">
+      <posicion x="413" y="1492" />
+      <dimensiones largo="19,5416666666667" ancho="114" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="This">
+      <posicion x="533" y="1491" />
+      <dimensiones largo="19,5416666666667" ancho="42" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="Agreement">
+      <posicion x="580" y="1492" />
+      <dimensiones largo="19,5416666666667" ancho="102" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="may">
+      <posicion x="688" y="1495" />
+      <dimensiones largo="19,5416666666667" ancho="40" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="be">
+      <posicion x="733" y="1490" />
+      <dimensiones largo="19,5416666666667" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="executed">
+      <posicion x="762" y="1490" />
+      <dimensiones largo="19,5416666666667" ancho="84" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="in">
+      <posicion x="854" y="1490" />
+      <dimensiones largo="19,5416666666667" ancho="18" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="several">
+      <posicion x="877" y="1491" />
+      <dimensiones largo="19,5416666666667" ancho="66" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="counterparts,">
+      <posicion x="949" y="1493" />
+      <dimensiones largo="19,5416666666667" ancho="122" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="a">
+      <posicion x="1078" y="1496" />
+      <dimensiones largo="19,5416666666667" ancho="12" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="copy">
+      <posicion x="1095" y="1497" />
+      <dimensiones largo="19,5416666666667" ancho="48" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="of">
+      <posicion x="1147" y="1492" />
+      <dimensiones largo="19,5416666666667" ancho="26" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="which">
+      <posicion x="1175" y="1491" />
+      <dimensiones largo="19,5416666666667" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="shall">
+      <posicion x="1240" y="1492" />
+      <dimensiones largo="19,5416666666667" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="be">
+      <posicion x="1294" y="1493" />
+      <dimensiones largo="19,5416666666667" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="considered">
+      <posicion x="1321" y="1493" />
+      <dimensiones largo="19,5416666666667" ancho="102" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="an">
+      <posicion x="1429" y="1498" />
+      <dimensiones largo="19,5416666666667" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="original">
+      <posicion x="1459" y="1493" />
+      <dimensiones largo="19,5416666666667" ancho="74" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="for">
+      <posicion x="1540" y="1493" />
+      <dimensiones largo="19,5416666666667" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="all">
+      <posicion x="1575" y="1493" />
+      <dimensiones largo="19,5416666666667" ancho="22" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5416666666667" indicelinea="41" blanks="0" confidence="98" texto="purposes">
+      <posicion x="1604" y="1498" />
+      <dimensiones largo="19,5416666666667" ancho="86" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19" indicelinea="42" blanks="0" confidence="67" texto="whatsoever.">
+      <posicion x="268" y="1518" />
+      <dimensiones largo="19" ancho="110" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="Double" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="26.">
+      <posicion x="249" y="1568" />
+      <dimensiones largo="19,5" ancho="28" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="IN">
+      <posicion x="284" y="1568" />
+      <dimensiones largo="19,5" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="WITNESS">
+      <posicion x="313" y="1568" />
+      <dimensiones largo="19,5" ancho="98" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="WHEREOF,">
+      <posicion x="416" y="1568" />
+      <dimensiones largo="19,5" ancho="116" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="the">
+      <posicion x="537" y="1568" />
+      <dimensiones largo="19,5" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="parties">
+      <posicion x="571" y="1567" />
+      <dimensiones largo="19,5" ancho="60" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="hereto">
+      <posicion x="637" y="1569" />
+      <dimensiones largo="19,5" ancho="58" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="have">
+      <posicion x="698" y="1568" />
+      <dimensiones largo="19,5" ancho="46" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="executed">
+      <posicion x="749" y="1568" />
+      <dimensiones largo="19,5" ancho="82" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="this">
+      <posicion x="837" y="1568" />
+      <dimensiones largo="19,5" ancho="34" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="Agreement">
+      <posicion x="876" y="1568" />
+      <dimensiones largo="19,5" ancho="102" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="as">
+      <posicion x="984" y="1572" />
+      <dimensiones largo="19,5" ancho="20" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="of">
+      <posicion x="1009" y="1568" />
+      <dimensiones largo="19,5" ancho="24" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="the">
+      <posicion x="1034" y="1568" />
+      <dimensiones largo="19,5" ancho="30" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="date">
+      <posicion x="1070" y="1567" />
+      <dimensiones largo="19,5" ancho="40" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="ñrst">
+      <posicion x="1116" y="1568" />
+      <dimensiones largo="19,5" ancho="38" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="above">
+      <posicion x="1159" y="1568" />
+      <dimensiones largo="19,5" ancho="58" />
+    </palabra>
+    <palabra secpalabra="0" tipodato="String" fontsize="19,5" indicelinea="43" blanks="0" confidence="147,071428571429" texto="written.">
+      <posicion x="1221" y="1568" />
+      <dimensiones largo="19,5" ancho="74" />
+    </palabra>
+  </cuerpo>
+</pagina>

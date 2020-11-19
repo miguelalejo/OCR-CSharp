@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRepotiempoprocesamiento" targetNamespace="http://tempuri.org/DataSetRepotiempoprocesamiento.xsd" xmlns:mstns="http://tempuri.org/DataSetRepotiempoprocesamiento.xsd" xmlns="http://tempuri.org/DataSetRepotiempoprocesamiento.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="repotiempoprocesamientoTableAdapter" GeneratorDataComponentClassName="repotiempoprocesamientoTableAdapter" Name="repotiempoprocesamiento" UserDataComponentName="repotiempoprocesamientoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectName="ocr_uce.repotiempoprocesamiento" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT `DIAS`, `HORAS`, `MINUTOS`, `SEGUNDOS`, `ba_ocr_descripcion` FROM `repotiempoprocesamiento`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DIAS" DataSetColumn="DIAS" />
+              <Mapping SourceColumn="HORAS" DataSetColumn="HORAS" />
+              <Mapping SourceColumn="MINUTOS" DataSetColumn="MINUTOS" />
+              <Mapping SourceColumn="SEGUNDOS" DataSetColumn="SEGUNDOS" />
+              <Mapping SourceColumn="ba_ocr_descripcion" DataSetColumn="ba_ocr_descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRepotiempoprocesamiento" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetRepotiempoprocesamiento" msprop:Generator_DataSetName="DataSetRepotiempoprocesamiento" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="repotiempoprocesamiento" msprop:Generator_UserTableName="repotiempoprocesamiento" msprop:Generator_RowDeletedName="repotiempoprocesamientoRowDeleted" msprop:Generator_RowChangedName="repotiempoprocesamientoRowChanged" msprop:Generator_RowClassName="repotiempoprocesamientoRow" msprop:Generator_RowChangingName="repotiempoprocesamientoRowChanging" msprop:Generator_RowEvArgName="repotiempoprocesamientoRowChangeEvent" msprop:Generator_RowEvHandlerName="repotiempoprocesamientoRowChangeEventHandler" msprop:Generator_TableClassName="repotiempoprocesamientoDataTable" msprop:Generator_TableVarName="tablerepotiempoprocesamiento" msprop:Generator_RowDeletingName="repotiempoprocesamientoRowDeleting" msprop:Generator_TablePropName="repotiempoprocesamiento">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DIAS" msprop:Generator_UserColumnName="DIAS" msprop:Generator_ColumnVarNameInTable="columnDIAS" msprop:Generator_ColumnPropNameInRow="DIAS" msprop:Generator_ColumnPropNameInTable="DIASColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="HORAS" msprop:Generator_UserColumnName="HORAS" msprop:Generator_ColumnVarNameInTable="columnHORAS" msprop:Generator_ColumnPropNameInRow="HORAS" msprop:Generator_ColumnPropNameInTable="HORASColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MINUTOS" msprop:Generator_UserColumnName="MINUTOS" msprop:Generator_ColumnVarNameInTable="columnMINUTOS" msprop:Generator_ColumnPropNameInRow="MINUTOS" msprop:Generator_ColumnPropNameInTable="MINUTOSColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SEGUNDOS" msprop:Generator_UserColumnName="SEGUNDOS" msprop:Generator_ColumnVarNameInTable="columnSEGUNDOS" msprop:Generator_ColumnPropNameInRow="SEGUNDOS" msprop:Generator_ColumnPropNameInTable="SEGUNDOSColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ba_ocr_descripcion" msprop:Generator_UserColumnName="ba_ocr_descripcion" msprop:Generator_ColumnVarNameInTable="columnba_ocr_descripcion" msprop:Generator_ColumnPropNameInRow="ba_ocr_descripcion" msprop:Generator_ColumnPropNameInTable="ba_ocr_descripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

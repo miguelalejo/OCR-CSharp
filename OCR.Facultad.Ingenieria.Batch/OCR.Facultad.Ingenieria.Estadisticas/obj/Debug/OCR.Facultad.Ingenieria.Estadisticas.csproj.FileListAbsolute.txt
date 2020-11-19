@@ -1,0 +1,15 @@
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.pdb
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Debug\OCR.Facultad.Ingenieria.Estadisticas.dll
+C:\Users\MikeLaptop\Documents\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Debug\OCR.Facultad.Ingenieria.Estadisticas.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Debug\ResolveAssemblyReference.cache
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Debug\OCR.Facultad.Ingenieria.Estadisticas.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Debug\OCR.Facultad.Ingenieria.Estadisticas.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\bin\Debug\OCR.Facultad.Ingenieria.Estadisticas.pdb
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Debug\ResolveAssemblyReference.cache
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Debug\OCR.Facultad.Ingenieria.Estadisticas.dll
+E:\Tesis\Fuentes\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Debug\OCR.Facultad.Ingenieria.Estadisticas.pdb

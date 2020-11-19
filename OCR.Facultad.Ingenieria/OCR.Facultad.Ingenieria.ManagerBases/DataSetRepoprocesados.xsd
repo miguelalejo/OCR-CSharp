@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRepoprocesados" targetNamespace="http://tempuri.org/DataSetRepoprocesados.xsd" xmlns:mstns="http://tempuri.org/DataSetRepoprocesados.xsd" xmlns="http://tempuri.org/DataSetRepoprocesados.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="repoprocesadosTableAdapter" GeneratorDataComponentClassName="repoprocesadosTableAdapter" Name="repoprocesados" UserDataComponentName="repoprocesadosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectName="ocr_uce.repoprocesados" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT `PROCESADOS`, `NOPROCESADOS` FROM `repoprocesados`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PROCESADOS" DataSetColumn="PROCESADOS" />
+              <Mapping SourceColumn="NOPROCESADOS" DataSetColumn="NOPROCESADOS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRepoprocesados" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetRepoprocesados" msprop:Generator_DataSetName="DataSetRepoprocesados" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="repoprocesados" msprop:Generator_UserTableName="repoprocesados" msprop:Generator_RowDeletedName="repoprocesadosRowDeleted" msprop:Generator_RowChangedName="repoprocesadosRowChanged" msprop:Generator_RowClassName="repoprocesadosRow" msprop:Generator_RowChangingName="repoprocesadosRowChanging" msprop:Generator_RowEvArgName="repoprocesadosRowChangeEvent" msprop:Generator_RowEvHandlerName="repoprocesadosRowChangeEventHandler" msprop:Generator_TableClassName="repoprocesadosDataTable" msprop:Generator_TableVarName="tablerepoprocesados" msprop:Generator_RowDeletingName="repoprocesadosRowDeleting" msprop:Generator_TablePropName="repoprocesados">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PROCESADOS" msprop:Generator_UserColumnName="PROCESADOS" msprop:Generator_ColumnVarNameInTable="columnPROCESADOS" msprop:Generator_ColumnPropNameInRow="PROCESADOS" msprop:Generator_ColumnPropNameInTable="PROCESADOSColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="NOPROCESADOS" msprop:Generator_UserColumnName="NOPROCESADOS" msprop:Generator_ColumnVarNameInTable="columnNOPROCESADOS" msprop:Generator_ColumnPropNameInRow="NOPROCESADOS" msprop:Generator_ColumnPropNameInTable="NOPROCESADOSColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

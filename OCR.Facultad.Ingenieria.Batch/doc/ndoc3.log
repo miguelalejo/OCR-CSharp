@@ -1,0 +1,1210 @@
+Building documentation...
+Memory before build: 658752
+Initializing...
+Merging XML documentation...
+Cached doc : ocr.facultad.ingenieria.libreriasopenpdfocr.xml (0,078 sec.)
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute':
+<summary>
+            This attribute is used to represent a string value
+            for a value in an enum.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute.#ctor(System.String)':
+<summary>
+            Constructor used to init a StringValue Attribute
+            </summary>
+<param name="value"></param>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute.ToString':
+<summary>
+            Will get the string value for a given enums value, this will
+            only work if you assign the StringValue attribute to
+            the items in your enum.
+            </summary>
+<param name="value"></param>
+<returns></returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute.EnumStringValue':
+<summary>
+            Holds the stringvalue for a value in an enum.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:ONX.Cmn.MemoryCleaner':
+<summary>
+            Clase utilizada para realizar la limpieza de Objetos en Memoria
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:ONX.Cmn.MemoryCleaner.PERIOD_IN_MS':
+<summary>
+            Constante Intervalo de tiempo para la revisión de la carga en memoria
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:ONX.Cmn.MemoryCleaner.Counter_':
+<summary>
+            Contador de eventos de bloqueo
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:ONX.Cmn.MemoryCleaner.thread_':
+<summary>
+            Hilo de programación
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:ONX.Cmn.MemoryCleaner.event_':
+<summary>
+            Manejador de interbloqueo de eventos.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:ONX.Cmn.MemoryCleaner.#ctor':
+<summary>
+            Constructor por defecto
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:ONX.Cmn.MemoryCleaner.Start':
+<summary>
+            Método utilizado para iniciar el proceso de recolección de objetos en Memoria
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:ONX.Cmn.MemoryCleaner.Stop':
+<summary>
+            Método utilizado para detener el proceso de recolección de objetos en Memoria
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:ONX.Cmn.MemoryCleaner.run':
+<summary>
+            Método utilzado como un subproceso de un hilo de ejecución dedicado a liberar la memoria.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.isException':
+<summary>
+            Indica si existe una excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.mensaje':
+<summary>
+            Mensaje descriptivo del tipo de excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.#ctor(System.Boolean,System.String)':
+<summary>
+            Constructor para una excepcion  
+            </summary>
+<param name="unisException">TRUE si existe una excepción</param>
+<param name="unmensaje">Mensaje descriptivo de la excepción</param>
+<example>Como disparar una Excepción de tipo ExceptionThreadOCR 
+            <code>
+            throw new ExceptionThreadOCR(true,"Memoria Insuficiente");
+            </code></example>
+<example>Como capturar una Excepción de tipo ExceptionThreadOCR 
+            <code>
+            try
+            {
+                throw new ExceptionThreadOCR(true,"Memoria Insuficiente");
+            }
+            catch(ExceptionThreadOCR error)
+            {
+                MessageBox.Show(error.Message);
+            }    
+            </code></example>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.#ctor':
+<summary>
+            Constructor por defecto
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.IsException':
+<summary>
+             Indica si existe una excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.Message':
+<summary>
+            Mensaje descriptivo del tipo de excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.HResultado':
+<summary>
+            HResult del tipo de error producido por una excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:AMA.Util.TiffManager':
+<summary>
+            Presenta una serie de métodos para el manejo de archivos TIFF.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:AMA.Util.TiffManager._ImageFileName':
+<summary>
+            Nombre del archivo TIFF.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:AMA.Util.TiffManager._PageNumber':
+<summary>
+            Número de páginas del archivo TIFF.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:AMA.Util.TiffManager.image':
+<summary>
+            Objeto tipo Imagen del archivo TIFF.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:AMA.Util.TiffManager._TempWorkingDir':
+<summary>
+            Ruta temporal cuando se realiza una operación de particionamiento del documento.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.#ctor(System.String)':
+<summary>
+            Constructor para el manejador de documentos TIFF.
+            </summary>
+<param name="imageFileName">Ruta del archivo TIFF</param>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.#ctor':
+<summary>
+            Constructor por defecto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.GetPageNumber':
+<summary>
+            Lee la imagen para obtener el número de páginas.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.GetFileNameStartString(System.String)':
+<summary>
+            Lee el string base de la Imagen,
+            Assert(GetFileNameStartString(@"c:\test\abc.tif"),"abc")
+            </summary>
+<param name="strFullName"></param>
+<returns></returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.SplitTiffImage(System.String,System.Drawing.Imaging.EncoderValue)':
+<summary>
+            Esta función permite la salida de una imagen TIFF, en multiples arhcivos de imagen, con un formato de compresión específico.
+            </summary>
+<param name="outPutDirectory">Directorio de salida del archivo TIFF segementados </param>
+<param name="format">El codec de compresión</param>
+<returns>Array list con los nombres de los arhivos seccionados</returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.JoinTiffImages(System.String[],System.String,System.Drawing.Imaging.EncoderValue)':
+<summary>
+            Esta funcion reune archivos de imagen en un único archivo TIFF, con un formato de compresión específico.
+            </summary>
+<param name="imageFiles">String array con la ruta de los archivos de imagen.</param>
+<param name="outFile">Destino de documento TIFF producido</param>
+<param name="compressEncoder">Codec de Compresión</param>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.JoinTiffImages(System.Collections.ArrayList,System.String,System.Drawing.Imaging.EncoderValue)':
+<summary>
+            This function will join the TIFF file with a specific compression format
+            </summary>
+<param name="imageFiles">array list with source image files</param>
+<param name="outFile">target TIFF file to be produced</param>
+<param name="compressEncoder">compression codec enum</param>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.RemoveAPage(System.Int32,System.Drawing.Imaging.EncoderValue,System.String)':
+<summary>
+            Remueve una pagina especifica y el resultado es almacenado en un arhivo de imagen.
+            </summary>
+<param name="pageNumber">Número de pagina a remover.</param>
+<param name="compressEncoder">Compresión despues de la operación.</param>
+<param name="strFileName">Ruta de salida para el archivo de imagen.</param>
+<returns></returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.GetEncoderInfo(System.String)':
+<summary>
+            Obtener la informacion de codec especificado.
+            </summary>
+<param name="mimeType">Descricpición del tipo mime.</param>
+<returns>Informacion de codificador de Imagen.</returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.GetSpecificPage(System.Int32)':
+<summary>
+            Retorna la Imagen de una página específica.
+            </summary>
+<param name="pageNumber">Número de la página a ser extraida.</param>
+<returns>Objeto tipo IMAGE</returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.GetSpecificPageTIF(System.Int32)':
+<summary>
+            Retorna la Imagen de una página específica.
+            </summary>
+<param name="pageNumber">Número de la página a ser extraida.</param>
+<returns>Objeto tipo IMAGE</returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.GetEncoder(System.Drawing.Imaging.ImageFormat)':
+<summary>
+            Obtiene la Información del Encoder según el formato de la imagen.
+            </summary>
+<param name="format">Formato del archivo de imagen(TIF,JPG,BMP,etc).</param>
+<returns></returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.ConvertTiffFormat(System.String,System.Drawing.Imaging.EncoderValue)':
+<summary>
+            Convertir el TIFF existente a un formato diferente.
+            </summary>
+<param name="strNewImageFileName">Ruta del nuevo archivo de Imagen.</param>
+<param name="compressEncoder">Compresión de la Imagen.</param>
+<returns></returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:AMA.Util.TiffManager.Dispose':
+<summary>
+            Método utilizado para eliminar el objeto actual, heredado de la clase Object.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:AMA.Util.TiffManager.ImageFileName':
+<summary>
+            Nombre del archivo de Imagen.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:AMA.Util.TiffManager.TempWorkingDir':
+<summary>
+            Directorio Buffering 
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:AMA.Util.TiffManager.PageNumber':
+<summary>
+            Número de páginas de la Imagen.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized':
+<summary>
+            Clase con métodos utilizados para el Reconocimiento Optico de Caracteres
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized._abortedLockObject':
+<summary>
+            Variable tipo Object utilizada para bloquear dos o más hilos cuando intentan acceder de forma simultanea a un bloque de código.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized._blockThread':
+<summary>
+            Variable tipo AutoResetEvent utilizada para bloquear dos o más hilos cuando intentan acceder de forma simultanea a un bloque de código.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.correcionlinea':
+<summary>
+            Variable utilizada para definir la máxima separación dentro de las coincidencias de caracteres digitales reconocidos.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.saltolinea':
+<summary>
+            Salto de línea en texto UNICODE.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ProcesarOCR(System.String,System.String,System.Boolean)':
+<summary>
+  <para>Realiza el Reconocimiento Óptico de Carateres(OCR), para un documento TIF.</para>
+  <para>El resultado es un par de documentos(PDF Y TXT), con contenido UNICODE del texto extraido luego del proceso OCR.</para>
+</summary>
+<param name="unTIFsource">Ruta del documento recurso TIF.</param>
+<param name="unPDFOutput">Ruta del documento resultado PDF.</param>
+<param name="unTXTOutput">Ruta del documento resultado TXT.</param>
+<param name="isdeskew">Si es TRUE, realiza el enderezamiento automático de las páginas del documento TIF.</param>
+<returns>Número de páginas procesadas luego del proceso OCR.</returns>
+<example>Como realizar el Reconocimiento Óptico de Caracteres de un documento TIF
+             <code>
+             int paginas = PDFOCROptimized.ProcesarOCRPDFTXT(@"C:\prueba.tif",@"C:\prueba.pdf",@"C:\prueba.txt",true);
+             </code><list type="bullet"><listheader>Observaciones:</listheader><item>Nótese que la llamada se realiza a un método estático.</item></list></example>
+<example>Llamadas a métodos mediante la ejecución de hilos
+             <code>
+            public static int ProcesarOCRPDFTXT(string unTIFsource, string unPDFOutput, string unTXTOutput, bool isdeskew)
+            {
+             ......
+             ThreadStart _ts = delegate
+                {
+                try
+                {
+                    OCRPDFTXTTHREAD(unTIFsource, unPDFOutput, unTXTOutput, isdeskew, out npaginas);
+                }
+                catch (Exception error)
+                {
+                    _blockThread.Set();
+                    excepcion = new ExceptionThreadOCR(true, error.Message);
+                }
+             };
+             Thread mainTableGetter = new Thread(_ts);
+             mainTableGetter.Name = "OCRPDFTXTTHREADAsync";
+             mainTableGetter.Start();
+             mainTableGetter.Join();
+            .......
+            }
+             </code><list type="bullet"><item>El método anterior es un fragmento de código contenido en el método ProcesarOCRPDFTXT,  realiza la llamada a otro método a traves de la ejecución de un hilo de programación.</item></list></example>
+<exception cref="T:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR">Captura las excepciones disparadas por los hilos de programación.</exception>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.OCRPDFTXTTHREAD(System.String,System.String,System.String,System.Boolean,System.Int32@)':
+<summary>
+            Realiza el Reconocimiento Óptico de Carateres(OCR), para un documento TIF.
+            Este método se ejecuta como un hilo dentro del método PRINCIPAL.
+            </summary>
+<param name="unTIFsource">Ruta del documento recurso TIF.</param>
+<param name="unPDFOutput">Ruta del documento resultado PDF.</param>
+<param name="unTXTOutput">Ruta del documento resultado TXT.</param>
+<param name="isdeskew">Si es TRUE, realiza el enderezamiento automático de las páginas del documento TIF.</param>
+<param name="npaginas">Salida: Retorna el número de paginas del documento recurso TIF.</param>
+<example>Ejemplo ProcesarOCRPDFTXT
+            <code>
+            PDFOCROptimized.ProcesarOCRPDFTXT(@"C:\prueba.tif",@"C:\prueba.pdf",@"C:\prueba.txt",true);
+            </code><list type="bullet"><listheader>Observaciones:</listheader><item>Nótese que la llamada se realiza a un método estático.</item><item>Este método realiza llamadas a otros métodos a traves de la ejecución de hilos de programación</item></list></example>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ResizePDFOCR(System.String)':
+<summary>
+            Permite el redimencionamiento a formato A4 de un documento PDF.
+            </summary>
+<param name="unPDFOutput">Ruta del documento PDF.</param>
+<example>Ejemplo ResizePDFOCR
+            <code>
+            PDFOCROptimized.ResizePDFOCR(@"C:\prueba.pdf");
+            </code><list type="bullet"><listheader>Observaciones:</listheader><item>Nótese que la llamada se realiza a un método estático.</item><item>La salida es el mismo documento "C:\prueba.pdf", pero con formato A4.</item></list></example>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.OCRXMLTHREAD(System.String,System.String,System.Boolean,OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo@)':
+<summary>
+            Realiza el Reconocimiento Óptico de Carateres(OCR), para un documento TIF.
+            Este método se ejecuta como un hilo dentro del método PRINCIPAL.
+            </summary>
+<param name="unTIFsource">Ruta del documento recurso TIF.</param>
+<param name="unPDFOutput">Ruta del documento resultado PDF.</param>
+<param name="unTXTOutput">Ruta del documento resultado TXT.</param>
+<param name="isdeskew">Si es TRUE, realiza el enderezamiento automático de las páginas del documento TIF.</param>
+<param name="npaginas">Salida: Retorna el número de paginas del documento recurso TIF.</param>
+<example>Ejemplo ProcesarOCRPDFTXT
+            <code>
+            PDFOCROptimized.ProcesarOCRPDFTXT(@"C:\prueba.tif",@"C:\prueba.pdf",@"C:\prueba.txt",true);
+            </code><list type="bullet"><listheader>Observaciones:</listheader><item>Nótese que la llamada se realiza a un método estático.</item><item>Este método realiza llamadas a otros métodos a traves de la ejecución de hilos de programación</item></list></example>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.Cancelado':
+<summary>
+            Propiedad utilizada como método de cancielación de docuemntos en proceso OCR
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto':
+<summary>
+            Clase utilizada para el reconocimiento de bloques de texto en documentos. 
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.x':
+<summary>
+            Posición en pixeles de la coordenada horizontal en un bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.y':
+<summary>
+            Posición en pixeles de la coordenada vertical en un bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.w':
+<summary>
+            Ancho del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.h':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.pointsize':
+<summary>
+            Tamaño de la letra por bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.texto':
+<summary>
+            Texto contenido en el bloque.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)':
+<summary>
+            Constructor BloqueTexto.
+            </summary>
+<param name="left">Pixeles left.</param>
+<param name="right">Pixeles right.</param>
+<param name="top">Pixeles top.</param>
+<param name="bottom">Pixeles bottom.</param>
+<param name="unpointSize">Tamaño de la letra contenida en el bloque de texto.</param>
+<param name="untexto">Cadena de texto.</param>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32)':
+<summary>
+            Constructor BloqueTexto.
+            </summary>
+<param name="left">Pixeles left.</param>
+<param name="right">Pixeles right.</param>
+<param name="top">Pixeles top.</param>
+<param name="bottom">Pixeles bottom.</param>
+<param name="unpointSize">Tamaño de la letra contenida en el bloque de texto.</param>
+<param name="untexto">Cadena de texto.</param>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String)':
+<summary>
+            Constructor BloqueTexto.
+            </summary>
+<param name="left">Pixeles left.</param>
+<param name="right">Pixeles right.</param>
+<param name="top">Pixeles top.</param>
+<param name="bottom">Pixeles bottom.</param>
+<param name="untexto">Cadena de texto.</param>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.EsBloqueLinea(OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto,OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto,System.Int32)':
+<summary>
+            Determina si un bloque de texto pertenece una línea texto.
+            </summary>
+<param name="bloqueA">Bloque para comparar.</param>
+<param name="bloqueB">Bloque para comparar.</param>
+<param name="pixeles">Máxima distancia de separación entre bloques.</param>
+<returns>
+  <para>TRUE si el bloque de texto pertenece a una línea de texto.</para>
+  <para>FALSE si el bloque de texto no pertenece a una línea de texto, luego este valor indica un salto de línea.</para>
+</returns>
+<example>Como reconcer si un bloque de texto pertenece a una línea de texto
+            <code>
+            public int NumeroLineas()
+            {
+            //Código utilizado para realizar el Reconocimiento OCR con la libreria "tessnet2_32.dll"
+            int total = ocr.Init(@"tessdata", "spa", false); // To use correct tessdata
+            ocr.SetVariable("tessedit_char_whitelist", ""); // If digit only
+            List&lt;tessnet2.Word&gt; result = null;
+            Thread FirstThread = new Thread((ThreadStart)delegate
+            {
+                  result = ocr.DoOCR(imagetest, System.Drawing.Rectangle.Empty);
+            });
+            FirstThread.Start();
+            FirstThread.Join();
+            //Código utilizado para el ejemplo 
+            int numerolineas=0;
+            for(int i=0; i &lt; result.Count-1;i++)
+            {
+               tessnet2.Word word1=result[i];
+               BloqueTexto bloquea = new BloqueTexto(word1.Left, word1.Right, word1.Top, word1.Bottom, word1.PointSize, word1.Text);
+                tessnet2.Word word2=result[i+1];
+               BloqueTexto bloqueb = new BloqueTexto(word2.Left, word2.Right, word2.Top, word2.Bottom, word2.PointSize, word2.Text);
+               //Llamada al método es bloque línea
+               if(!bloqueb.EsBloqueLinea(bloquea))
+               {
+                numerolineas++;
+               }
+             }
+             return numerolineas;
+            }     
+            </code><list type="bullet"><listheader>Observaciones:</listheader><item>Nótese que la llamada se realiza a un método estático.</item></list></example>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.MaximaAlturaPromedio(System.Collections.Generic.List{OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto})':
+<summary>
+            Cálculo de la Altura promedio de un conjunto de bloques que pertenecen a una misma línea de texto.
+            </summary>
+<param name="lista">Lista de bloques que pertenecen a una misma línea de texto.</param>
+<returns>AlturaPromedio de la línea de texto.</returns>
+<example>Como calcular la altura promedio de un conjunto de bloques
+            <code>
+            public int MaximaAlturaPromedio()
+            {
+            List&lt; BloqueTexto &gt; listacad = new List &lt; BloqueTexto &gt;();
+            for (int k = 0; k &lt; 3; k++)
+            {
+               tessnet2.Character caracter = cadena[k];
+               listacad.Add(new BloqueTexto(10, 20+k, 30, 40+k, "HOLA"));
+                                                   
+            }
+            //Ulización del Método para el ejemplo
+            return BloqueTexto.MaximaAlturaPromedio(listacad);
+            } 
+            </code><list type="bullet"><listheader>Observaciones:</listheader><item>Nótese que la llamada se realiza a un método estático.</item></list></example>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.X':
+<summary>
+            Posición en pixeles de la coordenada horizontal en un bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Y':
+<summary>
+            Posición en pixeles de la coordenada vertical en un bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.W':
+<summary>
+            Ancho del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.H':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Bottom':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Left':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Right':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Pointsize':
+<summary>
+            Tamaño de la letra por bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Linea':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.LineaOcr':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.SecPalabra':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Fuente':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Blanks':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Confidence':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Tipodato':
+<summary>
+            Alto del bloque de texto.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Texto':
+<summary>
+            Texto contenido en el bloque.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PixelImageManager':
+<summary>
+            Sirve para la conversión de una imagen RGB a BPP
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PixelImageManager.GetColorPalette(System.UInt32)':
+<summary>
+            Color de la paleta para los tipos BPP      
+            </summary>
+<param name="nColors">
+  <list type="bullet">
+    <listheader>Observaciones:</listheader>
+    <item>1   PixelFormat.Format1bppIndexed</item>
+    <item>2   PixelFormat.Format4bppIndexed</item>
+    <item>16  PixelFormat.Format8bppIndexed</item>
+  </list>
+</param>
+<returns>El color de la paleta BPP</returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PixelImageManager.SaveGIFWithNewColorTable(System.Drawing.Image,System.UInt32,System.Boolean)':
+<summary>
+            Guarda una imagen con una nueva tabla de COLORES BPP
+            </summary>
+<param name="image">Objeto tipo imagen a convertir</param>
+<param name="nColors">
+  <list type="bullet">
+    <listheader>GIF soporta :</listheader>
+    <item>256 colors Máximo</item>
+    <item>2 monochrome Mínimo</item>
+  </list>
+</param>
+<param name="fTransparent">TRUE si es una transparencia.</param>
+<returns></returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR':
+<summary>
+            Clase utilizada para el manejo de excepciones en hilos
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.isException':
+<summary>
+            Indica si existe una excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.mensaje':
+<summary>
+            Mensaje descriptivo del tipo de excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.#ctor(System.Boolean,System.String)':
+<summary>
+            Constructor para una excepcion  
+            </summary>
+<param name="unisException">TRUE si existe una excepción</param>
+<param name="unmensaje">Mensaje descriptivo de la excepción</param>
+<example>Como disparar una Excepción de tipo ExceptionThreadOCR 
+            <code>
+            throw new ExceptionThreadOCR(true,"Memoria Insuficiente");
+            </code></example>
+<example>Como capturar una Excepción de tipo ExceptionThreadOCR 
+            <code>
+            try
+            {
+                throw new ExceptionThreadOCR(true,"Memoria Insuficiente");
+            }
+            catch(ExceptionThreadOCR error)
+            {
+                MessageBox.Show(error.Message);
+            }    
+            </code></example>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.#ctor':
+<summary>
+            Constructor por defecto
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.IsException':
+<summary>
+             Indica si existe una excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.Message':
+<summary>
+            Mensaje descriptivo del tipo de excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]P:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.HResultado':
+<summary>
+            HResult del tipo de error producido por una excepción
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage':
+<summary>
+            Clase con métodos utiles para el manejo de archivos de Imagen.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage.NonLockingOpen(System.String)':
+<summary>
+            Método utilizado para abrir un objeto de Imagen en modo seguro y asignarlo en Memoria.
+            </summary>
+<param name="filename">Ruta del origen del archivo de Imagen.</param>
+<returns>Devuelve un objeto tipo Imagen.</returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage.NonLockingSave(System.Drawing.Image,System.String,System.Drawing.Imaging.ImageFormat)':
+<summary>
+            Método utilizado para guardar un objeto de Imagen en modo seguro.
+            </summary>
+<param name="img">Objeto tipo Imagen que sera almacenado en el disco.</param>
+<param name="fn">Ruta destino del archivo de Imagen.</param>
+<param name="format">Formato de compresión del archivo de Imagen(TIFF,JPG,ext).</param>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage.GetEncoderInfo(System.String)':
+<summary>
+            Información del tipo de Codec de imagen según su tipo MIME.
+            </summary>
+<param name="mimeType">Nombre del tipo MIME por ejemplo ("image/tif").</param>
+<returns>Retorna un tipo MIME como un objeto ImageCodecInfo</returns>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.AForgeDeskew':
+<summary>
+  <para>Clase con métodos utilizados para la alineación de imagenes.</para>
+  <para>API que permite la integración con la librería OPEN SOURCE AForge.</para>
+</summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]M:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.AForgeDeskew.DeskewImagen(System.Drawing.Bitmap)':
+<summary>
+            Método utilizado para alinear una Imagen.
+            </summary>
+<param name="unbitmap">Bitmap de la imagen que se desea alinear.</param>
+<returns>Bitmap imagen alineada.</returns>
+<example>Como realizar el enderezamiento de una Imagen.
+            <code>
+            Bitmap enderezada=AForgeDeskew.DeskewImagen(new Bitmap(@"C:\DeskewImage.tif"));
+            </code><list type="bullet"><listheader>Observaciones:</listheader><item>Nótese que la llamada se realiza a un método estático.</item></list></example>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]T:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.HResultErrores':
+<summary>
+            Enumeración con los tipos de errores producidos por la aplicación.
+            </summary>
+TRACE: processing comment '[OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR]F:OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.HResultErrores.MemoriaInsuficiente':
+<summary>
+            Valor HResult, para el error Memoria Insuficiente
+            </summary>
+Memory before making xml: 2245988
+LoadAssembly: e:\tesis\ocrtesis\ocr.facultad.ingenieria.batch\ocr.facultad.ingenieria.libreriasopenpdfocr\bin\debug\ocr.facultad.ingenieria.libreriasopenpdfocr.dll
+Writing namespace OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR...
+XML Doc not found for mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+AssemblyResolver: Attempting to resolve assembly tessnet2_32, Version=2.0.4.0, Culture=neutral, PublicKeyToken=1550524b5ba07e29.
+LoadAssembly: e:\tesis\ocrtesis\ocr.facultad.ingenieria.batch\ocr.facultad.ingenieria.libreriasopenpdfocr\bin\debug\tessnet2_32.dll
+Wrote 23 classes.
+Wrote 0 interfaces.
+Wrote 0 structures.
+Wrote 4 delegates.
+Wrote 3 enumerations.
+Writing namespace ONX.Cmn...
+Wrote 1 classes.
+Wrote 0 interfaces.
+Wrote 0 structures.
+Wrote 0 delegates.
+Wrote 0 enumerations.
+Writing namespace AMA.Util...
+Wrote 1 classes.
+Wrote 0 interfaces.
+Wrote 0 structures.
+Wrote 0 delegates.
+Wrote 0 enumerations.
+Discarding namespace (global) because it does not contain any documented types.
+Completed OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+0,686 sec.
+MakeXML : 0,873 sec.
+MakeXML : 0,873 sec.
+Memory after making xml: 4802448
+Loading XSLT files...
+XSLT probing directories 3
+file://C:\Program Files\NDoc3\bin\Documenter\Msdn\xslt
+file://C:\Documenter\Msdn\xslt
+file://C:\src\Documenter\Msdn\xslt
+    Compiling assembly.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.assembly.xsltNo external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.common.xsltNo external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.filenames.xsltNo external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.global_arguments.xsltNo external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.syntax.xsltNo external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.vb-syntax.xsltNo external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.tags.xsltNo external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.blank.xsltCompiling namespace.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.namespace.xsltCompiling namespacehierarchy.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.namespacehierarchy.xsltCompiling type.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.type.xsltCompiling typehierarchy.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.typehierarchy.xsltCompiling allmembers.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.allmembers.xsltNo external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.memberscommon.xsltCompiling individualmembers.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.individualmembers.xsltCompiling event.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.event.xsltCompiling member.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.member.xsltCompiling memberoverload.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.memberoverload.xsltCompiling property.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.property.xsltCompiling field.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.field.xsltCompiling htmlcontents.xslt
+    No external found - using embedded assembly:[NDoc3.Documenter.Msdn]NDoc3.Documenter.Msdn.xslt.htmlcontents.xsltGenerating HTML pages...
+~AMA.Util.html
+47 msec.
+~AMA.Util~Hierarchy.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager~Constructors.html
+31 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.~ctor1.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.~ctor2.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.ImageFileName.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.PageNumber.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.TempWorkingDir.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.ConvertTiffFormat.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.Dispose.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.GetSpecificPage.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.GetSpecificPageTIF.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.JoinTiffImages~Overloads.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.JoinTiffImages2.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.JoinTiffImages1.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.RemoveAPage.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~AMA.Util.TiffManager.SplitTiffImage.html
+0 msec.
+~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.html
+15 msec.
+~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~Hierarchy.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.AForgeDeskew.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.AForgeDeskew~Members.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.AForgeDeskew.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.AForgeDeskew~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.AForgeDeskew.DeskewImagen.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ArchivoProceso.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ArchivoProceso~Members.html
+47 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ArchivoProceso~Constructors.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ArchivoProceso.~ctor1.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ArchivoProceso.~ctor2.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ArchivoProceso~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ArchivoProceso.Formato.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ArchivoProceso.Path.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ArchivoProceso.Tamanio.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto~Members.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto~Constructors.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.~ctor1.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.~ctor2.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.~ctor3.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.~ctor4.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto~Fields.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.texto.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Blanks.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Bottom.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Confidence.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Fuente.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.H.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Left.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Linea.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.LineaOcr.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Pointsize.html
+31 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Right.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.SecPalabra.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Texto.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Tipodato.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.W.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.X.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Y.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.EsBloqueLinea.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.MaximaAlturaPromedio.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoTessnet.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoTessnet~Members.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoTessnet.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoTessnet~Fields.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoTessnet.anterior.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoTessnet~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoTessnet.LineasTextoPorPalabra.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoXml.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoXml~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoXml.~ctor.html
+32 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoXml~Methods.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTextoXml.ParseXmlBloqueTexto.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo~Members.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo.~ctor.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo.Directorio.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo.Extencion.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo.Fechacreacion.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo.Fechamodificacion.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo.Nombre.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo.Tamanio.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.CabeceraInfo.GetCabeceraInfo.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionProceso.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionProceso~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionProceso~Constructors.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionProceso.~ctor1.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionProceso.~ctor2.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionProceso~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionProceso.Listarutas.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionProceso.Proceso.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionXml.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionXml~Members.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionXml.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionXml~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ConfiguracionXml.ParseXmlConfiguracion.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumEstaticStringAttribute.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumEstaticStringAttribute~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumEstaticStringAttribute~Methods.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumEstaticStringAttribute.GetStringValue.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute~Members.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute.EnumStringValue.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EnumStringAttribute.ToString.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.EstadoProcesoOcr.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR~Constructors.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.~ctor1.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.~ctor2.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.HResultado.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.IsException.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCR.Message.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors~Members.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors~Constructors.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.~ctor1.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.~ctor2.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.HResultado.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.IsException.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ExceptionThreadOCRErrors.Message.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.FormatoExp.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.FormatoExp~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.FormatoExp.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.FormatoExp~Properties.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.FormatoExp.Sec.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.FormatoExp.Valor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.FormatoExportacion.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.HResultErrores.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo.~ctor.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo.Alto.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo.Ancho.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo.Horizontal.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo.Profundidadbits.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo.Vertical.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.ImagenInfo.GetInfoImagen.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo~Members.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo~Constructors.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo.~ctor1.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo.~ctor2.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo~Properties.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo.FechaFin.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo.FechaInicio.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo.NCaracteres.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo.NLineas.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo.NPaginas.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.OcrInfo.NPalabras.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.~ctor.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized~Properties.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.Cancelado.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.BorrarArchivosFormatos.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ExportarFormato.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ExportarTXT.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ProcesarOCR.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ResizePDFOCR.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized~Events.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ocr_fin_proceso.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ocr_info.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ocr_maxvalue.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PDFOCROptimized.ocr_porcentaje.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PixelImageManager.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PixelImageManager~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PixelImageManager.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PixelImageManager~Methods.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PixelImageManager.GetColorPalette.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.PixelImageManager.SaveGIFWithNewColorTable.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso~Members.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso~Constructors.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.~ctor1.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.~ctor2.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.~ctor3.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso~Properties.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.Descripcion.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.Deskew.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.Estado.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.Nombrearchivo.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.Pathorigen.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.Proceso.Sec_Proceso.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.RutaExportacion.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.RutaExportacion~Members.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.RutaExportacion.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.RutaExportacion~Properties.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.RutaExportacion.Formato.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.RutaExportacion.Pathdestino.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.SetFinProcesoOcr.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.SetInfo.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.SetMaxValue.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.SetPercent.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilDataTable.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilDataTable~Members.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilDataTable.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilDataTable~Methods.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilDataTable.ExportExcel.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilDataTable.ParseBloque.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage~Members.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage.~ctor.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage.GetEncoderInfo.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage.NonLockingOpen.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilImage.NonLockingSave.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilXmlOcr.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilXmlOcr~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilXmlOcr.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilXmlOcr~Methods.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilXmlOcr.FindTypeCode.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.UtilXmlOcr.TypeCodeString.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.~ctor.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr~Methods.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.ArchivoCabecera.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.ArchivoImagen.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.ArchivoOcr.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.CabeceraPagina.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.CuerpoPagina.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.CuerpoPaginaExportado.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.InicializarXmlArchivo.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.InicializarXmlExportado.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.InicializarXmlPagina.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.InicializarXmlProceso.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.Procesamiento.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.XmlOcr.ProcesamientoCabecera.html
+16 msec.
+~ONX.Cmn.html
+0 msec.
+~ONX.Cmn~Hierarchy.html
+15 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~ONX.Cmn.MemoryCleaner.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~ONX.Cmn.MemoryCleaner~Members.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~ONX.Cmn.MemoryCleaner.~ctor.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~ONX.Cmn.MemoryCleaner~Methods.html
+16 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~ONX.Cmn.MemoryCleaner.Start.html
+0 msec.
+OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~ONX.Cmn.MemoryCleaner.Stop.html
+16 msec.
+Making Html: 1,701 sec.
+Generating HTML index file...
+transform the HHC contents file into html
+0 msec.
+Compiling HTML Help file...
+Compiling Html Help file
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling e:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\doc\ndoc3_msdn_temp\Documentation.chm
+
+HHC4006: Warning: The file "OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR~OCR.Facultad.Ingenieria.LibreriasOpenPDFOCR.BloqueTexto.Texto.html" is already listed in the [FILES] section of the project file.
+
+Compile time: 0 minutes, 4 seconds
+502	Topics
+1,539	Local links
+333	Internet links
+7	Graphics
+
+
+Created e:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\doc\ndoc3_msdn_temp\Documentation.chm, 134,642 bytes
+Compression decreased file by 716,573 bytes.
+
+Html Help compile complete
+Done.

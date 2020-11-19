@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRsubbatch" targetNamespace="http://tempuri.org/DataSetRsubbatch.xsd" xmlns:mstns="http://tempuri.org/DataSetRsubbatch.xsd" xmlns="http://tempuri.org/DataSetRsubbatch.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rsubbatchTableAdapter" GeneratorDataComponentClassName="rsubbatchTableAdapter" Name="rsubbatch" UserDataComponentName="rsubbatchTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `SUBPROCESOS`, `ba_ocr_descripcion` FROM `ocr`.`rsubbatch`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SUBPROCESOS" DataSetColumn="SUBPROCESOS" />
+              <Mapping SourceColumn="ba_ocr_descripcion" DataSetColumn="ba_ocr_descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRsubbatch" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSetRsubbatch" msprop:Generator_UserDSName="DataSetRsubbatch" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rsubbatch" msprop:Generator_UserTableName="rsubbatch" msprop:Generator_RowDeletedName="rsubbatchRowDeleted" msprop:Generator_TableClassName="rsubbatchDataTable" msprop:Generator_RowChangedName="rsubbatchRowChanged" msprop:Generator_RowClassName="rsubbatchRow" msprop:Generator_RowChangingName="rsubbatchRowChanging" msprop:Generator_RowEvArgName="rsubbatchRowChangeEvent" msprop:Generator_RowEvHandlerName="rsubbatchRowChangeEventHandler" msprop:Generator_TablePropName="rsubbatch" msprop:Generator_TableVarName="tablersubbatch" msprop:Generator_RowDeletingName="rsubbatchRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUBPROCESOS" msprop:Generator_UserColumnName="SUBPROCESOS" msprop:Generator_ColumnPropNameInRow="SUBPROCESOS" msprop:Generator_ColumnVarNameInTable="columnSUBPROCESOS" msprop:Generator_ColumnPropNameInTable="SUBPROCESOSColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ba_ocr_descripcion" msprop:Generator_UserColumnName="ba_ocr_descripcion" msprop:Generator_ColumnPropNameInRow="ba_ocr_descripcion" msprop:Generator_ColumnVarNameInTable="columnba_ocr_descripcion" msprop:Generator_ColumnPropNameInTable="ba_ocr_descripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

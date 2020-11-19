@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRtotalpagcarlinTPB" targetNamespace="http://tempuri.org/DataSetRtotalpagcarlinTPB.xsd" xmlns:mstns="http://tempuri.org/DataSetRtotalpagcarlinTPB.xsd" xmlns="http://tempuri.org/DataSetRtotalpagcarlinTPB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rtotalpagcarlintipdocprobatchTableAdapter" GeneratorDataComponentClassName="rtotalpagcarlintipdocprobatchTableAdapter" Name="rtotalpagcarlintipdocprobatch" UserDataComponentName="rtotalpagcarlintipdocprobatchTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `PAGINAS`, `PALABRAS`, `CARACTERES`, `LINEAS`, `ocr_tipo_documental_valor`, `ba_ocr_descripcion` FROM `ocr`.`rtotalpagcarlintipdocprobatch`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PAGINAS" DataSetColumn="PAGINAS" />
+              <Mapping SourceColumn="PALABRAS" DataSetColumn="PALABRAS" />
+              <Mapping SourceColumn="CARACTERES" DataSetColumn="CARACTERES" />
+              <Mapping SourceColumn="LINEAS" DataSetColumn="LINEAS" />
+              <Mapping SourceColumn="ocr_tipo_documental_valor" DataSetColumn="ocr_tipo_documental_valor" />
+              <Mapping SourceColumn="ba_ocr_descripcion" DataSetColumn="ba_ocr_descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRtotalpagcarlinTPB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSetRtotalpagcarlinTPB" msprop:Generator_UserDSName="DataSetRtotalpagcarlinTPB" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rtotalpagcarlintipdocprobatch" msprop:Generator_UserTableName="rtotalpagcarlintipdocprobatch" msprop:Generator_RowDeletedName="rtotalpagcarlintipdocprobatchRowDeleted" msprop:Generator_TableClassName="rtotalpagcarlintipdocprobatchDataTable" msprop:Generator_RowChangedName="rtotalpagcarlintipdocprobatchRowChanged" msprop:Generator_RowClassName="rtotalpagcarlintipdocprobatchRow" msprop:Generator_RowChangingName="rtotalpagcarlintipdocprobatchRowChanging" msprop:Generator_RowEvArgName="rtotalpagcarlintipdocprobatchRowChangeEvent" msprop:Generator_RowEvHandlerName="rtotalpagcarlintipdocprobatchRowChangeEventHandler" msprop:Generator_TablePropName="rtotalpagcarlintipdocprobatch" msprop:Generator_TableVarName="tablertotalpagcarlintipdocprobatch" msprop:Generator_RowDeletingName="rtotalpagcarlintipdocprobatchRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PAGINAS" msprop:Generator_UserColumnName="PAGINAS" msprop:Generator_ColumnPropNameInRow="PAGINAS" msprop:Generator_ColumnVarNameInTable="columnPAGINAS" msprop:Generator_ColumnPropNameInTable="PAGINASColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PALABRAS" msprop:Generator_UserColumnName="PALABRAS" msprop:Generator_ColumnPropNameInRow="PALABRAS" msprop:Generator_ColumnVarNameInTable="columnPALABRAS" msprop:Generator_ColumnPropNameInTable="PALABRASColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CARACTERES" msprop:Generator_UserColumnName="CARACTERES" msprop:Generator_ColumnPropNameInRow="CARACTERES" msprop:Generator_ColumnVarNameInTable="columnCARACTERES" msprop:Generator_ColumnPropNameInTable="CARACTERESColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LINEAS" msprop:Generator_UserColumnName="LINEAS" msprop:Generator_ColumnPropNameInRow="LINEAS" msprop:Generator_ColumnVarNameInTable="columnLINEAS" msprop:Generator_ColumnPropNameInTable="LINEASColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ocr_tipo_documental_valor" msprop:Generator_UserColumnName="ocr_tipo_documental_valor" msprop:Generator_ColumnPropNameInRow="ocr_tipo_documental_valor" msprop:Generator_ColumnVarNameInTable="columnocr_tipo_documental_valor" msprop:Generator_ColumnPropNameInTable="ocr_tipo_documental_valorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ba_ocr_descripcion" msprop:Generator_UserColumnName="ba_ocr_descripcion" msprop:Generator_ColumnPropNameInRow="ba_ocr_descripcion" msprop:Generator_ColumnVarNameInTable="columnba_ocr_descripcion" msprop:Generator_ColumnPropNameInTable="ba_ocr_descripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

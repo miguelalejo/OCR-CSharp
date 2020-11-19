@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pagina>
+ <cabecerapagina>
+   <secpagina></secpagina>
+   <ncaracteres></ncaracteres>
+   <npalabras></npalabras>
+   <nlineas></nlineas>
+ </cabecerapagina>
+  <cuerpo>
+    <lineaocr>
+      <seclinea></seclinea>
+      <palabra>
+        <secpalabra></secpalabra>
+        <tipodato></tipodato>
+        <tamanioletra></tamanioletra>
+        <posicion>
+          <x></x>
+          <y></y>
+        </posicion>
+        <dimensiones >
+          <largo></largo>
+          <ancho></ancho>
+        </dimensiones>
+        <texto></texto>
+      </palabra>
+    </lineaocr>
+  </cuerpo>
+</pagina>

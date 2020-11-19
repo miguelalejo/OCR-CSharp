@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48B955D9-CD49-49F0-ABBF-E9BFC39FD618}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OCR.Facultad.Ingenieria.Aplicacion</RootNamespace>
+    <AssemblyName>OCR.Facultad.Ingenieria.Aplicacion</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>OCREngineI.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\WindowsFormsIntegration\3.0.0.0__31bf3856ad364e35\WindowsFormsIntegration.dll</HintPath>
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassAppAplicacion.cs" />
+    <Compile Include="FormBatchOcr_Ruta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBatchOcr_Ruta.Designer.cs">
+      <DependentUpon>FormBatchOcr_Ruta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBatchOcr_RutaModificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBatchOcr_RutaModificacion.Designer.cs">
+      <DependentUpon>FormBatchOcr_RutaModificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBatch_Ocr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBatch_Ocr.Designer.cs">
+      <DependentUpon>FormBatch_Ocr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBusquedaBacth_Ocr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBusquedaBacth_Ocr.Designer.cs">
+      <DependentUpon>FormBusquedaBacth_Ocr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConexionBaseMysql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConexionBaseMysql.Designer.cs">
+      <DependentUpon>FormConexionBaseMysql.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuPrincipal.Designer.cs">
+      <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProgresBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProgresBar.designer.cs">
+      <DependentUpon>FormProgresBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRuta.Designer.cs">
+      <DependentUpon>FormRuta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTipo_Documental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTipo_Documental.Designer.cs">
+      <DependentUpon>FormTipo_Documental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTipo_Imagen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTipo_Imagen.Designer.cs">
+      <DependentUpon>FormTipo_Imagen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBatchOcr_Ruta.resx">
+      <DependentUpon>FormBatchOcr_Ruta.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBatchOcr_RutaModificacion.resx">
+      <DependentUpon>FormBatchOcr_RutaModificacion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBatch_Ocr.resx">
+      <DependentUpon>FormBatch_Ocr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBusquedaBacth_Ocr.resx">
+      <DependentUpon>FormBusquedaBacth_Ocr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConexionBaseMysql.resx">
+      <DependentUpon>FormConexionBaseMysql.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuPrincipal.resx">
+      <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProgresBar.resx">
+      <DependentUpon>FormProgresBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRuta.resx">
+      <DependentUpon>FormRuta.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTipo_Documental.resx">
+      <DependentUpon>FormTipo_Documental.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTipo_Imagen.resx">
+      <DependentUpon>FormTipo_Imagen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaskedTextBox.resx">
+      <DependentUpon>MaskedTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlBatch_Ocr.resx">
+      <DependentUpon>UserControlBatch_Ocr.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetOcr+ocrDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetOcrTableAdapters.ocrTableAdapter.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRadicado.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetTipo_Documental+tipo_documentalDataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ServidorMysql.cs" />
+    <Compile Include="ServidorMysqlSeccion.cs" />
+    <Compile Include="UserControlBatch_Ocr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlBatch_Ocr.Designer.cs">
+      <DependentUpon>UserControlBatch_Ocr.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OCR.Facultad.Ingenieria.Clases\OCR.Facultad.Ingenieria.Clases.csproj">
+      <Project>{588A83BF-70AA-41BE-BC14-F5B0AF99A236}</Project>
+      <Name>OCR.Facultad.Ingenieria.Clases</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCR.Facultad.Ingenieria.ControlesWPF\OCR.Facultad.Ingenieria.ControlesWPF.csproj">
+      <Project>{07957634-684B-4CD8-B41F-148C41C1A04C}</Project>
+      <Name>OCR.Facultad.Ingenieria.ControlesWPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCR.Facultad.Ingenieria.Estadisticas\OCR.Facultad.Ingenieria.Estadisticas.csproj">
+      <Project>{99C83FAD-9B54-45CF-A9E7-A3101AE60CDC}</Project>
+      <Name>OCR.Facultad.Ingenieria.Estadisticas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCR.Facultad.Ingenieria.ManagerBases\OCR.Facultad.Ingenieria.ManagerBases.csproj">
+      <Project>{C5E84A12-5573-4DD3-A2CC-2A723AEEFE32}</Project>
+      <Name>OCR.Facultad.Ingenieria.ManagerBases</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCR.Facultad.Ingenieria.MangerBasesXml\OCR.Facultad.Ingenieria.MangerBasesXml.csproj">
+      <Project>{0A3AC44C-1C3D-4360-8BB1-6A521FDA496A}</Project>
+      <Name>OCR.Facultad.Ingenieria.MangerBasesXml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCR.Facultad.Ingenieria.Reportes\OCR.Facultad.Ingenieria.Reportes.csproj">
+      <Project>{70C91AFE-0ED2-4369-9D04-0D5E66E8C87E}</Project>
+      <Name>OCR.Facultad.Ingenieria.Reportes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCR.Facultad.Ingenieria.Util\OCR.Facultad.Ingenieria.Util.csproj">
+      <Project>{31E1D865-28D5-4836-92CB-2CAFE836EBA8}</Project>
+      <Name>OCR.Facultad.Ingenieria.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\onebit_buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\onebit_eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\onebit_guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\onebit_guardar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\onebit_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\onebit_limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\onebit_modificar.png" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.Clases.Ruta.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetBatchOcr+batch_ocrDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetReporteOcr+reporteocrDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRuta+rutaDataTable.datasource" />
+    <None Include="Properties\DataSources\OCR.Facultad.Ingenieria.ManagerBases.DataSetRutaTableAdapters.rutaTableAdapter.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\OCREngine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\uce_logo.png" />
+    <None Include="Iconos\UCE.JPG" />
+    <Content Include="OCREngineI.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuracion>
+   <proceso>
+       <secproceso></secproceso>
+       <descripcion></descripcion>
+       <deskwew></deskwew>
+       <nombrearchivo></nombrearchivo>
+       <origen>  
+          <path></path>    
+       </origen> 
+   </proceso>
+   <rutas>
+   <secruta></secruta>              
+   <destino>   
+        <path></path> 
+   </destino>
+   <formato>
+       <valor></valor>
+   </formato>
+   </rutas>
+</configuracion>

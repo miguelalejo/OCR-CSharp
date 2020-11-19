@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuracion>
+  <proceso nombrearchivo="Prueba.tif" deskew="True" descripcion="RUTA APLICACION BATCH POR DEFECTO" secproceso="2">
+    <origen path="C:\" />
+  </proceso>
+  <rutas secruta="3">
+    <destino path="C:\ImagenesTIF\Exportados\DOCX" />
+    <formato valor="docx" />
+  </rutas>
+</configuracion>

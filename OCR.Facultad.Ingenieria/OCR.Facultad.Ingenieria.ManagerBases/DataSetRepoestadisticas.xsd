@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRepoestadisticas" targetNamespace="http://tempuri.org/DataSetRepoestadisticas.xsd" xmlns:mstns="http://tempuri.org/DataSetRepoestadisticas.xsd" xmlns="http://tempuri.org/DataSetRepoestadisticas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="repoestadisticasTableAdapter" GeneratorDataComponentClassName="repoestadisticasTableAdapter" Name="repoestadisticas" UserDataComponentName="repoestadisticasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectName="ocr_uce.repoestadisticas" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT `NPAGINAS`, `NPALABRAS`, `NCARACTERES`, `NLINEAS` FROM `repoestadisticas`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NPAGINAS" DataSetColumn="NPAGINAS" />
+              <Mapping SourceColumn="NPALABRAS" DataSetColumn="NPALABRAS" />
+              <Mapping SourceColumn="NCARACTERES" DataSetColumn="NCARACTERES" />
+              <Mapping SourceColumn="NLINEAS" DataSetColumn="NLINEAS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRepoestadisticas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetRepoestadisticas" msprop:Generator_DataSetName="DataSetRepoestadisticas" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="repoestadisticas" msprop:Generator_UserTableName="repoestadisticas" msprop:Generator_RowDeletedName="repoestadisticasRowDeleted" msprop:Generator_RowChangedName="repoestadisticasRowChanged" msprop:Generator_RowClassName="repoestadisticasRow" msprop:Generator_RowChangingName="repoestadisticasRowChanging" msprop:Generator_RowEvArgName="repoestadisticasRowChangeEvent" msprop:Generator_RowEvHandlerName="repoestadisticasRowChangeEventHandler" msprop:Generator_TableClassName="repoestadisticasDataTable" msprop:Generator_TableVarName="tablerepoestadisticas" msprop:Generator_RowDeletingName="repoestadisticasRowDeleting" msprop:Generator_TablePropName="repoestadisticas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NPAGINAS" msprop:Generator_UserColumnName="NPAGINAS" msprop:Generator_ColumnVarNameInTable="columnNPAGINAS" msprop:Generator_ColumnPropNameInRow="NPAGINAS" msprop:Generator_ColumnPropNameInTable="NPAGINASColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NPALABRAS" msprop:Generator_UserColumnName="NPALABRAS" msprop:Generator_ColumnVarNameInTable="columnNPALABRAS" msprop:Generator_ColumnPropNameInRow="NPALABRAS" msprop:Generator_ColumnPropNameInTable="NPALABRASColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NCARACTERES" msprop:Generator_UserColumnName="NCARACTERES" msprop:Generator_ColumnVarNameInTable="columnNCARACTERES" msprop:Generator_ColumnPropNameInRow="NCARACTERES" msprop:Generator_ColumnPropNameInTable="NCARACTERESColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NLINEAS" msprop:Generator_UserColumnName="NLINEAS" msprop:Generator_ColumnVarNameInTable="columnNLINEAS" msprop:Generator_ColumnPropNameInRow="NLINEAS" msprop:Generator_ColumnPropNameInTable="NLINEASColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetTablarutassecundarias" targetNamespace="http://tempuri.org/DataSetTablarutassecundarias.xsd" xmlns:mstns="http://tempuri.org/DataSetTablarutassecundarias.xsd" xmlns="http://tempuri.org/DataSetTablarutassecundarias.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ocrConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ocrConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OCR.Facultad.Ingenieria.ManagerBases.Properties.Settings.GlobalReference.Default.ocrConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tablarutassecundariasTableAdapter" GeneratorDataComponentClassName="tablarutassecundariasTableAdapter" Name="tablarutassecundarias" UserDataComponentName="tablarutassecundariasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ocrConnectionString (Settings)" DbObjectName="ocr_uce.tablarutassecundarias" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT `ru_id`, `ru_activa`, `ru_path`, `ru_descripcion` FROM `tablarutassecundarias`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ru_id" DataSetColumn="ru_id" />
+              <Mapping SourceColumn="ru_activa" DataSetColumn="ru_activa" />
+              <Mapping SourceColumn="ru_path" DataSetColumn="ru_path" />
+              <Mapping SourceColumn="ru_descripcion" DataSetColumn="ru_descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetTablarutassecundarias" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetTablarutassecundarias" msprop:Generator_DataSetName="DataSetTablarutassecundarias" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tablarutassecundarias" msprop:Generator_UserTableName="tablarutassecundarias" msprop:Generator_RowDeletedName="tablarutassecundariasRowDeleted" msprop:Generator_RowChangedName="tablarutassecundariasRowChanged" msprop:Generator_RowClassName="tablarutassecundariasRow" msprop:Generator_RowChangingName="tablarutassecundariasRowChanging" msprop:Generator_RowEvArgName="tablarutassecundariasRowChangeEvent" msprop:Generator_RowEvHandlerName="tablarutassecundariasRowChangeEventHandler" msprop:Generator_TableClassName="tablarutassecundariasDataTable" msprop:Generator_TableVarName="tabletablarutassecundarias" msprop:Generator_RowDeletingName="tablarutassecundariasRowDeleting" msprop:Generator_TablePropName="tablarutassecundarias">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ru_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="ru_id" msprop:Generator_ColumnVarNameInTable="columnru_id" msprop:Generator_ColumnPropNameInRow="ru_id" msprop:Generator_ColumnPropNameInTable="ru_idColumn" type="xs:int" />
+              <xs:element name="ru_activa" msprop:Generator_UserColumnName="ru_activa" msprop:Generator_ColumnVarNameInTable="columnru_activa" msprop:Generator_ColumnPropNameInRow="ru_activa" msprop:Generator_ColumnPropNameInTable="ru_activaColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ru_path" msprop:Generator_UserColumnName="ru_path" msprop:Generator_ColumnVarNameInTable="columnru_path" msprop:Generator_ColumnPropNameInRow="ru_path" msprop:Generator_ColumnPropNameInTable="ru_pathColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ru_descripcion" msprop:Generator_UserColumnName="ru_descripcion" msprop:Generator_ColumnVarNameInTable="columnru_descripcion" msprop:Generator_ColumnPropNameInRow="ru_descripcion" msprop:Generator_ColumnPropNameInTable="ru_descripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tablarutassecundarias" />
+      <xs:field xpath="mstns:ru_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

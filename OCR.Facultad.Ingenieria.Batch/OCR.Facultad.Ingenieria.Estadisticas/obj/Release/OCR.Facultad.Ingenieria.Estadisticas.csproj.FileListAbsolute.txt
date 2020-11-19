@@ -1,0 +1,5 @@
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\bin\Release\OCR.Facultad.Ingenieria.Estadisticas.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\bin\Release\OCR.Facultad.Ingenieria.Estadisticas.pdb
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Release\ResolveAssemblyReference.cache
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Release\OCR.Facultad.Ingenieria.Estadisticas.dll
+E:\Tesis\OCRTesis\OCR.Facultad.Ingenieria.Batch\OCR.Facultad.Ingenieria.Estadisticas\obj\Release\OCR.Facultad.Ingenieria.Estadisticas.pdb

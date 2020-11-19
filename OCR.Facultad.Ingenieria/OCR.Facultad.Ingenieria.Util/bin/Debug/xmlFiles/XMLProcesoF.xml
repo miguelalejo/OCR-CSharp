@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<proceso>
+   <sec>
+   </sec>
+   <estado>
+   </estado>
+   <archivo>
+        <path>      
+        </path>  
+        <formato>
+           <sec></sec>
+           <valor></valor>
+        </formato>    
+        <tamanio>
+        </tamanio>        
+   </archivo>  
+</proceso>

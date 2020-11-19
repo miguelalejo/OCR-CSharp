@@ -1,0 +1,181 @@
+﻿
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //            <?xml version="1.0" encoding="utf-8" ?>
+            //<pagina>
+            // <cabecerapagina>
+            //   <secpagina></secpagina>
+            //   <ncaracteres></ncaracteres>
+            //   <npalabras></npalabras>
+            //   <nlineas></nlineas>
+            // </cabecerapagina>
+            //  <cuerpo>
+            //    <lineaocr>
+            //      <seclinea></seclinea>
+            //      <palabra>
+            //        <secpalabra></secpalabra>
+            //        <tipodato></tipodato>
+            //        <tamanioletra></tamanioletra>
+            //        <posicion>
+            //          <x></x>
+            //          <y></y>
+            //        </posicion>
+            //        <dimensiones >
+            //          <largo></largo>
+            //          <ancho></ancho>
+            //        </dimensiones>
+            //        <texto></texto>
+            //      </palabra>
+            //    </lineaocr>
+            //  </cuerpo>
+            //</pagina>
+
+            XmlTextWriter objXmlTextWriter = new XmlTextWriter("temp.xml", null);
+            objXmlTextWriter.Formatting = Formatting.Indented;
+            objXmlTextWriter.WriteStartDocument();
+
+            objXmlTextWriter.WriteStartElement("pagina");
+            objXmlTextWriter.WriteStartElement("cabecerapagina");
+
+            objXmlTextWriter.WriteStartElement("secpagina");
+            objXmlTextWriter.WriteString("1");
+            objXmlTextWriter.WriteEndElement();
+
+            objXmlTextWriter.WriteStartElement("ncaracteres");
+            objXmlTextWriter.WriteString("12123");
+            objXmlTextWriter.WriteEndElement();
+
+            objXmlTextWriter.WriteStartElement("npalabras");
+            objXmlTextWriter.WriteString("2093");
+            objXmlTextWriter.WriteEndElement();
+
+            objXmlTextWriter.WriteStartElement("nlineas");
+            objXmlTextWriter.WriteString("20");
+            objXmlTextWriter.WriteEndElement();
+
+            objXmlTextWriter.WriteEndElement();
+            objXmlTextWriter.WriteEndElement();
+
+            objXmlTextWriter.WriteEndDocument();
+            objXmlTextWriter.Flush();
+            objXmlTextWriter.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {            
+            XmlDocument originalXml = new XmlDocument();
+            originalXml.Load("XMLDOCUMENT.XML");
+            XmlNode pagina = originalXml.SelectSingleNode("pagina");
+            XmlNode cabecerapagina = originalXml.CreateNode(XmlNodeType.Element, "cabecerapagina", null);
+            XmlAttribute secpagina = originalXml.CreateAttribute("secpagina");
+            secpagina.Value = "1";
+            XmlAttribute ncaracteres = originalXml.CreateAttribute("ncaracteres");
+            ncaracteres.Value = "122230";
+            XmlAttribute npalabras = originalXml.CreateAttribute("npalabras");
+            npalabras.Value = "122";
+            XmlAttribute nlineas = originalXml.CreateAttribute("nlineas");
+            nlineas.Value = "12";
+            cabecerapagina.Attributes.Append(secpagina);
+            cabecerapagina.Attributes.Append(ncaracteres);
+            cabecerapagina.Attributes.Append(npalabras);
+            cabecerapagina.Attributes.Append(nlineas);
+            pagina.AppendChild(cabecerapagina);
+            originalXml.Save("XMLDOCUMENT.XML");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            XmlDocument originalXml = new XmlDocument();
+            originalXml.Load("XMLDOCUMENT.XML");
+            XmlNode pagina = originalXml.SelectSingleNode("pagina").SelectSingleNode("cuerpo");
+            XmlNode lineaocr = originalXml.CreateNode(XmlNodeType.Element, "lineaocr", null);
+            XmlAttribute seclinea = originalXml.CreateAttribute("seclinea");
+            seclinea.Value = "2";
+            lineaocr.Attributes.Append(seclinea);
+            pagina.AppendChild(lineaocr);
+            originalXml.Save("XMLDOCUMENT.XML");
+        }
+        int Secpalabra = 1;
+        private void button4_Click(object sender, EventArgs e)
+        {
+            XmlDocument originalXml = new XmlDocument();
+            originalXml.Load("XMLDOCUMENT.XML");
+            XmlNodeList pagina = originalXml.GetElementsByTagName("cuerpo");
+            XmlNodeList lista = ((XmlElement)pagina[0]).GetElementsByTagName("lineaocr");
+            foreach (XmlElement nodo in lista)
+            {                
+                    if (nodo.GetAttribute("seclinea") == "1")
+                    {
+                        XmlNode nodolinea = (XmlNode)nodo;
+                        XmlNode palabra = originalXml.CreateNode(XmlNodeType.Element, "palabra", null);
+                        XmlAttribute secpalabra = originalXml.CreateAttribute("secpalabra");
+                        secpalabra.Value = Secpalabra.ToString();
+                        palabra.Attributes.Append(secpalabra);
+                        XmlAttribute tipodato = originalXml.CreateAttribute("tipodato");
+                        tipodato.Value = "Integer";
+                        palabra.Attributes.Append(tipodato);
+                        XmlAttribute texto = originalXml.CreateAttribute("texto");
+                        texto.Value = "123123124";
+                        palabra.Attributes.Append(texto);
+                         XmlAttribute tamanioletra = originalXml.CreateAttribute("tamanioletra");
+                        tamanioletra.Value = "10";
+                        palabra.Attributes.Append(texto); 
+                        XmlNode posicion = originalXml.CreateNode(XmlNodeType.Element, "posicion", null);
+                        XmlAttribute x = originalXml.CreateAttribute("x");
+                        x.Value = "10";
+                        posicion.Attributes.Append(x); 
+                        XmlAttribute y = originalXml.CreateAttribute("y");
+                        y.Value = "50";
+                        posicion.Attributes.Append(y);
+                        palabra.AppendChild(posicion);
+                        XmlNode dimensiones = originalXml.CreateNode(XmlNodeType.Element, "dimensiones", null);
+                        XmlAttribute largo = originalXml.CreateAttribute("largo");
+                        largo.Value = "20";
+                        dimensiones.Attributes.Append(largo);
+                        XmlAttribute ancho = originalXml.CreateAttribute("ancho");
+                        ancho.Value = "150";
+                        dimensiones.Attributes.Append(ancho);
+                        palabra.AppendChild(dimensiones);
+                        nodolinea.AppendChild(palabra);                       
+                    }
+                    if (nodo.GetAttribute("seclinea") == "2")
+                    {
+                        XmlNode nodolinea = (XmlNode)nodo;
+                        XmlNode palabra = originalXml.CreateNode(XmlNodeType.Element, "palabra", null);
+                        XmlAttribute secpalabra = originalXml.CreateAttribute("secpalabra");
+                        secpalabra.Value = "1";
+                        palabra.Attributes.Append(secpalabra);
+                        XmlAttribute tipodato = originalXml.CreateAttribute("tipodato");
+                        tipodato.Value = "String";
+                        palabra.Attributes.Append(tipodato);
+                        XmlAttribute texto = originalXml.CreateAttribute("texto");
+                        texto.Value = "Holas como estas ";
+                        palabra.Attributes.Append(texto);
+                        nodolinea.AppendChild(palabra);                      
+                    }
+                    if (nodo.GetAttribute("seclinea") == "3")
+                    {
+                        
+                    }        
+                
+            }
+            originalXml.Save("XMLDOCUMENT.XML");
+            Secpalabra++;
+           
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+           XmlOcr.InicializarXmlPagina("prac.xml");
+           XmlOcr.CabeceraPagina("prac.xml", 1, 12, 123, 20, DateTime.Now, DateTime.Now);
+           for (int i = 0; i < 10; i++)
+           {
+                for (int j = 0; j < 10; j++)
+           {
+               XmlOcr.CuerpoPagina("prac.xml", j, TypeCode.String, 2 * i, 10, i * j, 10, 15 * i, i, 11.4, 3, "Hola" + i.ToString());
+               }
+           }
+           
+        }
+        
+        

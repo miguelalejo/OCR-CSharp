@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C5E84A12-5573-4DD3-A2CC-2A723AEEFE32}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OCR.Facultad.Ingenieria.ManagerBases</RootNamespace>
+    <AssemblyName>OCR.Facultad.Ingenieria.ManagerBases</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.3.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.3.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conector.cs" />
+    <Compile Include="ConexionMysql.cs" />
+    <Compile Include="ConfiguracionManagerBases.cs" />
+    <Compile Include="DataSetBatchOcr.cs">
+      <DependentUpon>DataSetBatchOcr.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetBatchOcr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBatchOcr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetBatchOcr_Ruta.cs">
+      <DependentUpon>DataSetBatchOcr_Ruta.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetBatchOcr_Ruta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBatchOcr_Ruta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetOcr.cs">
+      <DependentUpon>DataSetOcr.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetOcr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetOcr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetOcr_Estadisticas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetOcr_Estadisticas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetOcr_Exportado.cs">
+      <DependentUpon>DataSetOcr_Exportado.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetOcr_Exportado.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetOcr_Exportado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetOcr_Linea.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetOcr_Linea.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetOcr_Pagina.cs">
+      <DependentUpon>DataSetOcr_Pagina.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetOcr_Pagina.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetOcr_Pagina.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRadicado.cs">
+      <DependentUpon>DataSetRadicado.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetRadicado.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRadicado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRepoestadisticas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRepoestadisticas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRepoestprocesamiento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRepoestprocesamiento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRepoprocesados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRepoprocesados.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRepotiempo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRepotiempo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRepotiempoprocesamiento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRepotiempoprocesamiento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRuta.cs">
+      <DependentUpon>DataSetRuta.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetRuta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRuta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetServer.cs">
+      <DependentUpon>DataSetServer.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetServer1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetServer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTablaexportadosbatch.cs">
+      <DependentUpon>DataSetTablaexportadosbatch.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetTablaexportadosbatch.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTablaexportadosbatch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTablanumeroexportados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTablanumeroexportados.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTablarutasactivas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTablarutasactivas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTablarutasinactivas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTablarutasinactivas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTablarutasprincipales.cs">
+      <DependentUpon>DataSetTablarutasprincipales.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetTablarutasprincipales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTablarutasprincipales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTablarutassecundarias.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTablarutassecundarias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTablarutastipodocumental.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTablarutastipodocumental.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTipo_Documental.cs">
+      <DependentUpon>DataSetTipo_Documental.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetTipo_Documental.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTipo_Documental.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Tarchivo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSetBatchOcr.xsc">
+      <DependentUpon>DataSetBatchOcr.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBatchOcr.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBatchOcr.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetBatchOcr.xss">
+      <DependentUpon>DataSetBatchOcr.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBatchOcr_Ruta.xsc">
+      <DependentUpon>DataSetBatchOcr_Ruta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBatchOcr_Ruta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBatchOcr_Ruta.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetBatchOcr_Ruta.xss">
+      <DependentUpon>DataSetBatchOcr_Ruta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr.xsc">
+      <DependentUpon>DataSetOcr.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetOcr.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetOcr.xss">
+      <DependentUpon>DataSetOcr.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr_Estadisticas.xsc">
+      <DependentUpon>DataSetOcr_Estadisticas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr_Estadisticas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetOcr_Estadisticas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetOcr_Estadisticas.xss">
+      <DependentUpon>DataSetOcr_Estadisticas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr_Exportado.xsc">
+      <DependentUpon>DataSetOcr_Exportado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr_Exportado.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetOcr_Exportado.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetOcr_Exportado.xss">
+      <DependentUpon>DataSetOcr_Exportado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr_Linea.xsc">
+      <DependentUpon>DataSetOcr_Linea.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr_Linea.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetOcr_Linea.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetOcr_Linea.xss">
+      <DependentUpon>DataSetOcr_Linea.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr_Pagina.xsc">
+      <DependentUpon>DataSetOcr_Pagina.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOcr_Pagina.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetOcr_Pagina.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetOcr_Pagina.xss">
+      <DependentUpon>DataSetOcr_Pagina.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRadicado.xsc">
+      <DependentUpon>DataSetRadicado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRadicado.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRadicado.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetRadicado.xss">
+      <DependentUpon>DataSetRadicado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepoestadisticas.xsc">
+      <DependentUpon>DataSetRepoestadisticas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepoestadisticas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRepoestadisticas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetRepoestadisticas.xss">
+      <DependentUpon>DataSetRepoestadisticas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepoestprocesamiento.xsc">
+      <DependentUpon>DataSetRepoestprocesamiento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepoestprocesamiento.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRepoestprocesamiento.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetRepoestprocesamiento.xss">
+      <DependentUpon>DataSetRepoestprocesamiento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepoprocesados.xsc">
+      <DependentUpon>DataSetRepoprocesados.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepoprocesados.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRepoprocesados.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetRepoprocesados.xss">
+      <DependentUpon>DataSetRepoprocesados.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepotiempo.xsc">
+      <DependentUpon>DataSetRepotiempo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepotiempo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRepotiempo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetRepotiempo.xss">
+      <DependentUpon>DataSetRepotiempo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepotiempoprocesamiento.xsc">
+      <DependentUpon>DataSetRepotiempoprocesamiento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRepotiempoprocesamiento.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRepotiempoprocesamiento.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetRepotiempoprocesamiento.xss">
+      <DependentUpon>DataSetRepotiempoprocesamiento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRuta.xsc">
+      <DependentUpon>DataSetRuta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRuta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRuta.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetRuta.xss">
+      <DependentUpon>DataSetRuta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetServer.xsc">
+      <DependentUpon>DataSetServer.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetServer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetServer1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetServer.xss">
+      <DependentUpon>DataSetServer.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablaexportadosbatch.xsc">
+      <DependentUpon>DataSetTablaexportadosbatch.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablaexportadosbatch.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTablaexportadosbatch.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetTablaexportadosbatch.xss">
+      <DependentUpon>DataSetTablaexportadosbatch.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablanumeroexportados.xsc">
+      <DependentUpon>DataSetTablanumeroexportados.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablanumeroexportados.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTablanumeroexportados.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetTablanumeroexportados.xss">
+      <DependentUpon>DataSetTablanumeroexportados.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutasactivas.xsc">
+      <DependentUpon>DataSetTablarutasactivas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutasactivas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTablarutasactivas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetTablarutasactivas.xss">
+      <DependentUpon>DataSetTablarutasactivas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutasinactivas.xsc">
+      <DependentUpon>DataSetTablarutasinactivas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutasinactivas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTablarutasinactivas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetTablarutasinactivas.xss">
+      <DependentUpon>DataSetTablarutasinactivas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutasprincipales.xsc">
+      <DependentUpon>DataSetTablarutasprincipales.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutasprincipales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTablarutasprincipales.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetTablarutasprincipales.xss">
+      <DependentUpon>DataSetTablarutasprincipales.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutassecundarias.xsc">
+      <DependentUpon>DataSetTablarutassecundarias.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutassecundarias.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTablarutassecundarias.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetTablarutassecundarias.xss">
+      <DependentUpon>DataSetTablarutassecundarias.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutastipodocumental.xsc">
+      <DependentUpon>DataSetTablarutastipodocumental.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTablarutastipodocumental.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTablarutastipodocumental.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetTablarutastipodocumental.xss">
+      <DependentUpon>DataSetTablarutastipodocumental.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTipo_Documental.xsc">
+      <DependentUpon>DataSetTipo_Documental.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTipo_Documental.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTipo_Documental.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetTipo_Documental.xss">
+      <DependentUpon>DataSetTipo_Documental.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\DataSetRepoestadisticas.repoestadisticasDataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
